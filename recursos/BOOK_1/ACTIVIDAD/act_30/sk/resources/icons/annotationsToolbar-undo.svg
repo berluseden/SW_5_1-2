@@ -1,0 +1,17 @@
+<svg viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12.0-PreSchool---Audio-and-Annotation-tools" transform="translate(-490.000000, -373.000000)" fill="currentColor" fill-rule="nonzero">
+            <g id="annotation-tools" transform="translate(48.000000, 342.000000)">
+                <g id="annotation-tools-open" transform="translate(376.000000, 22.000000)">
+                    <g id="undo-icon" transform="translate(57.000000, 3.000000)">
+                        <g id="Group" transform="translate(9.000000, 6.000000)">
+                            <g id="undo_black_24dp" transform="translate(0.000000, 0.000000)">
+                                <path d="M12.6419753,6.32098765 L12.6419753,0 L4.74074074,7.90123457 L12.6419753,15.8024691 L12.6419753,9.48148148 C17.8567901,9.48148148 22.1234568,13.7481481 22.1234568,18.962963 C22.1234568,24.1777778 17.8567901,28.4444444 12.6419753,28.4444444 C7.42716049,28.4444444 3.16049383,24.1777778 3.16049383,18.962963 L0,18.962963 C0,25.9160494 5.68888889,31.6049383 12.6419753,31.6049383 C19.5950617,31.6049383 25.2839506,25.9160494 25.2839506,18.962963 C25.2839506,12.0098765 19.5950617,6.32098765 12.6419753,6.32098765 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

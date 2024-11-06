@@ -1,0 +1,9 @@
+versions:
+- commitDate: 2021-09-08 12:01:50 +0000
+  commitedBy: Maíra Sala
+  hash: bba997a4ddb3e99117c590276fb9b05801117eef
+  name: buckminster-33.0.6
+  updateDate: 2021-09-08 12:01:50 +0000
+  updatedBy: Maíra Sala
+  url: //author-engine-production.avallain.net/buckminster-33.0.6/
+  versionTag: null

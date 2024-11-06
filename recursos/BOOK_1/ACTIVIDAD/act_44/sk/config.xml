@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+   <comment>Author 5 Design Pack Definition</comment>	
+ <entry key="preview_width">1024</entry>
+  <entry key="preview_height">768</entry>
+
+  <entry key="disabled:layout.default" />
+  <entry key="customization">true</entry>
+
+  
+  <entry key="font_names">museo-sans;museo-sans-condensed;museo-sans-rounded;museo-slab;</entry>
+  <entry key="edit_font_size">true</entry>
+  <entry key="edit_font_color">true</entry>
+  <entry key="edit_BGColor">true</entry>
+
+  
+  <entry key="substyles">contentblocks-in-columns, contentblocks-in-4-columns, contentblocks-in-3-columns, contentblocks-in-2-columns, content-in-columns, puzzle</entry>
+
+  
+  <entry key="divclass">dialog-grid, rubric_wordpool, image-label, img-cap, img-tick, bubble-left, bubble-right, bubble-top-left, bubble-top-center, bubble-top-right, bubble-bottom-left, bubble-bottom-center, bubble-bottom-right, notepadbkg, emailbkg, screenbkg, whitebox, linedpaperbkg, paperbkg, blackborder</entry>
+
+  
+  <entry key="text_templates">true</entry>
+
+  
+  <entry key="engine_dependency">buckminster-34.0.0-rc.2.0</entry>
+
+  
+  <entry key="engine_bootstrap_path">engineBootstrap</entry>
+
+  
+  
+
+  
+  <entry key="responsive_supplements">true</entry>
+
+  
+  <entry key="format_tags">p;h1;h2;h3;div</entry> 
+  <entry key="layout.layout_05A">templates/layout_05A.png</entry><entry key="layout.layout_06A">templates/layout_06A.png</entry><entry key="layout.layout_03A">templates/layout_03A.png</entry><entry key="layout.layout_04B">templates/layout_04B.png</entry><entry key="layout.layout_04A">templates/layout_04A.png</entry><entry key="layout.layout_05B">templates/layout_05B.png</entry><entry key="layout.layout_01A">templates/layout_01A.png</entry><entry key="layout.layout_02B">templates/layout_02B.png</entry><entry key="layout.layout_03C">templates/layout_03C.png</entry><entry key="layout.layout_02A">templates/layout_02A.png</entry><entry key="layout.layout_03B">templates/layout_03B.png</entry><entry key="layout.layout_04B_toggleableMedia">templates/layout_04B_toggleableMedia.png</entry><entry key="layout.layout_04B_supplementTop">templates/layout_04B_supplementTop.png</entry></properties>

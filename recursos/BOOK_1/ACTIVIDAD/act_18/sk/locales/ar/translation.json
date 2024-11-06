@@ -1,0 +1,1421 @@
+{
+  "annotations": {
+    "toolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "فتح الأدوات"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "غلق الأدوات"
+        },
+        "pointer": {
+          "label": "",
+          "description": "المؤشر"
+        },
+        "pen": {
+          "label": "",
+          "description": "قلم رصاص"
+        },
+        "brush": {
+          "label": "",
+          "description": "مُسلِّط الضوء"
+        },
+        "eraser": {
+          "label": "",
+          "description": "ممحاة"
+        },
+        "stickyNotes": {
+          "label": "",
+          "description": "ملاحظات لاصقة"
+        },
+        "undo": {
+          "label": "",
+          "description": "إلغاء"
+        },
+        "redo": {
+          "label": "",
+          "description": "إعادة"
+        },
+        "visibilityHiddenTurnOn": {
+          "label": "",
+          "description": "إخفاء الشروح"
+        },
+        "visibilityHiddenTurnOff": {
+          "label": "",
+          "description": "إظهار الشروح"
+        }
+      }
+    },
+    "stickyNote": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "هدم"
+        },
+        "expand": {
+          "label": "",
+          "description": "توسيع الملاحظة"
+        },
+        "delete": {
+          "label": "",
+          "description": "حذف الملاحظة"
+        }
+      }
+    },
+    "timer": {
+      "title": "جهاز التوقيت",
+      "minutes": "دقائق",
+      "seconds": "ثوانٍ",
+      "display": "Minutes:Seconds",
+      "button": {
+        "close": {
+          "label": "غلق",
+          "description": "غلق جهاز التوقيت"
+        },
+        "start": {
+          "label": "بدء",
+          "description": "بدء جهاز التوقيت"
+        },
+        "stop": {
+          "label": "إيقاف",
+          "description": "إيقاف جهاز التوقيت"
+        }
+      }
+    }
+  },
+  "body": {
+    "brand": "Avallain",
+    "timer": {
+      "label": "الوقت المتبقي:",
+      "negative": "-",
+      "minutes": "دقيقة",
+      "minutes_plural": "دقائق",
+      "seconds": "ثانية",
+      "seconds_plural": "ثوانٍ",
+      "extra": "إضافي",
+      "extra_plural": "إضافي",
+      "left": "يسار",
+      "left_plural": "يسار"
+    },
+    "loToolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "خيارات",
+          "description": "فتح القائمة السياقية"
+        },
+        "toggleTurnOff": {
+          "label": "خيارات",
+          "description": "غلق القائمة السياقية"
+        }
+      }
+    },
+    "button": {
+      "close": {
+        "label": "",
+        "description": "غلق"
+      }
+    }
+  },
+  "contentElements": {
+    "icTextCorrectionDialog": {
+      "titlePrefix": "استبدال: ",
+      "placeholder": "اكتب الكلمة (الكلمات) الصحيحة",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        },
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(dialog.shared.button.ok.label)",
+          "description": "$t(dialog.shared.button.ok.description)"
+        }
+      }
+    },
+    "imColouring": {
+      "button": {
+        "highlighter": {
+          "description": "لون مُسلِّط الضوء"
+        }
+      }
+    },
+    "languageSwitcher": {
+      "button": {
+        "language": {
+          "label": "اللغة",
+          "description": "تغيير اللغة"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "volumeStair": {
+        "prefix": "الصوت ",
+        "suffix": ""
+      },
+      "button": {
+        "play": {
+          "label": "",
+          "description": "تشغيل"
+        },
+        "pause": {
+          "label": "",
+          "description": "إيقاف مؤقت"
+        },
+        "volume": {
+          "label": "",
+          "description": "تعديل الصوت"
+        },
+        "mute": {
+          "label": "",
+          "description": "كتم الصوت"
+        },
+        "speed": {
+          "label": "",
+          "description": "سرعة إعادة التشغيل"
+        },
+        "playbackSpeed1": {
+          "label": "0.5x",
+          "description": "إعادة تشغيل بسرعة 0.5x"
+        },
+        "playbackSpeed2": {
+          "label": "1x",
+          "description": "إعادة تشغيل بسرعة 1x"
+        },
+        "playbackSpeed3": {
+          "label": "1.5x",
+          "description": "إعادة تشغيل بسرعة 1.5x"
+        },
+        "playbackSpeed4": {
+          "label": "2x",
+          "description": "إعادة تشغيل بسرعة 2x"
+        },
+        "transcriptTurnOn": {
+          "label": "",
+          "description": "إظهار النص"
+        },
+        "transcriptTurnOff": {
+          "label": "",
+          "description": "إخفاء النص"
+        },
+        "subtitlesTurnOn": {
+          "label": "",
+          "description": "إظهار العناوين الفرعية"
+        },
+        "subtitlesTurnOff": {
+          "label": "",
+          "description": "إخفاء العناوين الفرعية"
+        },
+        "quality": {
+          "label": "",
+          "description": "الجودة"
+        },
+        "qualityAuto": {
+          "label": "تلقائي",
+          "description": "تلقائي"
+        },
+        "fullscreenTurnOn": {
+          "label": "",
+          "description": "بدِّل لوضعية ملء الشاشة"
+        },
+        "fullscreenTurnOff": {
+          "label": "",
+          "description": "الخروج من وضعية ملء الشاشة"
+        }
+      }
+    },
+    "writing": {
+      "button": {
+        "showAll": {
+          "label": "إظهار الكل",
+          "description": ""
+        }
+      }
+    }
+  },
+  "controls": {
+    "bar": {
+      "pagination": {
+        "index": {
+          "prefix": "صفحة ",
+          "conjunction": " من ",
+          "suffix": ""
+        },
+        "current": {
+          "description": "الصفحة الحالية"
+        }
+      },
+      "runningScore": {
+        "prefix": "النتيجة",
+        "conjunction": "/",
+        "suffix": "نقاط"
+      },
+      "button": {
+        "previous": {
+          "label": "رجوع",
+          "description": "الذهاب إلى الشاشة السابقة"
+        },
+        "forward": {
+          "label": "الاستمرار",
+          "description": "الذهاب إلى الشاشة التالية"
+        },
+        "previousLO": {
+          "label": "النشاط السابق",
+          "description": "الذهاب إلى النشاط السابق"
+        },
+        "forwardLO": {
+          "label": "النشاط التالي",
+          "description": "الذهاب إلى النشاط التالي"
+        },
+        "rights": {
+          "label": "حقوق",
+          "description": "افتح معلومات الحقوق"
+        },
+        "signalShow": {
+          "label": "أظهر الكلمات الخاطئة",
+          "description": "أظهر الكلمات الخاطئة"
+        },
+        "signalHide": {
+          "label": "إخفاء الكلمات الخاطئة",
+          "description": "إخفاء الكلمات الخاطئة"
+        },
+        "answerNext": {
+          "label": "الإجابة التالية",
+          "description": "أظهر الإجابة التالية"
+        },
+        "answerAll": {
+          "label": "كل الإجابات",
+          "description": "أظهر كل الإجابات"
+        },
+        "solutionHint": {
+          "label": "نصيحة بالحل",
+          "description": "إظهار نصيحة بالحل"
+        },
+        "retry": {
+          "label": "المحاولة مجددًا",
+          "description": "محو الإجابات"
+        },
+        "reveal": {
+          "label": "إظهار",
+          "description": "إظهار البند المخفى"
+        },
+        "hide": {
+          "label": "إخفاء",
+          "description": "إخفاء البنود الظاهرة"
+        },
+        "save": {
+          "label": "حفظ",
+          "description": "حفظ عملك"
+        },
+        "boxdrop": {
+          "label": "أسقِط!",
+          "description": "أسقِط الصندوق الحالي"
+        },
+        "boxdropPause": {
+          "label": "إيقاف مؤقت",
+          "description": "إيقاف النشاط مؤقتًا"
+        },
+        "boxdropResume": {
+          "label": "استكمال",
+          "description": "استكمال النشاط"
+        },
+        "quizNew": {
+          "label": "لعبة جديدة",
+          "description": "أعد بدء اللعبة بأسئلة جديدة"
+        },
+        "quizRestart": {
+          "label": "أعد بدء اللعبة",
+          "description": "أعد بدء اللعبة بنفس الأسئلة"
+        },
+        "quizSkip": {
+          "label": "تخطَّ السؤال",
+          "description": "تخطَّ السؤال وانهِ الدور"
+        },
+        "quizBack": {
+          "label": "رجوع",
+          "description": "الذهاب إلى لوحة اللعبة"
+        },
+        "loNotes": {
+          "label": "ملاحظات",
+          "description": "إظهار الملاحظات"
+        },
+        "micSettings": {
+          "label": "إعدادات الميكروفون",
+          "description": "فتح إعدادات الميكروفون"
+        },
+        "specialChars": {
+          "label": "الحروف الخاصة",
+          "description": "فتح مُختار الحروف الخاصة"
+        },
+        "export": {
+          "label": "تصدير",
+          "description": "نشاط تصدير"
+        },
+        "imProofingHint": {
+          "label": "نصيحة",
+          "description": "أعطني نصيحة"
+        },
+        "hints": {
+          "label": "النصيحة الأولى",
+          "description": "أعطني نصيحة"
+        },
+        "hintsSecond": {
+          "label": "النصيحة الثانية"
+        },
+        "hintsThird": {
+          "label": "النصيحة الثالثة"
+        },
+        "help": {
+          "label": "مساعدة",
+          "description": "أظهر مساعدة النشاط"
+        },
+        "answers": {
+          "label": "انظر الإجابات",
+          "description": "أظهر الإجابات الصحيحة"
+        },
+        "check": {
+          "label": "افحص الإجابات",
+          "description": "قدم الإجابات للتصحيح"
+        },
+        "reset": {
+          "label": "محو",
+          "description": "محو إجاباتك"
+        },
+        "resetAll": {
+          "label": "محو الكل",
+          "description": "محو كل إجاباتك"
+        },
+        "fullscreenTurnOn": {
+          "label": "ملء الشاشة",
+          "description": "بدِّل لوضعية ملء الشاشة"
+        },
+        "fullscreenTurnOff": {
+          "label": "ملء الشاشة",
+          "description": "الخروج من وضعية ملء الشاشة"
+        },
+        "toc": {
+          "label": "جدول المحتويات",
+          "description": "بدَّل جدول المحتويات"
+        },
+        "results": {
+          "label": "النتائج",
+          "description": "إظهار النتائج"
+        },
+        "sectionTimes": {
+          "label": "الوقت المنصرف",
+          "description": "انظر الوقت الموصى به والوقت المنصرف في كل جزء"
+        },
+        "sendscores": {
+          "label": "أرسِل النتائج",
+          "description": "أرسِل النتائج"
+        },
+        "exercises": {
+          "label": "مراجعة",
+          "description": "مراجعة إجاباتك"
+        },
+        "submit": {
+          "label": "تقديم",
+          "description": "تقديم لدفتر الدرجات"
+        }
+      }
+    }
+  },
+  "check": {
+    "correct": {
+      "description": "إجابة صحيحة"
+    },
+    "wrong": {
+      "description": "إجابة خاطئة"
+    },
+    "revealed": {
+      "description": "إجابة فارغة"
+    }
+  },
+  "dialog": {
+    "shared": {
+      "confirmation": "هل أنت متأكد؟",
+      "results": "كيف فعلت ذلك؟",
+      "feedback": "تعليقات",
+      "score": {
+        "prefix": "نتيجتك",
+        "conjunction": "من"
+      },
+      "button": {
+        "cancel": {
+          "label": "إلغاء",
+          "description": "استمرار بدون تغييرات"
+        },
+        "close": {
+          "label": "غلق",
+          "description": "أغلق الحوار"
+        },
+        "ok": {
+          "label": "تطبيق",
+          "description": "تطبيق التغييرات"
+        },
+        "continue": {
+          "label": "الاستمرار",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "autoEndResults": {
+      "title": "$t(dialog.shared.results)",
+      "body": "$t(dialog.shared.score.prefix) {{correct}} $t(dialog.shared.score.conjunction) {{total}}.",
+      "automaticmarked": "نسبة مئوية: {{score}}%.",
+      "table": {
+        "header": {
+          "question": "سؤال",
+          "mark": "علامة"
+        },
+        "body": {
+          "mark": "{{correct}}من{{total}}"
+        }
+      },
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.continue.label)",
+          "description": "$t(dialog.shared.button.continue.description)"
+        }
+      }
+    },
+    "checkedAnswers": {
+      "title": "$t(dialog.shared.feedback)",
+      "body": "$t(dialog.shared.score.prefix) {{correct}} $t(dialog.shared.score.conjunction) {{total}}.",
+      "button": {
+        "tryAgain": {
+          "label": "$t(controls.bar.button.retry.label)",
+          "description": "$t(controls.bar.button.retry.description)"
+        },
+        "submit": {
+          "label": "$t(controls.bar.button.submit.label)",
+          "description": "$t(controls.bar.button.submit.description)"
+        },
+        "next": {
+          "label": "$t(controls.bar.button.forward.label)",
+          "description": "$t(controls.bar.button.forward.description)"
+        }
+      }
+    },
+    "checkInfo": {
+      "title": "$t(dialog.shared.results)",
+      "body": "$t(dialog.shared.score.prefix) <span class=\"checkInfo__score\">{{correct}} $t(dialog.shared.score.conjunction) {{total}}</span>",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "feedbackText": {
+      "title": "",
+      "button": {
+        "close": {
+          "label": "مفهوم",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "imMarkingLettersSelect": {
+      "title": "اختر حرفًا أو أكثر"
+    },
+    "imVoiceNoMatch": {
+      "title": "لا يوجد تطابق",
+      "body": "لا يطابق تسجيلك أيًّا من النصوص. برجاء القيام بتسجيل جديد."
+    },
+    "isRadiobuttonVoiceNoMatch": {
+      "title": "$t(dialog.imVoiceNoMatch.title)",
+      "body": "لم يطابق تسجيلك أيًّا من الإجابات المتوفرة. برجاء القيام بتسجيل جديد."
+    },
+    "micNotFound": {
+      "title": "لم يتم العثور على ميكروفون",
+      "body": "برجاء تفعيل الميكروفون. إنه مطلوب من أجل هذا النشاط."
+    },
+    "testRecording": {
+      "title": "تجربة التسجيل",
+      "body": "يمكنك تجربة ميكروفونك من خلال القيام بتجربة التسجيل أدناه. انصت إلى تسجيلك لتتأكد من أن ميكروفونك يعمل بشكل صحيح.",
+      "button": {
+        "record": {
+          "label": "تسجيل",
+          "description": "تجربة التسجيل"
+        },
+        "stopRecording": {
+          "label": "تسجيل",
+          "description": "إيقاف التسجيل"
+        },
+        "play": {
+          "label": "إعادة التشغيل",
+          "description": "إعادة تشغيل تسجيلك"
+        },
+        "stopPlay": {
+          "label": "إعادة التشغيل",
+          "description": "وقف إعادة التشغيل"
+        }
+      },
+      "discard": "برجاء لا تُظهِر مجددًا."
+    },
+    "close": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "هل تريد حقًّا غلق هذا الهدف التعليمي؟",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "ابقه مفتوحًا"
+        },
+        "ok": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "نعم أريد غلقه."
+        }
+      }
+    },
+    "delayedFeedback": {
+      "title": "$t(dialog.shared.feedback)",
+      "body": "سيتم تصحيح هذا النشاط في صفحة أخرى. برجاء الاستمرار.",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "exportAs": {
+      "title": "صدِّر كـ",
+      "body": "",
+      "filename": "اسم الملف",
+      "formatDivider": ".",
+      "formatList": {
+        "label": "اختر صيغة الملفة",
+        "pdf": "pdf",
+        "rtf": "rtf"
+      },
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.export.label)",
+          "description": "$t(dialog.exportAs.title)"
+        }
+      }
+    },
+    "flashFirstAnswersOverlay": {
+      "title": "الإجابة الأولى"
+    },
+    "helpText": {
+      "title": "مساعدة",
+      "body": "يمكنك تحرير هذا النص في مؤلف > نشاطات المشروع > اختيار AT > تحرير > نص المساعدة.",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "hint": {
+      "title": "نصيحة",
+      "body": "",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "infoText": {
+      "title": "معلومات",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "transcript": {
+        "title": "النص"
+      }
+    },
+    "notebook": {
+      "title": "دفتر الملاحظات"
+    },
+    "offlineCheck": {
+      "title": "لا يوجد اتصال",
+      "body": "يبدو أنه ليس لديك اتصال بالإنترنت حاليًا.<br>لا يمكنك تقديم عملك حتى تتصل بالإنترنت، برجاء التحقق من اتصالك بالإنترنت ثم أعد المحاولة.",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "ppQuizTeamSelect": {
+      "title": "عدد الفرق",
+      "body": "اختر عدد الفرق لاختبارك.",
+      "button": {
+        "ok": {
+          "label": "بدء",
+          "description": "بدء اللعبة"
+        }
+      },
+      "teams": "الفرق:"
+    },
+    "reallyReload": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "هل تريد محو إجاباتك في هذا النشاط والبدء مجددًا؟",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.reset.label)",
+          "description": "$t(controls.bar.button.reset.description)"
+        }
+      }
+    },
+    "reallyReloadAll": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "هل تريد محو كل إجاباتك<strong>في كل نشاط</strong> والبدء من جديد؟",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.resetAll.label)",
+          "description": "$t(controls.bar.button.resetAll.description)"
+        }
+      }
+    },
+    "reallySubmit": {
+      "title": "هل أنت متأكد من أنك تريد التقديم؟",
+      "body": "لم تكمل كل الأسئلة.<br>هل أنت متأكد من أنك تريد تقديم نتائجك الآن؟",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "استمر بدون تقديم"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.submit.label)",
+          "description": "قدم نتائجك"
+        }
+      }
+    },
+    "recordingError": {
+      "title": "خطأ بالتسجيل",
+      "body": "حدث خطأ فني وأوقف هذا التسجيل. برجاء المحاولة مجددًا."
+    },
+    "recordingSaveAs": {
+      "title": "حمِّل كـ",
+      "body": "",
+      "format": "mp3.",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "حمِّل",
+          "description": "حمل الملف الصوتي"
+        }
+      }
+    },
+    "rights": {
+      "title": "$t(controls.bar.button.rights.label)",
+      "body": ""
+    },
+    "seeAnswersAfterCheck": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "هل أنت متأكد من أنك تريد رؤية الإجاباة الآن؟<br> لن يكون لديك فرصة أخرى بعد ذلك.",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "الاستمرار",
+          "description": "انظر الإجابات"
+        }
+      }
+    },
+    "seeAnswersBeforeCheck": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "هل أنت متأكد من أنك تريد رؤية الإجابات الآن؟<br>ستحصل على 0 نقطة عن هذا النشاط.",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(dialog.seeAnswersAfterCheck.button.ok.label)",
+          "description": "$t(dialog.seeAnswersAfterCheck.button.ok.description)"
+        }
+      }
+    },
+    "sendScores": {
+      "title": "$t(controls.bar.button.sendscores.label)",
+      "body": "تأكد من نقرك <q>$t(controls.bar.button.check.label)</q> على كل نشاط.",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.continue.label)",
+          "description": "$t(dialog.shared.button.continue.description)"
+        }
+      }
+    },
+    "sendScoresInfo": {
+      "title": "$t(controls.bar.button.sendscores.label)",
+      "body": "تم إرسال نتائج إلى دفتر العلامات.",
+      "score": "$t(dialog.shared.score.prefix) {{correct}} $t(dialog.shared.score.conjunction) {{total}}."
+    },
+    "specialCharacters": {
+      "title": "$t(controls.bar.button.specialChars.label)",
+      "body": "",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "submitFinish": {
+      "title": "انتهى",
+      "body": "أحسنت صنعًا! لقد أكملت هذا التدريب."
+    },
+    "submitInfo": {
+      "title": "تم تقديمه",
+      "body": "<h2>$t(dialog.shared.score.prefix)</h2><strong>{{correct}}/{{total}}</strong>",
+      "answers": "إجابات",
+      "correct": "صحيح",
+      "score": "النتيجة",
+      "maxAttempts": {
+        "singular": "",
+        "plural": {
+          "attemptsLeft": {
+            "none": "لم يعد لديك المزيد من المحاولات.",
+            "singular": "يمكنك فعل ما هو أفضل من ذلك، لديك محاولة واحدة متبقية. برجاء العودة والضغط على <q>$t(controls.bar.button.retry.label)</q>",
+            "plural": "لديك{{attemptsLeft}} محاولة متبقية. برجاء العودة والضغط على<q>$t(controls.bar.button.retry.label)</q> للاستمرار في التدريب."
+          }
+        },
+        "unlimited": "هذا هو عدد محاولاتك {{attempts}}. ارجع واضغط على<q>$t(controls.bar.button.retry.label)</q> للاستمرار في التدريب."
+      },
+      "button": {
+        "close": {
+          "label": "مراجعة الإجابات",
+          "description": "اغلق هذا الحور وراجع الإجابات"
+        }
+      }
+    },
+    "tableOfContents": {
+      "title": "اختر نشاطًا",
+      "empty": "لا توجد مدخلات للإظهار.",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        }
+      }
+    },
+    "teamsFinalScoreboard": {
+      "title": "لوحة النتائج النهائية"
+    },
+    "teamsScoreboard": {
+      "title": "لوحة النتائج"
+    },
+    "timeSpentInSections": {
+      "title": "الوقت المنصرف",
+      "table": {
+        "header": {
+          "section": "القسم",
+          "recommended": "موصى به",
+          "spent": "الوقت المنصرف"
+        },
+        "body": {
+          "total": "الإجمالي"
+        }
+      }
+    },
+    "timeOut": {
+      "title": "انتهى الوقت!",
+      "body": "انتهى وقتك!",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.continue.label)",
+          "description": "$t(dialog.shared.button.continue.description)"
+        },
+        "submit": {
+          "label": "$t(controls.bar.button.submit.label)",
+          "description": "$t(controls.bar.button.submit.description)"
+        }
+      }
+    },
+    "unsupportedDevice": {
+      "title": "جهاز غير مُدعم",
+      "body": "هذا النشاط غير مُدعم على هذا الجهاز. برجاء الانتقال إلى جهاز حاسب مكتبي للإكمال."
+    }
+  },
+  "export": {
+    "extendedWriting": {
+      "student": "الاسم: ",
+      "class": "الدرس: ",
+      "title": "العنوان: "
+    }
+  },
+  "interaction": {
+    "shared": {
+      "answerCheckTooltipPrefix": "إجابتك: ",
+      "prefilled": "إجابة مكتوبة مسبقًا",
+      "toolbar": {
+        "button": {
+          "eraser": {
+            "label": "ممحاة",
+            "description": "علامة الممحاة"
+          }
+        }
+      },
+      "errorCounter": {
+        "body": "<span class=\"errorCounter__counter errorCounter__counter--correct\">{{correct}}</span> /<span class=\"errorCounter__counter errorCounter__counter--total\">{{errors}}</span>أخطاء"
+      }
+    },
+    "dialogueRecording": {
+      "button": {
+        "settings": {
+          "label": "خيارات",
+          "description": "خيارات الحوار"
+        },
+        "hideTurnOn": {
+          "label": "إخفاء خطوطي",
+          "description": "إخفاء خطوطي"
+        },
+        "hideTurnOff": {
+          "label": "إخفاء خطوطي",
+          "description": "إظهار خطوطي"
+        },
+        "hideAllTurnOn": {
+          "label": "إخفاء كل الخطوط",
+          "description": "إخفاء كل الخطوط"
+        },
+        "hideAllTurnOff": {
+          "label": "إخفاء كل الخطوط",
+          "description": "إظهار كل الخطوط"
+        },
+        "download": {
+          "label": "حمِّل",
+          "description": "تحميل الكل"
+        }
+      }
+    },
+    "icTextGap": {
+      "input": {
+        "description": "مُدخَل فارغ"
+      }
+    },
+    "imProofing": {
+      "correctionPopup": {
+        "title": {
+          "insert": "إدخال",
+          "spelling": "التهجئة: ",
+          "grammar": "النحو: "
+        },
+        "placeholder": "اكتب ما يجب إدخاله",
+        "button": {
+          "close": {
+            "label": "$t(dialog.shared.button.close.label)",
+            "description": "$t(dialog.shared.button.close.description)"
+          },
+          "ok": {
+            "label": "$t(dialog.shared.button.ok.label)",
+            "description": "$t(dialog.shared.button.ok.description)"
+          }
+        }
+      },
+      "toolbar": {
+        "button": {
+          "toggle": {
+            "label": "علامات التصحيح",
+            "description": "علامات التصحيح"
+          },
+          "eraser": {
+            "label": "$t(interaction.shared.toolbar.button.eraser.label)",
+            "description": "$t(interaction.shared.toolbar.button.eraser.description)"
+          },
+          "capitalize": {
+            "label": "وضع الأحرف الأولى الكبيرة",
+            "description": "وضع الأحرف الأولى الكبيرة"
+          },
+          "lowercase": {
+            "label": "الأحرف الصغيرة",
+            "description": "الأحرف الصغيرة"
+          },
+          "fullStop": {
+            "label": "أضِف نقطة",
+            "description": "أضِف نقطة"
+          },
+          "insert": {
+            "label": "إدخال",
+            "description": "إدخال"
+          },
+          "remove": {
+            "label": "إزالة",
+            "description": "إزالة"
+          },
+          "newParagraph": {
+            "label": "فقرة جديدة",
+            "description": "فقرة جديدة"
+          },
+          "spelling": {
+            "label": "التهجئة",
+            "description": "التهجئة"
+          },
+          "grammar": {
+            "label": "النحو",
+            "description": "النحو"
+          },
+          "indent": {
+            "label": "المسافة البادئة",
+            "description": "المسافة البادئة"
+          }
+        }
+      }
+    },
+    "linkingMultipleLines": {
+      "keyTable": {
+        "key": {
+          "prefiled": "مكتوبة مسبقًا",
+          "correct": "صحيح",
+          "wrong": "خطأ",
+          "missing": "مفقود"
+        },
+        "checkbox": "لا تُظهر مجددًا",
+        "button": {
+          "close": {
+            "label": "غلق",
+            "description": "غلق الجدول المفتاحي"
+          }
+        }
+      }
+    },
+    "ppQuiz": {
+      "board": {
+        "team": "فريق{{label}}",
+        "points": "نقاط",
+        "categories": "فئات"
+      },
+      "gameOver": {
+        "team": "$t(interaction.ppQuiz.board.team)",
+        "winners": {
+          "conjunction": "و",
+          "suffix": "يفوز.",
+          "suffix_plural": "فوز."
+        },
+        "greeting": "مبروك!"
+      },
+      "team": {
+        "team": "$t(interaction.ppQuiz.board.team)"
+      }
+    },
+    "speakingRecording": {
+      "button": {
+        "listen": {
+          "label": "",
+          "description": "أَنصِت"
+        },
+        "pause": {
+          "label": "",
+          "description": "وقف الإنصات مؤقتًا"
+        },
+        "stopListen": {
+          "label": "",
+          "description": "إيقاف الإنصات"
+        },
+        "record": {
+          "label": "تسجيل",
+          "description": "تسجيل صوتي"
+        },
+        "pauseRecording": {
+          "label": "",
+          "description": "وقف التسجيل مؤقتًا"
+        },
+        "stopRecording": {
+          "label": "",
+          "description": "إيقاف التسجيل"
+        },
+        "speak": {
+          "label": "تحدث",
+          "description": "$t(interaction.speakingRecording.button.record.description)"
+        },
+        "stopSpeaking": {
+          "label": "$t(interaction.speakingRecording.button.speak.label)",
+          "description": "$t(interaction.speakingRecording.button.stopRecording.description)"
+        },
+        "finish": {
+          "label": "",
+          "description": "إنهاء التسجيل"
+        },
+        "play": {
+          "label": "تشغيل",
+          "description": "تشغيل التسجيل"
+        },
+        "stopPlay": {
+          "label": "",
+          "description": "إيقاف التشغيل"
+        },
+        "download": {
+          "label": "",
+          "description": "تحميل التسجيل"
+        }
+      },
+      "playAll": {
+        "button": {
+          "play": {
+            "label": "تشغيل الحوار",
+            "description": ""
+          },
+          "pause": {
+            "label": "$t(interaction.speakingRecording.playAll.button.play.label)",
+            "description": "إيقاف مؤقت"
+          },
+          "stop": {
+            "label": "",
+            "description": "إيقاف"
+          },
+          "prev": {
+            "label": "",
+            "description": "السابق"
+          },
+          "next": {
+            "label": "",
+            "description": "التالي"
+          }
+        }
+      }
+    },
+    "icCrossword": {
+      "clues": {
+        "title": "المفاتيح",
+        "horizontal": "عبر",
+        "vertical": "أسفل"
+      },
+      "cell": {
+        "letter": "حرف ",
+        "word": " من كلمة ",
+        "down": "، أسفل.",
+        "across": "، عبر."
+      }
+    },
+    "icTextCorrection": {
+      "button": {
+        "reset": {
+          "label": "إعادة ضبط",
+          "description": "أعد ضبط هذه الجملة"
+        }
+      }
+    },
+    "isHangman": {
+      "lifeFeedback": {
+        "body": "{{remaining}} محاولة متبقية"
+      }
+    },
+    "isCatch": {
+      "gameOver": {
+        "title": "انتهت اللعبة!",
+        "body": "انتهت اللعبة.<br>انقر<q>$t(interaction.isCatch.gameOver.button.ok.label)</q> للاستمرار.",
+        "button": {
+          "ok": {
+            "label": "$t(dialog.shared.button.continue.label)",
+            "description": "$t(dialog.shared.button.continue.description)"
+          }
+        }
+      },
+      "scoreboard": {
+        "time": "الوقت: ",
+        "points": "النقاط: "
+      },
+      "timeUp": {
+        "title": "$t(dialog.timeOut.title)",
+        "body": "انتهى وقتك!<br>انقر<q>$t(interaction.isCatch.timeUp.button.ok.label)</q> للاستمرار.",
+        "button": {
+          "ok": {
+            "label": "$t(dialog.shared.button.continue.label)",
+            "description": "$t(dialog.shared.button.continue.description)"
+          }
+        }
+      }
+    },
+    "isCheckbox": {
+      "group": {
+        "description": "الإجابات المحتملة"
+      }
+    },
+    "isRadioButton": {
+      "group": {
+        "description": "الإجابات المحتملة"
+      }
+    },
+    "ppSlideshowToolbar": {
+      "button": {
+        "previous": {
+          "label": "الذهاب للسابق",
+          "description": "الذهاب للسابق"
+        },
+        "next": {
+          "label": "الذهاب للتالي",
+          "description": "الذهاب للتالي"
+        },
+        "first": {
+          "label": "الذهاب للأول",
+          "description": "الذهاب للأول"
+        },
+        "last": {
+          "label": "الذهاب للأخير",
+          "description": "الذهاب للأخير"
+        },
+        "play": {
+          "label": "تشغيل",
+          "description": "تشغيل"
+        },
+        "pause": {
+          "label": "إيقاف مؤقت",
+          "description": "إيقاف مؤقت"
+        },
+        "decreaseDelay": {
+          "label": "-",
+          "description": "تقليل التأخير"
+        },
+        "increaseDelay": {
+          "label": "+",
+          "description": "زيادة التأخير"
+        },
+        "shuffleOrder": {
+          "label": "خلط",
+          "description": "خلط"
+        },
+        "defaultOrder": {
+          "label": "الترتيب الأصلي",
+          "description": "الترتيب الأصلي"
+        },
+        "show": {
+          "label": "إظهار",
+          "description": "إظهار فك الشفرة"
+        },
+        "hide": {
+          "label": "إخفاء",
+          "description": "إخفاء فك الشفرة"
+        }
+      }
+    },
+    "syllabify": {
+      "answerCheckTooltipPrefix": "$t(interaction.shared.answerCheckTooltipPrefix)"
+    }
+  },
+  "loToolbar": {
+    "notes": {
+      "notesArea": {
+        "button": {
+          "toggle": {
+            "label": "ملاحظاتك",
+            "description": ""
+          }
+        }
+      },
+      "notesBox": {
+        "empty": "لم تدون أية ملاحظات عن هذا النشاط. انقر على إضافة ملحوظة جديدة للبدء.",
+        "confirmation": "هل أنت متأكد من أنك تريد محو كل الملاحظات عن هذا النشاط؟",
+        "button": {
+          "new": {
+            "label": "أضف ملحوظة جديدة",
+            "description": "أنشِئ ملحوظة جديدة"
+          },
+          "send": {
+            "label": "أرسل الكل",
+            "description": "أرسل كل الملحوظات"
+          },
+          "print": {
+            "label": "اطبع الكل",
+            "description": "اطبع كل الملحوظات"
+          },
+          "erase": {
+            "label": "محو الكل",
+            "description": "محو كل الملحوظات"
+          },
+          "cancel": {
+            "label": "$t(dialog.shared.button.cancel.label)",
+            "description": "$t(dialog.shared.button.cancel.description)"
+          },
+          "ok": {
+            "label": "$t(contentElements.notes.notesBox.button.erase.label)",
+            "description": "$t(contentElements.notes.notesBox.button.erase.description)"
+          }
+        }
+      },
+      "oneNote": {
+        "defaultName": "ملحوظة غير معنونة 1",
+        "lastEdited": "آخر تعديل: ",
+        "undefined": "غير محدد",
+        "button": {
+          "toggle": {
+            "label": "خيارات",
+            "description": ""
+          },
+          "new": {
+            "label": "$t(contentElements.notes.notesBox.button.new.label)",
+            "description": "$t(contentElements.notes.notesBox.button.new.description)"
+          },
+          "send": {
+            "label": "أرسل",
+            "description": "أرسل ملحوظة"
+          },
+          "print": {
+            "label": "اطبع",
+            "description": "اطبع ملحوظة"
+          },
+          "erase": {
+            "label": "امحُ",
+            "description": "امحُ ملحوظة"
+          }
+        }
+      }
+    },
+    "print": {
+      "button": {
+        "label": "اطبع",
+        "description": "اطبع هذا النشاط"
+      }
+    },
+    "toggleableMedia": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "المفاتيح",
+          "description": "افتح لوحة المفاتيح"
+        },
+        "toggleTurnOff": {
+          "label": "المفاتيح",
+          "description": "اغلق لوحة المفاتيح"
+        }
+      }
+    }
+  },
+  "mediaExpand": {
+    "image": {
+      "button": {
+        "expandTurnOn": {
+          "label": "",
+          "description": "كبر حجم الصورة"
+        },
+        "expandTurnOff": {
+          "label": "",
+          "description": "تصغير الصورة"
+        }
+      },
+      "dialog": {
+        "button": {
+          "close": {
+            "label": "$t(dialog.shared.button.close.label)",
+            "description": "$t(dialog.shared.button.close.description)"
+          }
+        }
+      }
+    }
+  },
+  "notebook": {
+    "button": {
+      "export": {
+        "label": "تصدير",
+        "description": "تصدير ملحوظات"
+      }
+    }
+  },
+  "osSorting": {
+    "category": {
+      "counter": {
+        "description": "عدد البنود"
+      },
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "وسِّع"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "تصغير"
+        }
+      }
+    }
+  },
+  "pool": {
+    "description": {
+      "input": "اختر من هذه الإجابات",
+      "order": "ضع هذه الإجابات في موضعها الصحيح"
+    },
+    "freeControls": {
+      "button": {
+        "handle": {
+          "label": "",
+          "description": "اسحب للتحريك في مكان الكلمات"
+        },
+        "dock": {
+          "label": "اقتطع",
+          "description": "إعادة ضبط الموضع"
+        }
+      }
+    }
+  },
+  "radioAccordion": {
+    "question": "سؤال{{-enum}}",
+    "openAlert": {
+      "question": "أنت تجيب على سؤال{{-enum}}."
+    }
+  },
+  "tabsPanel": {
+    "enumQuestion": "سؤال ",
+    "question": "سؤال {{index}}",
+    "openAlert": {
+      "enumQuestion": "أنت تجيب على سؤال ",
+      "question": "$t(tabsPanel.openAlert.enumQuestion) {{index}}"
+    }
+  },
+  "textInput": {
+    "count": {
+      "chars": {
+        "label": "الحروف",
+        "description": "عداد عرض إدخال عدد الحروف"
+      },
+      "words": {
+        "label": "كلمات",
+        "description": "عداد عرض إدخال عدد الكلمات"
+      },
+      "minChars": {
+        "label": "الحروف المتبقية",
+        "description": "تقليل العداد لإظهار الوصول لحد الحروف الأدنى"
+      },
+      "minWords": {
+        "label": "الكلمات المتبقية",
+        "description": "تقليل العداد لإظهار الوصول لحد الكلمات الأدنى"
+      },
+      "maxChars": {
+        "label": "الحروف المتبقية",
+        "description": "تقليل العداد لإظهار الوصول لحد الحروف الأقصى"
+      },
+      "maxWords": {
+        "label": "الكلمات المتبقية",
+        "description": "تقليل العداد لإظهار الوصول لحد الكلمات الأقصى"
+      }
+    }
+  },
+  "userSelection": {
+    "selector": {
+      "type": "نوع الاختبار:",
+      "number": "عدد الأسئلة:"
+    },
+    "button": {
+      "continue": {
+        "label": "تأكيد",
+        "description": "بدء الأنشطة"
+      }
+    }
+  }
+}

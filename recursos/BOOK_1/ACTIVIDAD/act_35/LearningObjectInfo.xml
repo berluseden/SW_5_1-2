@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><LearningObjectInfo>
+    <UID>ric-prod_415161</UID>
+    <uuid>d24067f5-03f9-11ec-a331-026bd313076b</uuid>
+    <ID>415161</ID>
+    <timestamp>2021-10-22T05:07Z</timestamp>
+    <mediaURL/>
+    <name>SW5 SB U1 p024 ex02</name>
+    <xmls/>
+    <screens>
+        <screen>
+            <uuid>d0de306a-70e6-4793-9c8c-7d065cec5b07</uuid>
+            <name>cat672571.xml</name>
+            <metadata>
+                <lom>
+                    <group name="Course + Level"/>
+                    <group name="General"/>
+                    <group name="Detail"/>
+                </lom>
+            </metadata>
+            <helpText/>
+            <resources/>
+        </screen>
+    </screens>
+    <metadata>
+        <lom>
+            <group name="Course + Level"/>
+            <group name="General"/>
+            <group name="Detail"/>
+        </lom>
+    </metadata>
+    <LOOptions>&lt;options data-author="options-v2"&gt;&lt;option id="383"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="433"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="430"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="051"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="311"&gt;&lt;key&gt;always&lt;/key&gt;&lt;/option&gt;&lt;option id="493"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="384"&gt;&lt;key&gt;       {&amp;amp;quot;items&amp;amp;quot;:[{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;}]}   &lt;/key&gt;&lt;/option&gt;&lt;option id="373"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="378"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="047"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="379"&gt;&lt;key&gt;off&lt;/key&gt;&lt;value&gt;{"items":[],"selection":"off"}&lt;/value&gt;&lt;/option&gt;&lt;option id="040"&gt;&lt;key&gt;normal&lt;/key&gt;&lt;/option&gt;&lt;option id="346"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="347"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="348"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="349"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="335"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="342"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="375"&gt;&lt;key&gt;{"items":[]}&lt;/key&gt;&lt;/option&gt;&lt;option id="432"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="025"&gt;&lt;key&gt;true&lt;/key&gt;&lt;/option&gt;&lt;option id="050"&gt;&lt;key&gt;auto&lt;/key&gt;&lt;/option&gt;&lt;option id="428"&gt;&lt;key&gt;off&lt;/key&gt;&lt;value&gt;{"items":[],"selection":"off"}&lt;/value&gt;&lt;/option&gt;&lt;option id="313"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="419"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="317"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="046"&gt;&lt;key&gt;1_point_action&lt;/key&gt;&lt;/option&gt;&lt;option id="449"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="312"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="450"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="388"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="336"&gt;&lt;key&gt;always&lt;/key&gt;&lt;/option&gt;&lt;option id="371"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="334"&gt;&lt;key&gt;afterAll&lt;/key&gt;&lt;value&gt;
+ 
+ 
+  {&amp;amp;quot;items&amp;amp;quot;:[{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;}],&amp;amp;quot;selection&amp;amp;quot;:&amp;amp;quot;afterAll&amp;amp;quot;}
+ 
+&lt;/value&gt;&lt;/option&gt;&lt;option id="352"&gt;&lt;key&gt;[]&lt;/key&gt;&lt;/option&gt;&lt;option id="315"&gt;&lt;key&gt;2&lt;/key&gt;&lt;/option&gt;&lt;option id="396"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="351"&gt;&lt;key&gt;[]&lt;/key&gt;&lt;/option&gt;&lt;option id="024"&gt;&lt;key&gt;[]&lt;/key&gt;&lt;/option&gt;&lt;option id="380"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="381"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="385"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="391"&gt;&lt;key&gt;first&lt;/key&gt;&lt;/option&gt;&lt;option id="393"&gt;&lt;key&gt;["2","9"]&lt;/key&gt;&lt;/option&gt;&lt;option id="410"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="418"&gt;&lt;key&gt;["ebook"]&lt;/key&gt;&lt;/option&gt;&lt;option id="528"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;/options&gt;</LOOptions>
+    <skin>RichmondRDPSecondary</skin>
+    <mode>Normal</mode>
+    <title>Review — Activity 2</title>
+    <assetCDNURL>media</assetCDNURL>
+    <type>Standard</type>
+    <toolbeltServer>//avallain-toolbelt-prod.avallain.net</toolbeltServer>
+    <geoGebra>//author-engine-production.avallain.net/geogebra/v5-0-398-0/HTML5/5.0/web/</geoGebra>
+    <mathJAX>//author-engine-production.avallain.net/mathjax/2.7.1/</mathJAX>
+    <tts>
+        <voice>female-1</voice>
+        <service>https://tts.avallain.net/sync_converter</service>
+        <lang/>
+    </tts>
+    <lnrCDNURL>http://lnr-runtime-assets.s3-website-eu-west-1.amazonaws.com</lnrCDNURL>
+    <lnrServer>avallain-lnr-prod.avallain.net</lnrServer>
+    <ckeditorRelative>true</ckeditorRelative>
+    <lang>en</lang>
+    <lmsApis>Console</lmsApis>
+    <maximumscore>6</maximumscore>
+    <engine>
+        <version>buckminster-33.0.6</version>
+        <downloadURL>engine/engine.zip</downloadURL>
+        <root>engine/</root>
+    </engine>
+    <designPack>
+        <version>richmond-rdp-secondary-3.4.1</version>
+        <downloadURL>//author-assets-runtime-ric.avallain.net/designpack/RichmondRDPSecondary_6a77577959a59c8d6480caf2bdbf490a</downloadURL>
+        <root>sk/</root>
+        <type>git</type>
+    </designPack>
+    <resources/>
+    <dependencies/>
+    <profiles/>
+    <assets/>
+    <pages/>
+    <solution-pages/>
+    <audio>mp3,oga</audio>
+    <video>webm,mp4</video>
+</LearningObjectInfo>

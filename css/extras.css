@@ -1,0 +1,77 @@
+body{
+    overflow: hidden!important;
+    background-color: #DFE2E2;
+  }
+  .controlsBTN{
+    cursor: pointer;
+  }
+  .menu{
+    text-align: left;
+    list-style: none;
+    list-style-type: none;
+    font-size: 12px;
+    color: #3C415E;
+  }
+  #focal1{
+    position: absolute;
+    margin-top:10px;
+  }
+  .my-drawing{
+    width: 100%;
+    height: 80% !important;
+    position: absolute;
+    top: 0px;
+    /* z-index: 9999 !important; */
+  }
+  
+  div[data-reactid=".0.1.0.2"]{
+    position:relative;
+    /* top: 535px; */
+    /* top: 568px; */
+/*     top:626px ; */
+    top: 556px;
+    text-align: center !important;
+    opacity: 1 !important;
+    width: 50px;
+      
+  }
+  
+  .color-well{
+     color: #ffffff;
+      padding: 3px;
+      letter-spacing: -1px; 
+  }
+  .lc-pick-tool{
+    margin-left: 20px !important;
+      width: 75px;
+      height: 600px;
+  }
+  
+
+  .show_user_name{
+    width: 230px;
+    height: 45px;
+    background-color:#b455a0;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    font-family:'Questrial', sans-serif; 
+    color: white;
+    font-weight: bold;
+    box-shadow:  rgba(19, 39, 29, 0.5) 5px 5px 5px 5px;
+    box-shadow:  rgba(1, 48, 24, 0.3) 5px 2px 5px 2px inset;
+  }
+
+ /*19 DE OCTUBRE 2021 AGREGO MEDIA QUERY PARA QUE SE VISUALICE BIEN POSICIONADO EL LIBRO CUANDO ENTRAN POR PRIMERA VEZ*/
+   @media (max-width: 1024px){
+   .my-drawing{
+      position: fixed;
+    }
+  }
+ /* 24/5/22 POSICIONADO CORRECTO CUANDO ENTRA POR 1RA VEZ EN IPAD*/
+   @media (max-width: 1366px){
+   .my-drawing{
+      position: fixed;
+    }
+  }
+

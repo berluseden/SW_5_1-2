@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?><LearningObjectInfo>
+    <UID>ric-prod_412964</UID>
+    <uuid>d2343552-03f9-11ec-a331-026bd313076b</uuid>
+    <ID>412964</ID>
+    <timestamp>2021-10-16T02:48Z</timestamp>
+    <mediaURL/>
+    <name>SW5 SB U0 p008 ex01</name>
+    <xmls/>
+    <screens>
+        <screen>
+            <uuid>b6d8bdf2-521f-4a26-a460-d3b624ba00e9</uuid>
+            <name>cat669808.xml</name>
+            <metadata>
+                <lom>
+                    <group name="Course + Level"/>
+                    <group name="General"/>
+                    <group name="Detail"/>
+                </lom>
+            </metadata>
+            <helpText/>
+            <resources>
+                <resource>
+                    <identifier>190562</identifier>
+                </resource>
+                <resource>
+                    <identifier>190566</identifier>
+                </resource>
+                <resource>
+                    <identifier>190567</identifier>
+                </resource>
+                <resource>
+                    <identifier>190563</identifier>
+                </resource>
+                <resource>
+                    <identifier>190565</identifier>
+                </resource>
+                <resource>
+                    <identifier>190564</identifier>
+                </resource>
+            </resources>
+        </screen>
+    </screens>
+    <metadata>
+        <lom>
+            <group name="Course + Level"/>
+            <group name="General"/>
+            <group name="Detail"/>
+        </lom>
+    </metadata>
+    <LOOptions>&lt;options data-author="options-v2"&gt;&lt;option id="383"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="433"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="430"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="051"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="311"&gt;&lt;key&gt;always&lt;/key&gt;&lt;/option&gt;&lt;option id="493"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="384"&gt;&lt;key&gt;       {&amp;amp;quot;items&amp;amp;quot;:[{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;}]}   &lt;/key&gt;&lt;/option&gt;&lt;option id="373"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="378"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="047"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="379"&gt;&lt;key&gt;off&lt;/key&gt;&lt;value&gt;{"items":[],"selection":"off"}&lt;/value&gt;&lt;/option&gt;&lt;option id="040"&gt;&lt;key&gt;normal&lt;/key&gt;&lt;/option&gt;&lt;option id="346"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="347"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="348"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="349"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="335"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="342"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="375"&gt;&lt;key&gt;{"items":[]}&lt;/key&gt;&lt;/option&gt;&lt;option id="432"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="025"&gt;&lt;key&gt;true&lt;/key&gt;&lt;/option&gt;&lt;option id="050"&gt;&lt;key&gt;auto&lt;/key&gt;&lt;/option&gt;&lt;option id="428"&gt;&lt;key&gt;off&lt;/key&gt;&lt;value&gt;{"items":[],"selection":"off"}&lt;/value&gt;&lt;/option&gt;&lt;option id="313"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="419"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="317"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="046"&gt;&lt;key&gt;1_point_action&lt;/key&gt;&lt;/option&gt;&lt;option id="449"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="312"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="450"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="388"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="336"&gt;&lt;key&gt;always&lt;/key&gt;&lt;/option&gt;&lt;option id="371"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="334"&gt;&lt;key&gt;afterAll&lt;/key&gt;&lt;value&gt;
+ 
+ 
+  {&amp;amp;quot;items&amp;amp;quot;:[{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;}],&amp;amp;quot;selection&amp;amp;quot;:&amp;amp;quot;afterAll&amp;amp;quot;}
+ 
+&lt;/value&gt;&lt;/option&gt;&lt;option id="352"&gt;&lt;key&gt;[]&lt;/key&gt;&lt;/option&gt;&lt;option id="315"&gt;&lt;key&gt;2&lt;/key&gt;&lt;/option&gt;&lt;option id="396"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="351"&gt;&lt;key&gt;[]&lt;/key&gt;&lt;/option&gt;&lt;option id="024"&gt;&lt;key&gt;[]&lt;/key&gt;&lt;/option&gt;&lt;option id="380"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="381"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="385"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="391"&gt;&lt;key&gt;first&lt;/key&gt;&lt;/option&gt;&lt;option id="393"&gt;&lt;key&gt;["2","9"]&lt;/key&gt;&lt;/option&gt;&lt;option id="410"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="418"&gt;&lt;key&gt;["ebook"]&lt;/key&gt;&lt;/option&gt;&lt;option id="528"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;/options&gt;</LOOptions>
+    <skin>RichmondRDPSecondary</skin>
+    <mode>Normal</mode>
+    <title>Grammar — Activity 1</title>
+    <assetCDNURL>media</assetCDNURL>
+    <type>Standard</type>
+    <toolbeltServer>//avallain-toolbelt-prod.avallain.net</toolbeltServer>
+    <geoGebra>//author-engine-production.avallain.net/geogebra/v5-0-398-0/HTML5/5.0/web/</geoGebra>
+    <mathJAX>//author-engine-production.avallain.net/mathjax/2.7.1/</mathJAX>
+    <tts>
+        <voice>female-1</voice>
+        <service>https://tts.avallain.net/sync_converter</service>
+        <lang/>
+    </tts>
+    <lnrCDNURL>http://lnr-runtime-assets.s3-website-eu-west-1.amazonaws.com</lnrCDNURL>
+    <lnrServer>avallain-lnr-prod.avallain.net</lnrServer>
+    <ckeditorRelative>true</ckeditorRelative>
+    <lang>en</lang>
+    <lmsApis>Console</lmsApis>
+    <maximumscore>5</maximumscore>
+    <engine>
+        <version>buckminster-33.0.6</version>
+        <downloadURL>engine/engine.zip</downloadURL>
+        <root>engine/</root>
+    </engine>
+    <designPack>
+        <version>richmond-rdp-secondary-3.4.1</version>
+        <downloadURL>//author-assets-runtime-ric.avallain.net/designpack/RichmondRDPSecondary_706d424c49e363f10baf195a357ae162</downloadURL>
+        <root>sk/</root>
+        <type>git</type>
+    </designPack>
+    <resources/>
+    <dependencies/>
+    <profiles/>
+    <assets>
+        <asset>
+            <identifier>190562</identifier>
+            <metadata>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="File information" type="binary">
+                        <item description="Size" title="size" value_type="integer">
+                            <value description="456483"/>
+                        </item>
+                        <item description="Mime" title="mime" value_type="string">
+                            <value description="image/png"/>
+                        </item>
+                        <item description="Type" title="type" value_type="string">
+                            <value description="image"/>
+                        </item>
+                        <item description="Md5 hash" title="md5hash" value_type="string">
+                            <value description="93550ebc6dafa8e3abdfa7adbf4a27e5"/>
+                        </item>
+                    </group>
+                    <group name="Image information" type="image">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="517"/>
+                        </item>
+                        <item description="Aspect ratio" title="aspect_ratio" value_type="string">
+                            <value description="1.451"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:33:03 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:17 GMT"/>
+                        </item>
+                        <item description="Frame count" title="frame_count" value_type="integer">
+                            <value description="1"/>
+                        </item>
+                        <item description="Colorspace" title="colorspace" value_type="string">
+                            <value description="RGB"/>
+                        </item>
+                        <item description="has_clipping_path" title="has_clipping_path" value_type="boolean">
+                            <value description="f"/>
+                        </item>
+                        <item description="Average color" title="average_color" value_type="string">
+                            <value description="#a6b6aa"/>
+                        </item>
+                    </group>
+                    <group name="Audio information" type="audio"/>
+                    <group name="Video information" type="video">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="517"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:33:03 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:17 GMT"/>
+                        </item>
+                    </group>
+                </lom>
+            </metadata>
+            <filename>SW5_SB_U0_p008_ex1b.png</filename>
+            <name>SW5_SB_U0_p008_ex1b.png</name>
+            <referenceId>S3_190562_SW5_SB_U0_p008_ex1b.png</referenceId>
+            <downloadURL>//author-assets-runtime-ric.avallain.net/S3_190562_SW5_SB_U0_p008_ex1b.png</downloadURL>
+        </asset>
+        <asset>
+            <identifier>190563</identifier>
+            <metadata>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="File information" type="binary">
+                        <item description="Size" title="size" value_type="integer">
+                            <value description="348167"/>
+                        </item>
+                        <item description="Mime" title="mime" value_type="string">
+                            <value description="image/png"/>
+                        </item>
+                        <item description="Type" title="type" value_type="string">
+                            <value description="image"/>
+                        </item>
+                        <item description="Md5 hash" title="md5hash" value_type="string">
+                            <value description="d3dc663ab67d373fd0710e2319e627fb"/>
+                        </item>
+                    </group>
+                    <group name="Image information" type="image">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="554"/>
+                        </item>
+                        <item description="Aspect ratio" title="aspect_ratio" value_type="string">
+                            <value description="1.354"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:37:42 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:18 GMT"/>
+                        </item>
+                        <item description="Frame count" title="frame_count" value_type="integer">
+                            <value description="1"/>
+                        </item>
+                        <item description="Colorspace" title="colorspace" value_type="string">
+                            <value description="RGB"/>
+                        </item>
+                        <item description="has_clipping_path" title="has_clipping_path" value_type="boolean">
+                            <value description="f"/>
+                        </item>
+                        <item description="Average color" title="average_color" value_type="string">
+                            <value description="#b5a8a6"/>
+                        </item>
+                    </group>
+                    <group name="Audio information" type="audio"/>
+                    <group name="Video information" type="video">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="554"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:37:42 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:18 GMT"/>
+                        </item>
+                    </group>
+                </lom>
+            </metadata>
+            <filename>SW5_SB_U0_p008_ex1d.png</filename>
+            <name>SW5_SB_U0_p008_ex1d.png</name>
+            <referenceId>S3_190563_SW5_SB_U0_p008_ex1d.png</referenceId>
+            <downloadURL>//author-assets-runtime-ric.avallain.net/S3_190563_SW5_SB_U0_p008_ex1d.png</downloadURL>
+        </asset>
+        <asset>
+            <identifier>190566</identifier>
+            <metadata>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="File information" type="binary">
+                        <item description="Size" title="size" value_type="integer">
+                            <value description="387115"/>
+                        </item>
+                        <item description="Mime" title="mime" value_type="string">
+                            <value description="image/png"/>
+                        </item>
+                        <item description="Type" title="type" value_type="string">
+                            <value description="image"/>
+                        </item>
+                        <item description="Md5 hash" title="md5hash" value_type="string">
+                            <value description="1e34cb7d8919d27c027ecfc60daa77f8"/>
+                        </item>
+                    </group>
+                    <group name="Image information" type="image">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="543"/>
+                        </item>
+                        <item description="Aspect ratio" title="aspect_ratio" value_type="string">
+                            <value description="1.381"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:30:43 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:18 GMT"/>
+                        </item>
+                        <item description="Frame count" title="frame_count" value_type="integer">
+                            <value description="1"/>
+                        </item>
+                        <item description="Colorspace" title="colorspace" value_type="string">
+                            <value description="RGB"/>
+                        </item>
+                        <item description="has_clipping_path" title="has_clipping_path" value_type="boolean">
+                            <value description="f"/>
+                        </item>
+                        <item description="Average color" title="average_color" value_type="string">
+                            <value description="#8d9688"/>
+                        </item>
+                    </group>
+                    <group name="Audio information" type="audio"/>
+                    <group name="Video information" type="video">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="543"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:30:43 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:18 GMT"/>
+                        </item>
+                    </group>
+                </lom>
+            </metadata>
+            <filename>SW5_SB_U0_p008_ex1a.png</filename>
+            <name>SW5_SB_U0_p008_ex1a.png</name>
+            <referenceId>S3_190566_SW5_SB_U0_p008_ex1a.png</referenceId>
+            <downloadURL>//author-assets-runtime-ric.avallain.net/S3_190566_SW5_SB_U0_p008_ex1a.png</downloadURL>
+        </asset>
+        <asset>
+            <identifier>190567</identifier>
+            <metadata>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="File information" type="binary">
+                        <item description="Size" title="size" value_type="integer">
+                            <value description="534665"/>
+                        </item>
+                        <item description="Mime" title="mime" value_type="string">
+                            <value description="image/png"/>
+                        </item>
+                        <item description="Type" title="type" value_type="string">
+                            <value description="image"/>
+                        </item>
+                        <item description="Md5 hash" title="md5hash" value_type="string">
+                            <value description="394cf18e5cf891792ac996b62fc69a4d"/>
+                        </item>
+                    </group>
+                    <group name="Image information" type="image">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="521"/>
+                        </item>
+                        <item description="Aspect ratio" title="aspect_ratio" value_type="string">
+                            <value description="1.44"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:36:12 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:17 GMT"/>
+                        </item>
+                        <item description="Frame count" title="frame_count" value_type="integer">
+                            <value description="1"/>
+                        </item>
+                        <item description="Colorspace" title="colorspace" value_type="string">
+                            <value description="RGB"/>
+                        </item>
+                        <item description="has_clipping_path" title="has_clipping_path" value_type="boolean">
+                            <value description="f"/>
+                        </item>
+                        <item description="Average color" title="average_color" value_type="string">
+                            <value description="#8f958e"/>
+                        </item>
+                    </group>
+                    <group name="Audio information" type="audio"/>
+                    <group name="Video information" type="video">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="521"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:36:12 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:17 GMT"/>
+                        </item>
+                    </group>
+                </lom>
+            </metadata>
+            <filename>SW5_SB_U0_p008_ex1c.png</filename>
+            <name>SW5_SB_U0_p008_ex1c.png</name>
+            <referenceId>S3_190567_SW5_SB_U0_p008_ex1c.png</referenceId>
+            <downloadURL>//author-assets-runtime-ric.avallain.net/S3_190567_SW5_SB_U0_p008_ex1c.png</downloadURL>
+        </asset>
+        <asset>
+            <identifier>190564</identifier>
+            <metadata>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="File information" type="binary">
+                        <item description="Size" title="size" value_type="integer">
+                            <value description="330718"/>
+                        </item>
+                        <item description="Mime" title="mime" value_type="string">
+                            <value description="image/png"/>
+                        </item>
+                        <item description="Type" title="type" value_type="string">
+                            <value description="image"/>
+                        </item>
+                        <item description="Md5 hash" title="md5hash" value_type="string">
+                            <value description="94a3adc7d4dcf8e69360ff67657e8613"/>
+                        </item>
+                    </group>
+                    <group name="Image information" type="image">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="530"/>
+                        </item>
+                        <item description="Aspect ratio" title="aspect_ratio" value_type="string">
+                            <value description="1.415"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:41:07 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:17 GMT"/>
+                        </item>
+                        <item description="Frame count" title="frame_count" value_type="integer">
+                            <value description="1"/>
+                        </item>
+                        <item description="Colorspace" title="colorspace" value_type="string">
+                            <value description="RGB"/>
+                        </item>
+                        <item description="has_clipping_path" title="has_clipping_path" value_type="boolean">
+                            <value description="f"/>
+                        </item>
+                        <item description="Average color" title="average_color" value_type="string">
+                            <value description="#849ba6"/>
+                        </item>
+                    </group>
+                    <group name="Audio information" type="audio"/>
+                    <group name="Video information" type="video">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="530"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:41:07 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:17 GMT"/>
+                        </item>
+                    </group>
+                </lom>
+            </metadata>
+            <filename>SW5_SB_U0_p008_ex1f.png</filename>
+            <name>SW5_SB_U0_p008_ex1f.png</name>
+            <referenceId>S3_190564_SW5_SB_U0_p008_ex1f.png</referenceId>
+            <downloadURL>//author-assets-runtime-ric.avallain.net/S3_190564_SW5_SB_U0_p008_ex1f.png</downloadURL>
+        </asset>
+        <asset>
+            <identifier>190565</identifier>
+            <metadata>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="File information" type="binary">
+                        <item description="Size" title="size" value_type="integer">
+                            <value description="332585"/>
+                        </item>
+                        <item description="Mime" title="mime" value_type="string">
+                            <value description="image/png"/>
+                        </item>
+                        <item description="Type" title="type" value_type="string">
+                            <value description="image"/>
+                        </item>
+                        <item description="Md5 hash" title="md5hash" value_type="string">
+                            <value description="36f03e64e1a07c1a723907bf187f9421"/>
+                        </item>
+                    </group>
+                    <group name="Image information" type="image">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="517"/>
+                        </item>
+                        <item description="Aspect ratio" title="aspect_ratio" value_type="string">
+                            <value description="1.451"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:39:22 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:18 GMT"/>
+                        </item>
+                        <item description="Frame count" title="frame_count" value_type="integer">
+                            <value description="1"/>
+                        </item>
+                        <item description="Colorspace" title="colorspace" value_type="string">
+                            <value description="RGB"/>
+                        </item>
+                        <item description="has_clipping_path" title="has_clipping_path" value_type="boolean">
+                            <value description="f"/>
+                        </item>
+                        <item description="Average color" title="average_color" value_type="string">
+                            <value description="#abab9d"/>
+                        </item>
+                    </group>
+                    <group name="Audio information" type="audio"/>
+                    <group name="Video information" type="video">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="517"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/23 23:39:22 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/10 14:15:18 GMT"/>
+                        </item>
+                    </group>
+                </lom>
+            </metadata>
+            <filename>SW5_SB_U0_p008_ex1e.png</filename>
+            <name>SW5_SB_U0_p008_ex1e.png</name>
+            <referenceId>S3_190565_SW5_SB_U0_p008_ex1e.png</referenceId>
+            <downloadURL>//author-assets-runtime-ric.avallain.net/S3_190565_SW5_SB_U0_p008_ex1e.png</downloadURL>
+        </asset>
+    </assets>
+    <pages/>
+    <solution-pages/>
+    <audio>mp3,oga</audio>
+    <video>webm,mp4</video>
+</LearningObjectInfo>

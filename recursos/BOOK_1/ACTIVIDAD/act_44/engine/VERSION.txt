@@ -1,0 +1,9 @@
+versions:
+- commitDate: 2021-10-11 14:53:25 +0000
+  commitedBy: Carlos Rodríguez
+  hash: 6dcfee851c6a2a16edd521aea1bf177af0ef3334
+  name: buckminster-34.0.0-rc.1.0
+  updateDate: 2021-10-11 14:53:25 +0000
+  updatedBy: Carlos Rodríguez
+  url: //author-engine-production.avallain.net/buckminster-34.0.0-rc.1.0/
+  versionTag: null

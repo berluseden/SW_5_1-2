@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><LearningObjectInfo>
+    <UID>ric-prod_414492</UID>
+    <uuid>d23ceb56-03f9-11ec-a331-026bd313076b</uuid>
+    <ID>414492</ID>
+    <timestamp>2021-10-22T05:07Z</timestamp>
+    <mediaURL/>
+    <name>SW5 SB U1 p019 ex04</name>
+    <xmls/>
+    <screens>
+        <screen>
+            <uuid>32157fcc-60e6-4630-b481-ab9b4730c8a6</uuid>
+            <name>cat671671.xml</name>
+            <metadata>
+                <lom>
+                    <group name="Course + Level"/>
+                    <group name="General"/>
+                    <group name="Detail"/>
+                </lom>
+            </metadata>
+            <helpText/>
+            <resources>
+                <resource>
+                    <identifier>163398</identifier>
+                </resource>
+                <resource>
+                    <identifier>193750</identifier>
+                </resource>
+                <resource>
+                    <identifier>193755</identifier>
+                </resource>
+            </resources>
+        </screen>
+    </screens>
+    <metadata>
+        <lom>
+            <group name="Course + Level"/>
+            <group name="General"/>
+            <group name="Detail"/>
+        </lom>
+    </metadata>
+    <LOOptions>&lt;options data-author="options-v2"&gt;&lt;option id="383"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="433"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="430"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="051"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="311"&gt;&lt;key&gt;always&lt;/key&gt;&lt;/option&gt;&lt;option id="493"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="384"&gt;&lt;key&gt;       {&amp;amp;quot;items&amp;amp;quot;:[{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;}]}   &lt;/key&gt;&lt;/option&gt;&lt;option id="373"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="378"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="047"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="379"&gt;&lt;key&gt;off&lt;/key&gt;&lt;value&gt;{"items":[],"selection":"off"}&lt;/value&gt;&lt;/option&gt;&lt;option id="040"&gt;&lt;key&gt;normal&lt;/key&gt;&lt;/option&gt;&lt;option id="346"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="347"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="348"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="349"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="335"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="342"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="375"&gt;&lt;key&gt;{"items":[]}&lt;/key&gt;&lt;/option&gt;&lt;option id="432"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="025"&gt;&lt;key&gt;true&lt;/key&gt;&lt;/option&gt;&lt;option id="050"&gt;&lt;key&gt;auto&lt;/key&gt;&lt;/option&gt;&lt;option id="428"&gt;&lt;key&gt;off&lt;/key&gt;&lt;value&gt;{"items":[],"selection":"off"}&lt;/value&gt;&lt;/option&gt;&lt;option id="313"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="419"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="317"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="046"&gt;&lt;key&gt;1_point_action&lt;/key&gt;&lt;/option&gt;&lt;option id="449"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="312"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="450"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;option id="388"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="336"&gt;&lt;key&gt;always&lt;/key&gt;&lt;/option&gt;&lt;option id="371"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="334"&gt;&lt;key&gt;afterAll&lt;/key&gt;&lt;value&gt;
+ 
+ 
+  {&amp;amp;quot;items&amp;amp;quot;:[{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;},{&amp;amp;quot;label&amp;amp;quot;:&amp;amp;quot;&amp;amp;quot;}],&amp;amp;quot;selection&amp;amp;quot;:&amp;amp;quot;afterAll&amp;amp;quot;}
+ 
+&lt;/value&gt;&lt;/option&gt;&lt;option id="352"&gt;&lt;key&gt;[]&lt;/key&gt;&lt;/option&gt;&lt;option id="315"&gt;&lt;key&gt;2&lt;/key&gt;&lt;/option&gt;&lt;option id="396"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="351"&gt;&lt;key&gt;[]&lt;/key&gt;&lt;/option&gt;&lt;option id="024"&gt;&lt;key&gt;[]&lt;/key&gt;&lt;/option&gt;&lt;option id="380"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="381"&gt;&lt;key&gt;false&lt;/key&gt;&lt;/option&gt;&lt;option id="385"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="391"&gt;&lt;key&gt;first&lt;/key&gt;&lt;/option&gt;&lt;option id="393"&gt;&lt;key&gt;["2","9"]&lt;/key&gt;&lt;/option&gt;&lt;option id="410"&gt;&lt;key&gt;off&lt;/key&gt;&lt;/option&gt;&lt;option id="418"&gt;&lt;key&gt;["ebook"]&lt;/key&gt;&lt;/option&gt;&lt;option id="528"&gt;&lt;key&gt;on&lt;/key&gt;&lt;/option&gt;&lt;/options&gt;</LOOptions>
+    <skin>RichmondRDPSecondary</skin>
+    <mode>Normal</mode>
+    <title>Listening &amp; Speaking — Activity 4</title>
+    <assetCDNURL>media</assetCDNURL>
+    <type>Standard</type>
+    <toolbeltServer>//avallain-toolbelt-prod.avallain.net</toolbeltServer>
+    <geoGebra>//author-engine-production.avallain.net/geogebra/v5-0-398-0/HTML5/5.0/web/</geoGebra>
+    <mathJAX>//author-engine-production.avallain.net/mathjax/2.7.1/</mathJAX>
+    <tts>
+        <voice>female-1</voice>
+        <service>https://tts.avallain.net/sync_converter</service>
+        <lang/>
+    </tts>
+    <lnrCDNURL>http://lnr-runtime-assets.s3-website-eu-west-1.amazonaws.com</lnrCDNURL>
+    <lnrServer>avallain-lnr-prod.avallain.net</lnrServer>
+    <ckeditorRelative>true</ckeditorRelative>
+    <lang>en</lang>
+    <lmsApis>Console</lmsApis>
+    <maximumscore>6</maximumscore>
+    <engine>
+        <version>buckminster-33.0.6</version>
+        <downloadURL>engine/engine.zip</downloadURL>
+        <root>engine/</root>
+    </engine>
+    <designPack>
+        <version>richmond-rdp-secondary-3.4.1</version>
+        <downloadURL>//author-assets-runtime-ric.avallain.net/designpack/RichmondRDPSecondary_6a77577959a59c8d6480caf2bdbf490a</downloadURL>
+        <root>sk/</root>
+        <type>git</type>
+    </designPack>
+    <resources/>
+    <dependencies/>
+    <profiles/>
+    <assets>
+        <asset>
+            <identifier>163398</identifier>
+            <metadata>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="File information" type="binary">
+                        <item description="Size" title="size" value_type="integer">
+                            <value description="1202189"/>
+                        </item>
+                        <item description="Mime" title="mime" value_type="string">
+                            <value description="audio/mpeg"/>
+                        </item>
+                        <item description="Type" title="type" value_type="string">
+                            <value description="audio"/>
+                        </item>
+                        <item description="Md5 hash" title="md5hash" value_type="string">
+                            <value description="e9bec7a9c16a693fe176633443d32f86"/>
+                        </item>
+                    </group>
+                    <group name="Image information" type="image"/>
+                    <group name="Audio information" type="audio">
+                        <item description="Duration" title="duration" value_type="number">
+                            <value description="60.055"/>
+                        </item>
+                        <item description="Audio bitrate" title="audio_bitrate" value_type="integer">
+                            <value description="160000"/>
+                        </item>
+                        <item description="Audio samplerate" title="audio_samplerate" value_type="integer">
+                            <value description="44100"/>
+                        </item>
+                        <item description="Audio channels" title="audio_channels" value_type="integer">
+                            <value description="2"/>
+                        </item>
+                        <item description="Audio codec" title="audio_codec" value_type="string">
+                            <value description="ffmp3float"/>
+                        </item>
+                    </group>
+                    <group name="Video information" type="video">
+                        <item description="Audio bitrate" title="audio_bitrate" value_type="integer">
+                            <value description="160000"/>
+                        </item>
+                        <item description="Audio samplerate" title="audio_samplerate" value_type="integer">
+                            <value description="44100"/>
+                        </item>
+                        <item description="Audio channels" title="audio_channels" value_type="integer">
+                            <value description="2"/>
+                        </item>
+                        <item description="Audio codec" title="audio_codec" value_type="string">
+                            <value description="ffmp3float"/>
+                        </item>
+                    </group>
+                </lom>
+            </metadata>
+            <filename>Stopwatch Level 5 06 Audio Track.mp3</filename>
+            <name>Stopwatch Level 5 06 Audio Track.mp3</name>
+            <referenceId>S3_163398_Stopwatch_Level_5_06_Audio_Track.orig.mp3</referenceId>
+            <downloadURL>//author-assets-runtime-ric.avallain.net/S3_163398_Stopwatch_Level_5_06_Audio_Track.orig.mp3</downloadURL>
+        </asset>
+        <asset>
+            <identifier>193750</identifier>
+            <metadata>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="File information" type="binary">
+                        <item description="Size" title="size" value_type="integer">
+                            <value description="538208"/>
+                        </item>
+                        <item description="Mime" title="mime" value_type="string">
+                            <value description="image/png"/>
+                        </item>
+                        <item description="Type" title="type" value_type="string">
+                            <value description="image"/>
+                        </item>
+                        <item description="Md5 hash" title="md5hash" value_type="string">
+                            <value description="22af8ebbb4d0919c17c1fa6df611151f"/>
+                        </item>
+                    </group>
+                    <group name="Image information" type="image">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Aspect ratio" title="aspect_ratio" value_type="string">
+                            <value description="1"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/26 03:40:35 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/21 05:45:27 GMT"/>
+                        </item>
+                        <item description="Frame count" title="frame_count" value_type="integer">
+                            <value description="1"/>
+                        </item>
+                        <item description="Colorspace" title="colorspace" value_type="string">
+                            <value description="RGB"/>
+                        </item>
+                        <item description="has_clipping_path" title="has_clipping_path" value_type="boolean">
+                            <value description="f"/>
+                        </item>
+                        <item description="Average color" title="average_color" value_type="string">
+                            <value description="#a1918b"/>
+                        </item>
+                    </group>
+                    <group name="Audio information" type="audio"/>
+                    <group name="Video information" type="video">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/26 03:40:35 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/21 05:45:27 GMT"/>
+                        </item>
+                    </group>
+                </lom>
+            </metadata>
+            <filename>SW5_SB_U1_p019_ex4b.png</filename>
+            <name>SW5_SB_U1_p019_ex4b.png</name>
+            <referenceId>S3_193750_SW5_SB_U1_p019_ex4b.png</referenceId>
+            <downloadURL>//author-assets-runtime-ric.avallain.net/S3_193750_SW5_SB_U1_p019_ex4b.png</downloadURL>
+        </asset>
+        <asset>
+            <identifier>193755</identifier>
+            <metadata>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="Common"/>
+                </lom>
+                <lom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="accordion" xsi:noNamespaceSchemaLocation="lom.xsd">
+                    <group name="File information" type="binary">
+                        <item description="Size" title="size" value_type="integer">
+                            <value description="540971"/>
+                        </item>
+                        <item description="Mime" title="mime" value_type="string">
+                            <value description="image/png"/>
+                        </item>
+                        <item description="Type" title="type" value_type="string">
+                            <value description="image"/>
+                        </item>
+                        <item description="Md5 hash" title="md5hash" value_type="string">
+                            <value description="3a3f18b1679b5f971ebd91bc21962ec9"/>
+                        </item>
+                    </group>
+                    <group name="Image information" type="image">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Aspect ratio" title="aspect_ratio" value_type="string">
+                            <value description="1"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/26 03:39:44 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/21 05:45:26 GMT"/>
+                        </item>
+                        <item description="Frame count" title="frame_count" value_type="integer">
+                            <value description="1"/>
+                        </item>
+                        <item description="Colorspace" title="colorspace" value_type="string">
+                            <value description="RGB"/>
+                        </item>
+                        <item description="has_clipping_path" title="has_clipping_path" value_type="boolean">
+                            <value description="f"/>
+                        </item>
+                        <item description="Average color" title="average_color" value_type="string">
+                            <value description="#c1ac9f"/>
+                        </item>
+                    </group>
+                    <group name="Audio information" type="audio"/>
+                    <group name="Video information" type="video">
+                        <item description="Width" title="width" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Height" title="height" value_type="number">
+                            <value description="750"/>
+                        </item>
+                        <item description="Date file created" title="date_file_created" value_type="string">
+                            <value description="2021/08/26 03:39:44 GMT"/>
+                        </item>
+                        <item description="Date file modified" title="date_file_modified" value_type="string">
+                            <value description="2021/09/21 05:45:26 GMT"/>
+                        </item>
+                    </group>
+                </lom>
+            </metadata>
+            <filename>SW5_SB_U1_p019_ex4a.png</filename>
+            <name>SW5_SB_U1_p019_ex4a.png</name>
+            <referenceId>S3_193755_SW5_SB_U1_p019_ex4a.png</referenceId>
+            <downloadURL>//author-assets-runtime-ric.avallain.net/S3_193755_SW5_SB_U1_p019_ex4a.png</downloadURL>
+        </asset>
+    </assets>
+    <pages/>
+    <solution-pages/>
+    <audio>mp3,oga</audio>
+    <video>webm,mp4</video>
+</LearningObjectInfo>

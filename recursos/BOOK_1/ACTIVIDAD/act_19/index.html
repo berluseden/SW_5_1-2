@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+      A5 = {};
+      A5.LMS_APIS = 'Console';
+      A5.ENGINE_ROOT = 'engine/';
+      A5.SKIN_URL = 'sk/';
+      A5.SKIN_TYPE= 'git';
+      A5.TOOLBELT_URL = '//avallain-toolbelt-prod.avallain.net';
+      A5.GEOGEBRA = '//author-engine-production.avallain.net/geogebra/v5-0-398-0/HTML5/5.0/web/';
+      A5.MATHJAX = '//author-engine-production.avallain.net/mathjax/2.7.1/';
+      A5.CKEDITOR_RELATIVE = true;
+      A5.AUDIO_PREFER_HTML5 = true;
+
+      A5.WIRIS_QUIZ_VALIDATION_SERVICE_URL = '';
+      A5.AUDIO_FORMATS = 'mp3,oga';
+      A5.ITEM_BANK_API_URL = '-';
+      A5.WIRIS_QUIZ_LIBRARY_RESOURCES_URL = '//author-engine-production.avallain.net/wirisquiz/4.2.2/resources';
+      A5.VIDEO_FORMATS = 'webm,mp4';
+      
+      A5.AUDIO_URL_BUILDER = function(id, format) {
+		var cdn = (id.indexOf("r5_") === 0 ? "http://lnr-runtime-assets.s3-website-eu-west-1.amazonaws.com" : "media");
+		return cdn + "/" + id + "." + format;
+      };
+      
+      A5.VIDEO_URL_BUILDER = function(id, format){
+    	  if (format=='hls') {
+			return "media/" + id + "/hls_playlist.m3u8";
+   		  } else {
+   			return "media/" + id + "." + format;
+   		  } 
+      };
+        
+      
+    </script>
+    <script type="text/javascript" src="data.js"></script>
+
+    <title>Grammar — Activity 3</title>
+
+    <script type="text/javascript">
+      function a5_init($) {
+        
+        window.LOInfo = {};
+        
+        window.LOInfo.assessmentOptions = ''
+        window.LOInfo.LOOptions = '<options data-author="options-v2"><option id="383"><key>off</key></option><option id="433"><key>off</key></option><option id="430"><key>off</key></option><option id="051"><key>false</key></option><option id="311"><key>always</key></option><option id="493"><key>off</key></option><option id="384"><key>       {&amp;quot;items&amp;quot;:[{&amp;quot;label&amp;quot;:&amp;quot;&amp;quot;}]}   </key></option><option id="373"><key>off</key></option><option id="378"><key>off</key></option><option id="047"><key>false</key></option><option id="379"><key>off</key><value>{"items":[],"selection":"off"}</value></option><option id="040"><key>normal</key></option><option id="346"><key>false</key></option><option id="347"><key>false</key></option><option id="348"><key>false</key></option><option id="349"><key>false</key></option><option id="335"><key>on</key></option><option id="342"><key>off</key></option><option id="375"><key>{"items":[]}</key></option><option id="432"><key>on</key></option><option id="025"><key>true</key></option><option id="050"><key>auto</key></option><option id="428"><key>off</key><value>{"items":[],"selection":"off"}</value></option><option id="313"><key>on</key></option><option id="419"><key>on</key></option><option id="317"><key>false</key></option><option id="046"><key>1_point_action</key></option><option id="449"><key>off</key></option><option id="312"><key>on</key></option><option id="450"><key>on</key></option><option id="388"><key>off</key></option><option id="336"><key>always</key></option><option id="371"><key>off</key></option><option id="334"><key>off</key><value>       {&amp;quot;items&amp;quot;:[],&amp;quot;selection&amp;quot;:&amp;quot;off&amp;quot;}   </value></option><option id="352"><key>[]</key></option><option id="315"><key>2</key></option><option id="396"><key>off</key></option><option id="351"><key>[]</key></option><option id="024"><key>[]</key></option><option id="380"><key>false</key></option><option id="381"><key>false</key></option><option id="385"><key>off</key></option><option id="391"><key>first</key></option><option id="393"><key>["2","9"]</key></option><option id="410"><key>off</key></option><option id="418"><key>["ebook"]</key></option><option id="528"><key>on</key></option></options>';
+        window.LOInfo.mode = 'Normal';
+        window.LOInfo.title = 'Grammar — Activity 3';
+        
+          window.LOInfo.lotype = 'Standard';
+          window.LOInfo.mediaURL = '';
+          window.LOInfo.toolBeltURL = '//avallain-toolbelt-prod.avallain.net';
+          window.LOInfo.commServer = '{&#13;&#10;  red5: &quot;avallain-lnr-prod.avallain.net&quot;,&#13;&#10;  cdn: &quot;http://lnr-runtime-assets.s3-website-eu-west-1.amazonaws.com&quot;&#13;&#10;}';
+          window.LOInfo.UID = 'ric-prod_414345';
+          window.LOInfo.geoGebra = '//author-engine-production.avallain.net/geogebra/v5-0-398-0/HTML5/5.0/web/';
+          window.LOInfo.assetCDNURL = 'https://author-assets-runtime-ric.avallain.net';
+          window.LOInfo.name = 'SW5 SB U1 p016 ex03 (2 parts)';
+          window.LOInfo.mathJAX = '//author-engine-production.avallain.net/mathjax/2.7.1/';
+          window.LOInfo.ID = '414345';
+          window.LOInfo.lang = 'en';
+        
+       	var engine = new a5.Engine();
+        engine.initialize();
+      }
+
+    </script>
+    <style>  
+      html, body { 
+        height:100%;
+        margin:0;
+        padding:0;
+        border:0;
+      }
+      
+      .spinner {
+  display: none !important; /* Engine Overwrite */
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.loader svg {
+  width: 80px;
+  height: 80px;
+  animation: rotate 2s linear infinite;
+}
+
+.loader circle {
+  stroke: #cacecf;
+  stroke-linecap: round;
+  animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="loader">
+  <svg viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="20" fill="none" stroke-width="4"></circle>
+  </svg>
+</div>
+  
+    <script type="text/javascript" src="engine/player.js"></script>
+    <script>
+      window.onload=function() {
+        a5_init(jQuery)
+      };
+    </script>
+ 
+  </body>
+</html>

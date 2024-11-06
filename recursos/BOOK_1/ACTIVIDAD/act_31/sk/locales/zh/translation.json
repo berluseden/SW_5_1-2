@@ -1,0 +1,1421 @@
+{
+  "annotations": {
+    "toolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "打开工具"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "关闭工具"
+        },
+        "pointer": {
+          "label": "",
+          "description": "指示棒"
+        },
+        "pen": {
+          "label": "",
+          "description": "铅笔"
+        },
+        "brush": {
+          "label": "",
+          "description": "荧光笔"
+        },
+        "eraser": {
+          "label": "",
+          "description": "橡皮擦"
+        },
+        "stickyNotes": {
+          "label": "",
+          "description": "便利贴"
+        },
+        "undo": {
+          "label": "",
+          "description": "撤销"
+        },
+        "redo": {
+          "label": "",
+          "description": "重做"
+        },
+        "visibilityHiddenTurnOn": {
+          "label": "",
+          "description": "隐藏批注"
+        },
+        "visibilityHiddenTurnOff": {
+          "label": "",
+          "description": "显示批注"
+        }
+      }
+    },
+    "stickyNote": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "折叠"
+        },
+        "expand": {
+          "label": "",
+          "description": "展开注释"
+        },
+        "delete": {
+          "label": "",
+          "description": "删除注释"
+        }
+      }
+    },
+    "timer": {
+      "title": "计时器",
+      "minutes": "分钟",
+      "seconds": "秒",
+      "display": "Minutes:Seconds",
+      "button": {
+        "close": {
+          "label": "关闭",
+          "description": "关闭计时器"
+        },
+        "start": {
+          "label": "开始",
+          "description": "启动计时器"
+        },
+        "stop": {
+          "label": "停止",
+          "description": "停止计时器"
+        }
+      }
+    }
+  },
+  "body": {
+    "brand": "Avallain",
+    "timer": {
+      "label": "剩余时间：",
+      "negative": "-",
+      "minutes": "分",
+      "minutes_plural": "分钟",
+      "seconds": "秒",
+      "seconds_plural": "秒",
+      "extra": "其它",
+      "extra_plural": "其它",
+      "left": "左侧",
+      "left_plural": "左侧"
+    },
+    "loToolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "选项",
+          "description": "打开关联菜单"
+        },
+        "toggleTurnOff": {
+          "label": "选项",
+          "description": "关闭关联菜单"
+        }
+      }
+    },
+    "button": {
+      "close": {
+        "label": "",
+        "description": "关闭"
+      }
+    }
+  },
+  "contentElements": {
+    "icTextCorrectionDialog": {
+      "titlePrefix": "替换：",
+      "placeholder": "书写正确的词",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        },
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(dialog.shared.button.ok.label)",
+          "description": "$t(dialog.shared.button.ok.description)"
+        }
+      }
+    },
+    "imColouring": {
+      "button": {
+        "highlighter": {
+          "description": "荧光笔颜色"
+        }
+      }
+    },
+    "languageSwitcher": {
+      "button": {
+        "language": {
+          "label": "语言",
+          "description": "语言切换器"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "volumeStair": {
+        "prefix": "音量",
+        "suffix": ""
+      },
+      "button": {
+        "play": {
+          "label": "",
+          "description": "播放"
+        },
+        "pause": {
+          "label": "",
+          "description": "暂停"
+        },
+        "volume": {
+          "label": "",
+          "description": "调整音量"
+        },
+        "mute": {
+          "label": "",
+          "description": "静音"
+        },
+        "speed": {
+          "label": "",
+          "description": "播放速度"
+        },
+        "playbackSpeed1": {
+          "label": "0.5倍",
+          "description": "0.5倍速度播放"
+        },
+        "playbackSpeed2": {
+          "label": "1 倍",
+          "description": "1倍速度播放"
+        },
+        "playbackSpeed3": {
+          "label": "1.5倍",
+          "description": "1.5倍速度播放"
+        },
+        "playbackSpeed4": {
+          "label": "2x",
+          "description": "2倍速度播放"
+        },
+        "transcriptTurnOn": {
+          "label": "",
+          "description": "显示脚本"
+        },
+        "transcriptTurnOff": {
+          "label": "",
+          "description": "隐藏脚本"
+        },
+        "subtitlesTurnOn": {
+          "label": "",
+          "description": "显示字幕"
+        },
+        "subtitlesTurnOff": {
+          "label": "",
+          "description": "隐藏字幕"
+        },
+        "quality": {
+          "label": "",
+          "description": "质量"
+        },
+        "qualityAuto": {
+          "label": "自动",
+          "description": "自动"
+        },
+        "fullscreenTurnOn": {
+          "label": "",
+          "description": "切换全屏"
+        },
+        "fullscreenTurnOff": {
+          "label": "",
+          "description": "退出全屏"
+        }
+      }
+    },
+    "writing": {
+      "button": {
+        "showAll": {
+          "label": "显示全部",
+          "description": ""
+        }
+      }
+    }
+  },
+  "controls": {
+    "bar": {
+      "pagination": {
+        "index": {
+          "prefix": "页码：",
+          "conjunction": "/",
+          "suffix": ""
+        },
+        "current": {
+          "description": "当前页面"
+        }
+      },
+      "runningScore": {
+        "prefix": "评分",
+        "conjunction": "/",
+        "suffix": "分数"
+      },
+      "button": {
+        "previous": {
+          "label": "后退",
+          "description": "返回上一页"
+        },
+        "forward": {
+          "label": "继续",
+          "description": "进入下一页"
+        },
+        "previousLO": {
+          "label": "上一个活动",
+          "description": "前往上一个活动"
+        },
+        "forwardLO": {
+          "label": "下一个活动",
+          "description": "前往下一个活动"
+        },
+        "rights": {
+          "label": "权利",
+          "description": "打开权利内容"
+        },
+        "signalShow": {
+          "label": "显示错误的单词",
+          "description": "显示错误的单词"
+        },
+        "signalHide": {
+          "label": "隐藏错误的单词",
+          "description": "隐藏错误的单词"
+        },
+        "answerNext": {
+          "label": "下一个回答",
+          "description": "显示下一个回答"
+        },
+        "answerAll": {
+          "label": "全部回答",
+          "description": "显示全部回答"
+        },
+        "solutionHint": {
+          "label": "解决方案提示",
+          "description": "显示解决方案提示"
+        },
+        "retry": {
+          "label": "重试",
+          "description": "清除回答"
+        },
+        "reveal": {
+          "label": "俯摄",
+          "description": "显示隐藏的项目"
+        },
+        "hide": {
+          "label": "隐藏",
+          "description": "隐藏显示的项目"
+        },
+        "save": {
+          "label": "保存",
+          "description": "保存您的作业"
+        },
+        "boxdrop": {
+          "label": "拖动！",
+          "description": "拖动当前框"
+        },
+        "boxdropPause": {
+          "label": "暂停",
+          "description": "暂停活动"
+        },
+        "boxdropResume": {
+          "label": "恢复",
+          "description": "恢复活动"
+        },
+        "quizNew": {
+          "label": "新游戏",
+          "description": "用新问题重新开始游戏"
+        },
+        "quizRestart": {
+          "label": "重新开始游戏",
+          "description": "用相同问题重新开始游戏"
+        },
+        "quizSkip": {
+          "label": "跳过问题",
+          "description": "跳过问题，结束循环"
+        },
+        "quizBack": {
+          "label": "后退",
+          "description": "进入游戏板块"
+        },
+        "loNotes": {
+          "label": "备注",
+          "description": "显示注释"
+        },
+        "micSettings": {
+          "label": "麦克风设置",
+          "description": "打开麦克风设置"
+        },
+        "specialChars": {
+          "label": "特殊字符",
+          "description": "打开特殊字符选择器"
+        },
+        "export": {
+          "label": "导出",
+          "description": "导出活动"
+        },
+        "imProofingHint": {
+          "label": "提示",
+          "description": "给我一个提示"
+        },
+        "hints": {
+          "label": "第一个提示",
+          "description": "给我一个提示"
+        },
+        "hintsSecond": {
+          "label": "第二个提示"
+        },
+        "hintsThird": {
+          "label": "第三个提示"
+        },
+        "help": {
+          "label": "帮助",
+          "description": "显示活动帮助"
+        },
+        "answers": {
+          "label": "显示答案",
+          "description": "显示正确答案"
+        },
+        "check": {
+          "label": "检查答案选择答案",
+          "description": "提交答案，以便标记"
+        },
+        "reset": {
+          "label": "清除",
+          "description": "清除您的答案"
+        },
+        "resetAll": {
+          "label": "全部清除",
+          "description": "清除所有答案"
+        },
+        "fullscreenTurnOn": {
+          "label": "全屏",
+          "description": "切换全屏"
+        },
+        "fullscreenTurnOff": {
+          "label": "全屏",
+          "description": "退出全屏"
+        },
+        "toc": {
+          "label": "目录",
+          "description": "切换目录"
+        },
+        "results": {
+          "label": "结果",
+          "description": "显示结果"
+        },
+        "sectionTimes": {
+          "label": "花费时间",
+          "description": "查看各章建议的时间与实际花费的时间"
+        },
+        "sendscores": {
+          "label": "发送分数",
+          "description": "发送分数"
+        },
+        "exercises": {
+          "label": "检查",
+          "description": "检查您的答案"
+        },
+        "submit": {
+          "label": "提交",
+          "description": "提交到成绩簿"
+        }
+      }
+    }
+  },
+  "check": {
+    "correct": {
+      "description": "正确答案"
+    },
+    "wrong": {
+      "description": "错误答案"
+    },
+    "revealed": {
+      "description": "清空答案"
+    }
+  },
+  "dialog": {
+    "shared": {
+      "confirmation": "您确定吗？",
+      "results": "您是怎么做的？",
+      "feedback": "反馈",
+      "score": {
+        "prefix": "您的得分",
+        "conjunction": "……./……"
+      },
+      "button": {
+        "cancel": {
+          "label": "取消",
+          "description": "继续（不作更改）"
+        },
+        "close": {
+          "label": "关闭",
+          "description": "关闭本次对话"
+        },
+        "ok": {
+          "label": "应用",
+          "description": "执行更改"
+        },
+        "continue": {
+          "label": "继续",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "autoEndResults": {
+      "title": "$t(dialog.shared.results)",
+      "body": "$t(dialog.shared.score.prefix) {{correct}} $t(dialog.shared.score.conjunction) {{total}}.",
+      "automaticmarked": "百分比：{{score}}%。",
+      "table": {
+        "header": {
+          "question": "问题",
+          "mark": "分数"
+        },
+        "body": {
+          "mark": "{{correct}} out of {{total}}"
+        }
+      },
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.continue.label)",
+          "description": "$t(dialog.shared.button.continue.description)"
+        }
+      }
+    },
+    "checkedAnswers": {
+      "title": "$t(dialog.shared.feedback)",
+      "body": "$t(dialog.shared.score.prefix) {{correct}} $t(dialog.shared.score.conjunction) {{total}}.",
+      "button": {
+        "tryAgain": {
+          "label": "$t(controls.bar.button.retry.label)",
+          "description": "$t(controls.bar.button.retry.description)"
+        },
+        "submit": {
+          "label": "$t(controls.bar.button.submit.label)",
+          "description": "$t(controls.bar.button.submit.description)"
+        },
+        "next": {
+          "label": "$t(controls.bar.button.forward.label)",
+          "description": "$t(controls.bar.button.forward.description)"
+        }
+      }
+    },
+    "checkInfo": {
+      "title": "$t(dialog.shared.results)",
+      "body": "$t(dialog.shared.score.prefix) <span class=\"checkInfo__score\">{{correct}} $t(dialog.shared.score.conjunction) {{total}}</span>",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "feedbackText": {
+      "title": "",
+      "button": {
+        "close": {
+          "label": "了解",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "imMarkingLettersSelect": {
+      "title": "选择一个或多个字母"
+    },
+    "imVoiceNoMatch": {
+      "title": "录制不匹配",
+      "body": "您的录制与所有文本都不匹配。请录一条新录制。"
+    },
+    "isRadiobuttonVoiceNoMatch": {
+      "title": "录制不匹配",
+      "body": "您的录制与所有可用答案都不匹配。请录一条新录制。"
+    },
+    "micNotFound": {
+      "title": "未找到麦克风",
+      "body": "请启用一个麦克风。这是本活动所必须的。"
+    },
+    "testRecording": {
+      "title": "测试录制",
+      "body": "您可以在下方制作一条测试录制，测试您的麦克风。回听您的录制，确保麦克风正常工作。",
+      "button": {
+        "record": {
+          "label": "录制",
+          "description": "录制测试"
+        },
+        "stopRecording": {
+          "label": "录制",
+          "description": "停止录制"
+        },
+        "play": {
+          "label": "播放",
+          "description": "回放您的录制"
+        },
+        "stopPlay": {
+          "label": "播放",
+          "description": "停止回放"
+        }
+      },
+      "discard": "请勿再次显示。"
+    },
+    "close": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "您真的想要关闭本学习对象吗？",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "保持打开"
+        },
+        "ok": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "是的，我想要关闭"
+        }
+      }
+    },
+    "delayedFeedback": {
+      "title": "$t(dialog.shared.feedback)",
+      "body": "本活动将在另一页中打分。请继续。",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "exportAs": {
+      "title": "导出为",
+      "body": "",
+      "filename": "文件名",
+      "formatDivider": "。",
+      "formatList": {
+        "label": "选择文件格式",
+        "pdf": "PDF格式",
+        "rtf": "rtf格式"
+      },
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.export.label)",
+          "description": "$t(dialog.exportAs.title)"
+        }
+      }
+    },
+    "flashFirstAnswersOverlay": {
+      "title": "第一个答案"
+    },
+    "helpText": {
+      "title": "帮助",
+      "body": "您可以通过以下路径编辑文本：作者 > 活动项目 > 选择AT > 编辑 > 帮助文本。",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "hint": {
+      "title": "提示",
+      "body": "",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "infoText": {
+      "title": "信息",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "transcript": {
+        "title": "脚本"
+      }
+    },
+    "notebook": {
+      "title": "笔记本"
+    },
+    "offlineCheck": {
+      "title": "无连接",
+      "body": "似乎当前没有网络连接。<br>您只有联网后才可以提交作品，所以请检查网络连接，再重试。",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "ppQuizTeamSelect": {
+      "title": "团队数",
+      "body": "选择您的测验团队编号。",
+      "button": {
+        "ok": {
+          "label": "开始",
+          "description": "开始游戏"
+        }
+      },
+      "teams": "团队："
+    },
+    "reallyReload": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "您想要清除您对本活动的答案，重新开始吗？",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.reset.label)",
+          "description": "$t(controls.bar.button.reset.description)"
+        }
+      }
+    },
+    "reallyReloadAll": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "您想要清除您对<strong>每个活动</strong>的所有答案，重新开始吗？",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.resetAll.label)",
+          "description": "$t(controls.bar.button.resetAll.description)"
+        }
+      }
+    },
+    "reallySubmit": {
+      "title": "您确定要提交吗？",
+      "body": "您尚未完成所有问题。<br>您确定要现在提交您的分数吗？",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "继续但不提交"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.submit.label)",
+          "description": "提交结果"
+        }
+      }
+    },
+    "recordingError": {
+      "title": "录制发生问题",
+      "body": "发生技术问题，本次录制已停止。请重试。"
+    },
+    "recordingSaveAs": {
+      "title": "下载为",
+      "body": "",
+      "format": ".mp3",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "下载",
+          "description": "下载音频"
+        }
+      }
+    },
+    "rights": {
+      "title": "$t(controls.bar.button.rights.label)",
+      "body": ""
+    },
+    "seeAnswersAfterCheck": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "您确定现在想要查看答案吗？<br>您无法再试一次。",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "继续",
+          "description": "显示答案"
+        }
+      }
+    },
+    "seeAnswersBeforeCheck": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "您确定现在想要查看答案吗？<br>您将接收本活动的0分。",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(dialog.seeAnswersAfterCheck.button.ok.label)",
+          "description": "$t(dialog.seeAnswersAfterCheck.button.ok.description)"
+        }
+      }
+    },
+    "sendScores": {
+      "title": "$t(controls.bar.button.sendscores.label)",
+      "body": "确保您已点击每个活动的<q>$t(controls.bar.button.check.label)</q>。",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.continue.label)",
+          "description": "$t(dialog.shared.button.continue.description)"
+        }
+      }
+    },
+    "sendScoresInfo": {
+      "title": "$t(controls.bar.button.sendscores.label)",
+      "body": "您的结果已发送到记分簿。",
+      "score": "$t(dialog.shared.score.prefix) {{correct}} $t(dialog.shared.score.conjunction) {{total}}."
+    },
+    "specialCharacters": {
+      "title": "$t(controls.bar.button.specialChars.label)",
+      "body": "",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "submitFinish": {
+      "title": "已完成",
+      "body": "太棒了！您已完成本次练习。"
+    },
+    "submitInfo": {
+      "title": "已提交",
+      "body": "<h2>$t(dialog.shared.score.prefix)</h2><strong>{{correct}}/{{total}}</strong>",
+      "answers": "答案",
+      "correct": "正确",
+      "score": "评分",
+      "maxAttempts": {
+        "singular": "",
+        "plural": {
+          "attemptsLeft": {
+            "none": "您已没有再次尝试的机会。",
+            "singular": "您可以做的更好，但是您只剩一次机会了。请返回并按<q>$t(controls.bar.button.retry.label)</q>",
+            "plural": "您还有{{attemptsLeft}} 尝试的机会。请返回并按<q>$t(controls.bar.button.retry.label)</q>，继续练习。"
+          }
+        },
+        "unlimited": "这是您的机会次数{{attempts}}。返回并按<q>$t(controls.bar.button.retry.label)</q>，继续练习。"
+      },
+      "button": {
+        "close": {
+          "label": "检查答案",
+          "description": "关闭对话并检查答案"
+        }
+      }
+    },
+    "tableOfContents": {
+      "title": "选择活动",
+      "empty": "无显示条目。",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        }
+      }
+    },
+    "teamsFinalScoreboard": {
+      "title": "最终计分牌"
+    },
+    "teamsScoreboard": {
+      "title": "记分牌"
+    },
+    "timeSpentInSections": {
+      "title": "花费时间",
+      "table": {
+        "header": {
+          "section": "部分",
+          "recommended": "推荐",
+          "spent": "花费时间"
+        },
+        "body": {
+          "total": "总计"
+        }
+      }
+    },
+    "timeOut": {
+      "title": "时间到!",
+      "body": "您的时间已到！",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.continue.label)",
+          "description": "$t(dialog.shared.button.continue.description)"
+        },
+        "submit": {
+          "label": "$t(controls.bar.button.submit.label)",
+          "description": "$t(controls.bar.button.submit.description)"
+        }
+      }
+    },
+    "unsupportedDevice": {
+      "title": "不支持的设备",
+      "body": "此设备不支持本活动。请切换到桌面设备，完成全部。"
+    }
+  },
+  "export": {
+    "extendedWriting": {
+      "student": "姓名：",
+      "class": "班级：",
+      "title": "标题："
+    }
+  },
+  "interaction": {
+    "shared": {
+      "answerCheckTooltipPrefix": "您的答案：",
+      "prefilled": "预填答案",
+      "toolbar": {
+        "button": {
+          "eraser": {
+            "label": "橡皮擦",
+            "description": "白板笔"
+          }
+        }
+      },
+      "errorCounter": {
+        "body": "<span class=\"errorCounter__counter errorCounter__counter--correct\">{{correct}}</span>/<span class=\"errorCounter__counter errorCounter__counter--total\">{{errors}}</span>错误"
+      }
+    },
+    "dialogueRecording": {
+      "button": {
+        "settings": {
+          "label": "选项",
+          "description": "对话框选项"
+        },
+        "hideTurnOn": {
+          "label": "隐藏我的线条",
+          "description": "隐藏我的线条"
+        },
+        "hideTurnOff": {
+          "label": "隐藏我的线条",
+          "description": "显示我的线条"
+        },
+        "hideAllTurnOn": {
+          "label": "隐藏所有线条",
+          "description": "隐藏所有线条"
+        },
+        "hideAllTurnOff": {
+          "label": "隐藏所有线条",
+          "description": "显示所有线条"
+        },
+        "download": {
+          "label": "下载",
+          "description": "下载全部"
+        }
+      }
+    },
+    "icTextGap": {
+      "input": {
+        "description": "空白输入"
+      }
+    },
+    "imProofing": {
+      "correctionPopup": {
+        "title": {
+          "insert": "插入",
+          "spelling": "拼写:",
+          "grammar": "语法："
+        },
+        "placeholder": "输入插入内容",
+        "button": {
+          "close": {
+            "label": "$t(dialog.shared.button.close.label)",
+            "description": "$t(dialog.shared.button.close.description)"
+          },
+          "ok": {
+            "label": "$t(dialog.shared.button.ok.label)",
+            "description": "$t(dialog.shared.button.ok.description)"
+          }
+        }
+      },
+      "toolbar": {
+        "button": {
+          "toggle": {
+            "label": "校对得分",
+            "description": "校对得分"
+          },
+          "eraser": {
+            "label": "$t(interaction.shared.toolbar.button.eraser.label)",
+            "description": "$t(interaction.shared.toolbar.button.eraser.description)"
+          },
+          "capitalize": {
+            "label": "用大写字母",
+            "description": "用大写字母"
+          },
+          "lowercase": {
+            "label": "用小写字母",
+            "description": "用小写字母"
+          },
+          "fullStop": {
+            "label": "添加句点",
+            "description": "添加句点"
+          },
+          "insert": {
+            "label": "插入",
+            "description": "插入"
+          },
+          "remove": {
+            "label": "移除",
+            "description": "移除"
+          },
+          "newParagraph": {
+            "label": "新段落",
+            "description": "新段落"
+          },
+          "spelling": {
+            "label": "拼写",
+            "description": "拼写"
+          },
+          "grammar": {
+            "label": "语法",
+            "description": "语法"
+          },
+          "indent": {
+            "label": "缩进",
+            "description": "缩进"
+          }
+        }
+      }
+    },
+    "linkingMultipleLines": {
+      "keyTable": {
+        "key": {
+          "prefiled": "预填写",
+          "correct": "正确",
+          "wrong": "错误",
+          "missing": "缺失"
+        },
+        "checkbox": "不再显示",
+        "button": {
+          "close": {
+            "label": "关闭",
+            "description": "关闭键表"
+          }
+        }
+      }
+    },
+    "ppQuiz": {
+      "board": {
+        "team": "团队{{label}}",
+        "points": "分数",
+        "categories": "类别"
+      },
+      "gameOver": {
+        "team": "$t(interaction.ppQuiz.board.team)",
+        "winners": {
+          "conjunction": "与",
+          "suffix": "胜利",
+          "suffix_plural": "胜利"
+        },
+        "greeting": "祝贺大家！"
+      },
+      "team": {
+        "team": "$t(interaction.ppQuiz.board.team)"
+      }
+    },
+    "speakingRecording": {
+      "button": {
+        "listen": {
+          "label": "",
+          "description": "倾听"
+        },
+        "pause": {
+          "label": "",
+          "description": "暂停收听"
+        },
+        "stopListen": {
+          "label": "",
+          "description": "停止收听"
+        },
+        "record": {
+          "label": "录制",
+          "description": "录制音频"
+        },
+        "pauseRecording": {
+          "label": "",
+          "description": "暂停录制"
+        },
+        "stopRecording": {
+          "label": "",
+          "description": "停止录制"
+        },
+        "speak": {
+          "label": "录制",
+          "description": "$t(interaction.speakingRecording.button.record.description)"
+        },
+        "stopSpeaking": {
+          "label": "$t(interaction.speakingRecording.button.speak.label)",
+          "description": "$t(interaction.speakingRecording.button.stopRecording.description)"
+        },
+        "finish": {
+          "label": "",
+          "description": "完成录制"
+        },
+        "play": {
+          "label": "播放",
+          "description": "播放录制"
+        },
+        "stopPlay": {
+          "label": "",
+          "description": "停止录制"
+        },
+        "download": {
+          "label": "",
+          "description": "下载录制"
+        }
+      },
+      "playAll": {
+        "button": {
+          "play": {
+            "label": "播放对话",
+            "description": ""
+          },
+          "pause": {
+            "label": "$t(interaction.speakingRecording.playAll.button.play.label)",
+            "description": "暂停"
+          },
+          "stop": {
+            "label": "",
+            "description": "停止"
+          },
+          "prev": {
+            "label": "",
+            "description": "上一页"
+          },
+          "next": {
+            "label": "",
+            "description": "下一步"
+          }
+        }
+      }
+    },
+    "icCrossword": {
+      "clues": {
+        "title": "线索",
+        "horizontal": "横向",
+        "vertical": "向下"
+      },
+      "cell": {
+        "letter": "单词的",
+        "word": "...个单词",
+        "down": "，向下。",
+        "across": "，横向"
+      }
+    },
+    "icTextCorrection": {
+      "button": {
+        "reset": {
+          "label": "重置",
+          "description": "重置句子"
+        }
+      }
+    },
+    "isHangman": {
+      "lifeFeedback": {
+        "body": "{{remaining}} 剩余尝试次数"
+      }
+    },
+    "isCatch": {
+      "gameOver": {
+        "title": "游戏结束！",
+        "body": "游戏已结束。<br>点击<q>$t(interaction.isCatch.gameOver.button.ok.label)</q> 继续。",
+        "button": {
+          "ok": {
+            "label": "$t(dialog.shared.button.continue.label)",
+            "description": "$t(dialog.shared.button.continue.description)"
+          }
+        }
+      },
+      "scoreboard": {
+        "time": "时间：",
+        "points": "要点："
+      },
+      "timeUp": {
+        "title": "$t(dialog.timeOut.title)",
+        "body": "您已超时！<br>点击<q>$t(interaction.isCatch.timeUp.button.ok.label)</q>继续。",
+        "button": {
+          "ok": {
+            "label": "$t(dialog.shared.button.continue.label)",
+            "description": "$t(dialog.shared.button.continue.description)"
+          }
+        }
+      }
+    },
+    "isCheckbox": {
+      "group": {
+        "description": "可能的答案"
+      }
+    },
+    "isRadioButton": {
+      "group": {
+        "description": "可能的答案"
+      }
+    },
+    "ppSlideshowToolbar": {
+      "button": {
+        "previous": {
+          "label": "上一步",
+          "description": "上一步"
+        },
+        "next": {
+          "label": "下一步",
+          "description": "下一步"
+        },
+        "first": {
+          "label": "去第一个",
+          "description": "去第一个"
+        },
+        "last": {
+          "label": "去最后一个",
+          "description": "去最后一个"
+        },
+        "play": {
+          "label": "播放",
+          "description": "播放"
+        },
+        "pause": {
+          "label": "暂停",
+          "description": "暂停"
+        },
+        "decreaseDelay": {
+          "label": "-",
+          "description": "减小延迟"
+        },
+        "increaseDelay": {
+          "label": "+",
+          "description": "增加延迟"
+        },
+        "shuffleOrder": {
+          "label": "随机",
+          "description": "随机"
+        },
+        "defaultOrder": {
+          "label": "随机顺序",
+          "description": "随机顺序"
+        },
+        "show": {
+          "label": "显示",
+          "description": "显示接码"
+        },
+        "hide": {
+          "label": "隐藏",
+          "description": "隐藏接码"
+        }
+      }
+    },
+    "syllabify": {
+      "answerCheckTooltipPrefix": "$t(interaction.shared.answerCheckTooltipPrefix)"
+    }
+  },
+  "loToolbar": {
+    "notes": {
+      "notesArea": {
+        "button": {
+          "toggle": {
+            "label": "您的注释",
+            "description": ""
+          }
+        }
+      },
+      "notesBox": {
+        "empty": "您未对本次活动做任何注释。点击【添加新注释】开始。",
+        "confirmation": "您确定想要擦除本次活动的所有注释吗？",
+        "button": {
+          "new": {
+            "label": "添加新注释",
+            "description": "新建注释"
+          },
+          "send": {
+            "label": "发送全部",
+            "description": "发送全部注释"
+          },
+          "print": {
+            "label": "打印全部",
+            "description": "打印全部注释"
+          },
+          "erase": {
+            "label": "擦除全部",
+            "description": "擦除全部注释"
+          },
+          "cancel": {
+            "label": "$t(dialog.shared.button.cancel.label)",
+            "description": "$t(dialog.shared.button.cancel.description)"
+          },
+          "ok": {
+            "label": "$t(contentElements.notes.notesBox.button.erase.label)",
+            "description": "$t(contentElements.notes.notesBox.button.erase.description)"
+          }
+        }
+      },
+      "oneNote": {
+        "defaultName": "未命名注释1",
+        "lastEdited": "最新编辑：",
+        "undefined": "未定义",
+        "button": {
+          "toggle": {
+            "label": "选项",
+            "description": ""
+          },
+          "new": {
+            "label": "$t(contentElements.notes.notesBox.button.new.label)",
+            "description": "$t(contentElements.notes.notesBox.button.new.description)"
+          },
+          "send": {
+            "label": "发送",
+            "description": "发送注释"
+          },
+          "print": {
+            "label": "打印",
+            "description": "打印注释"
+          },
+          "erase": {
+            "label": "清除",
+            "description": "擦除注释"
+          }
+        }
+      }
+    },
+    "print": {
+      "button": {
+        "label": "打印",
+        "description": "打印此活动"
+      }
+    },
+    "toggleableMedia": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "线索",
+          "description": "打开线索面板"
+        },
+        "toggleTurnOff": {
+          "label": "线索",
+          "description": "关闭线索面板"
+        }
+      }
+    }
+  },
+  "mediaExpand": {
+    "image": {
+      "button": {
+        "expandTurnOn": {
+          "label": "",
+          "description": "最大化图像"
+        },
+        "expandTurnOff": {
+          "label": "",
+          "description": "最小化图像"
+        }
+      },
+      "dialog": {
+        "button": {
+          "close": {
+            "label": "$t(dialog.shared.button.close.label)",
+            "description": "$t(dialog.shared.button.close.description)"
+          }
+        }
+      }
+    }
+  },
+  "notebook": {
+    "button": {
+      "export": {
+        "label": "导出",
+        "description": "导出注释"
+      }
+    }
+  },
+  "osSorting": {
+    "category": {
+      "counter": {
+        "description": "项目数量"
+      },
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "展开"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "最小化"
+        }
+      }
+    }
+  },
+  "pool": {
+    "description": {
+      "input": "从答案中选择",
+      "order": "将这些答案放在正确的位置"
+    },
+    "freeControls": {
+      "button": {
+        "handle": {
+          "label": "",
+          "description": "拖动词库"
+        },
+        "dock": {
+          "label": "停靠",
+          "description": "重置位置"
+        }
+      }
+    }
+  },
+  "radioAccordion": {
+    "question": "问题{{-enum}}",
+    "openAlert": {
+      "question": "您正在回答问题{{-enum}}。"
+    }
+  },
+  "tabsPanel": {
+    "enumQuestion": "问题",
+    "question": "问题{{index}}",
+    "openAlert": {
+      "enumQuestion": "您正在回答问题",
+      "question": "$t(tabsPanel.openAlert.enumQuestion){{index}}"
+    }
+  },
+  "textInput": {
+    "count": {
+      "chars": {
+        "label": "字符",
+        "description": "计数器显示输入字符数"
+      },
+      "words": {
+        "label": "文字",
+        "description": "计数器显示输入字数"
+      },
+      "minChars": {
+        "label": "剩余字符",
+        "description": "调低计数器以显示何时达到最少字符数"
+      },
+      "minWords": {
+        "label": "剩余字数",
+        "description": "调低计数器以显示何时达到最少字数"
+      },
+      "maxChars": {
+        "label": "剩余字符",
+        "description": "调低计数器以显示何时达到最大字符数"
+      },
+      "maxWords": {
+        "label": "剩余字数",
+        "description": "调低计数器以显示何时达到最大字数"
+      }
+    }
+  },
+  "userSelection": {
+    "selector": {
+      "type": "测试类型：",
+      "number": "问题数目："
+    },
+    "button": {
+      "continue": {
+        "label": "确认",
+        "description": "开始活动"
+      }
+    }
+  }
+}

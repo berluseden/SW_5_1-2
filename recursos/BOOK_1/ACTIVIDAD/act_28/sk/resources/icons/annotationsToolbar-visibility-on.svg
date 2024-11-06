@@ -1,0 +1,15 @@
+<svg viewBox="0 0 30 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12.0-PreSchool---Audio-and-Annotation-tools" transform="translate(-435.000000, -379.000000)" fill="currentColor" fill-rule="nonzero">
+            <g id="annotation-tools" transform="translate(48.000000, 342.000000)">
+                <g id="annotation-tools-open" transform="translate(376.000000, 22.000000)">
+                    <g id="show-icon" transform="translate(4.000000, 3.000000)">
+                        <g id="show-icon" transform="translate(7.000000, 12.000000)">
+                            <path d="M15,0 C8.33333333,0 2.6,4.13333333 0.333333333,10 C2.6,15.8666667 8.33333333,20 15,20 C21.6666667,20 27.4,15.8666667 29.6666667,10 C27.4,4.13333333 21.6666667,0 15,0 Z M15,16.6666667 C11.2666667,16.6666667 8.33333333,13.7333333 8.33333333,10 C8.33333333,6.26666667 11.2666667,3.33333333 15,3.33333333 C18.7333333,3.33333333 21.6666667,6.26666667 21.6666667,10 C21.6666667,13.7333333 18.7333333,16.6666667 15,16.6666667 Z M15,6 C12.7333333,6 11,7.73333333 11,10 C11,12.2666667 12.7333333,14 15,14 C17.2666667,14 19,12.2666667 19,10 C19,7.73333333 17.2666667,6 15,6 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

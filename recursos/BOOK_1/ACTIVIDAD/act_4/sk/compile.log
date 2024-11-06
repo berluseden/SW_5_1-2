@@ -1,0 +1,361 @@
+DP version: RichmondRDPSecondary: git@git.avallain.com:author-client-designpacks/richmond.git:refs/tags/richmond-rdp-secondary-3.4.1 - git@git.avallain.com:author/designpacks.git:refs/tags/richmond-rdp-secondary-3.4.1 - git@git.avallain.com:author/designpacks.git:refs/tags/richmond-rdp-3.4.1 - git@git.avallain.com:author/designpacks.git:refs/tags/core-release33-2.3.2 - 
+
+DEBUG:root:Reading config for DP from D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\\config.xml
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_05A.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_06A.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_03A.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_04B.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_04A.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_05B.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_01A.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_02B.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_02A.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_03B.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/default.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_04B_toggleableMedia.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\templates/layout_04B_supplementTop.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.annotations.StickyNoteCollapsed.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.annotations.StickyNoteType1.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.annotations.StickyNoteType2.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.annotations.StickyNoteType3.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.annotations.StickyNoteType4.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.annotations.StickyNoteType5.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.annotations.Timer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.annotations.Toolbar.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.speaking_recording.PlayAll.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.speaking_recording.SpeakingRecording.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.AttachmentButton.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.AutoEndResults.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.Check.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ConfidenceDisplay.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ConfidenceSelector.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.controls.Bar.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.controls.EnumerationLink.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.controls.EnumerationNavPart.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.core.loToolbarBadge.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.core.playbuttonAnimation.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.core.progressCircular.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.core.recorderAnimation.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.CheckedAnswers.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.CheckInfo.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.Close.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.DelayedFeedback.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.ExportAs.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.FeedbackText.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.FlashFirstAnswersOverlay.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.HelpText.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.Hint.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.IMMarkingLettersSelect.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.IMVoiceNoMatch.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.ISRadiobuttonVoiceNoMatch.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.MicNotFound.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.Notebook.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.OfflineCheck.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.PPQuizTeamSelect.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.ReallyReload.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.ReallyReloadAll.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.ReallySubmit.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.RecordingError.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.RecordingSaveAs.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.Rights.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.SeeAnswersAfterCheck.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.SeeAnswersBeforeCheck.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.sendScores.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.SendScoresInfo.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.SpeakingRecordingTest.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.SpecialCharacters.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.SubmitFinish.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.SubmitInfo.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.TableOfContents.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.TeamsFinalScoreboard.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.TeamsScoreboard.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.TimeOut.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.TimeSpentInSections.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.dialog.UnsupportedDevice.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.DialogTranscript.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.DropDownButton.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.DropDownItem.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultAllCorrectAttempt.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultAttempts.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultBandFeedback.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultCorrectAnswers.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultDate.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultForEachInteractionItem.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultForEachSectionItem.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultIncorrectAnswers.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultIndex.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultManuallyMarked.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultMetadata.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultNotAttempted.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultScore.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultScoreVisual.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultSolved.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultTimeout.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultTimeTaken.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultTotalQuestions.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.EndResultUnsolved.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ExamTimer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ExamTimerTime.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.export.ExtendedWriting.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.export.General.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.FullAudioPlayer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ICTextGap.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ICTextGapLabelAnObject.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ICTextGapLabelAnObjectTarget.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ICTextGapTarget.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ic_crosswords.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.Image.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ImageDialog.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.IMAutocorrectErrorCounter.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.IMColouring.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.IMColouringButton.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.IMColouringEraser.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.IMColouringToolbar.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.IMProofingErrorCounter.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.IMProofingToolbar.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.IMVoice.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.im_proofing.CorrectionPopup.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.InfoTextDialog.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.InfoTextDictionary.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.InfoTextReference.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.InfoTextTooltip.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.InlineTranscript.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ICCrosswordCell.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ICMathsQuizzes.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ICTextCorrectionLine.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ICTextCorrectionReplace.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ICTextCorrectionSentence.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISCheckbox.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISCheckboxChoice.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISCheckboxChoiceWrapper.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISDropdown.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISDropdownHorizontal.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISDropdownHorizontalChoice.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISHangman.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISHangmanLifeCounter.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISHangmanLifeFeedback.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISHangmanWord.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISRadioButton.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISRadioButtonChoice.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISRadioButtonChoiceWrapper.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISRadioButtonColumns.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISRadioButtonColumnsChoice.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISRadioButtonColumnsChoiceWrapper.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.interaction.ISRichDropdownChoice.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.ISRadiobuttonVoice.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.is_catch_GameOver.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.is_catch_ScoreBoard.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.is_catch_TimeUp.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.LinkingMultipleLinesKeyTable.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.multiselectCheck.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.multiselectCheckChoice.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.NativeAudioPlayer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.NativeVideoPlayer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.Notebook.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGap.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGapDragElement.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGapLabelAnObject.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGapLabelAnObjectDragElement.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGapLabelAnObjectPoolArea.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGapLabelAnObjectTargetArea.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGapLabelAnObjectTileElement.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGapPoolArea.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGapTargetArea.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OMTextGapTileElement.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OSSorting.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OSSortingCategory.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OSSortingElement.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OSSortingPool.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OSSortingPoolArea.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.OSSortingTargetArea.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.Pool.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PoolWord.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PPFlashcards.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PPFlashcardsCard.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PPQuizActivityCategory.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PPQuizActivityMaximumScore.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PPQuizBoard.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PPQuizGameOver.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PPQuizTeam.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PPQuizTimer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.PPSlideshowToolbar.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.RadioAccordion.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.RadioAccordionOpenAlert.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.StaticWord.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.TabsPanel.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.TabsPanelOpenAlert.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.TextInput.count.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.TinyAudioPlayer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.toolbar.erase.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.Transcript.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.UserSelection.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.VideoPlayer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.view.WordpoolDragHandle.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\skinTemplates/a5.views.interaction.DialogueRecording.handlebars
+DEBUG:root:Reading templates for DP at: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\head.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\head.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\body.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\contentElements.html
+DEBUG:root:Reading stylesheets for DP at: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\less/core.less
+DEBUG:root:Reading scripts for DP at: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/thirdparty/webfont/webfontloader.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/config.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/fonts.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/layout.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/events.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/pools.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/headeraudio.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/ic-dialogue-recording.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/ic-text-correction.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/ic-text-gap.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/keyboard.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/im-marking.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/im-proofing.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/om-pairs.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/media-resize.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/player.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/recording-download.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/translation.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/notes.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/choice-interaction.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/viewtext.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/radiobutton-columns.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/is-mobile.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/legacy/draggables.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/device.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/client.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/html-document.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/learning-object.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/annotations.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/pagination.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/toggleable.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/media.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/progress.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/lo-timer.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/pagination-progress.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/lo-toolbar.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/enumeration.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/scroll.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/components/parallax-images.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/interactions/is-linking-lines.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/interactions/is-linking-lines-multiple.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\js/interactions/os-sequence.js
+DEBUG:root:Reading static files from: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\static-files.txt
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\static-files.txt
+DEBUG:root:Reading config for DP from D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\\config.xml
+DEBUG:root:Skipping layout default from DP D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\templates/layout_03C.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.annotations.StickyNoteType6.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.annotations.Toolbar.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.speaking_recording.SpeakingRecording.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.view.controls.Bar.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.view.dialog.CheckInfo.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.view.dialog.SubmitInfo.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.view.FullAudioPlayer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.view.ic_crosswords.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.view.Image.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.view.VideoPlayer.handlebars
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\skinTemplates/a5.views.interaction.DialogueRecording.handlebars
+DEBUG:root:Reading templates for DP at: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\head.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\head.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\body.html
+DEBUG:root:Reading stylesheets for DP at: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\less/theme.less
+DEBUG:root:Reading scripts for DP at: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\js/config.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\js/fonts.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\js/title.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\js/dialogs.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\js/scroll.js
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\js/speech-bubbles-legacy.js
+DEBUG:root:Reading static files from: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\static-files.txt
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\static-files.txt
+DEBUG:root:Reading config for DP from D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\\config.xml
+ERROR:root:Handlebars directory not found
+DEBUG:root:Reading templates for DP at: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\head.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\head.html
+DEBUG:root:Reading stylesheets for DP at: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\less/theme.less
+DEBUG:root:Reading scripts for DP at: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\js/config.js
+DEBUG:root:Reading static files from: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\static-files.txt
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\static-files.txt
+DEBUG:root:Reading config for DP from D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary\\config.xml
+ERROR:root:Handlebars directory not found
+DEBUG:root:Reading templates for DP at: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary\head.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary\head.html
+DEBUG:root:Reading stylesheets for DP at: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary\
+DEBUG:root:Reading scripts for DP at: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary\
+DEBUG:root:Reading static files from: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary\static-files.txt
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary\static-files.txt
+DEBUG:root:Reading config for DP from D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_Custom\\config.xml
+ERROR:root:Handlebars directory not found
+DEBUG:root:Reading templates for DP at: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_Custom\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_Custom\head.html
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_Custom\head.html
+DEBUG:root:Reading stylesheets for DP at: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_Custom\
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_Custom\css/styles.less
+DEBUG:root:Reading scripts for DP at: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_Custom\
+DEBUG:root:Reading static files from: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_Custom\static-files.txt
+DEBUG:root:Reading file: D:\TomcatTemp\cat_temp__16295716057650\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_Custom\static-files.txt
+DEBUG:root:WARNING: Default layout not found. This might break activities from loading
+INFO:root:Writing templates.js to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp
+INFO:root:Writing templates.json to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp
+INFO:root:Writing CKEditor CSS to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\css\ckeditor.css
+INFO:root:Writing CSS to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\css\style.css
+INFO:root:Writing js.js to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\locales\ar to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\ar
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\locales\de to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\de
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\locales\en to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\en
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\locales\es to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\es
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\locales\fr to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\fr
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\locales\it to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\it
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\locales\nl to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\nl
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\locales\zh to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\zh
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\fonts\icomoon.eot to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\fonts\icomoon.eot
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\fonts\icomoon.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\fonts\icomoon.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\fonts\icomoon.ttf to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\fonts\icomoon.ttf
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\fonts\icomoon.woff to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\fonts\icomoon.woff
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\images\clock.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\clock.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\images\cursor-eraser-hover.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-eraser-hover.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\images\cursor-eraser.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-eraser.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\images\cursor-highlighter-hover.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-highlighter-hover.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\images\cursor-highlighter.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-highlighter.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\images\cursor-pen-hover.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-pen-hover.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\images\cursor-pen.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-pen.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\engineBootstrap\engine_bootstrap.css to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\engineBootstrap\engine_bootstrap.css
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\engineBootstrap\engine_bootstrap.html to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\engineBootstrap\engine_bootstrap.html
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\css\ckeditor.css to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\css\ckeditor.css
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\core-release33-2.3.2\changelog.txt to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\changelog.txt
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\locales\en to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\en
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\locales\es to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\locales\es
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\fonts\icomoon.eot to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\fonts\icomoon.eot
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\fonts\icomoon.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\fonts\icomoon.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\fonts\icomoon.ttf to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\fonts\icomoon.ttf
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\fonts\icomoon.woff to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\fonts\icomoon.woff
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\clock.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\clock.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\cursor-eraser-hover.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-eraser-hover.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\cursor-eraser.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-eraser.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\cursor-highlighter-hover.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-highlighter-hover.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\cursor-highlighter.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-highlighter.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\cursor-pen-hover.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-pen-hover.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\cursor-pen.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\cursor-pen.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\emailHead.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\emailHead.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\monogram.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\monogram.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\monogram_alt.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\monogram_alt.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\notepad.svg to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\notepad.svg
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\images\papertexture.png to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\images\papertexture.png
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\resources\icons to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\resources\icons
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\resources\Richmond RDP.json to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\resources\Richmond RDP.json
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\cat\two-columns.html to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\cat\two-columns.html
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-3.4.1\changelog.txt to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\changelog.txt
+INFO:root:Copy static file D:\TomcatTemp\cat_temp__16295716057650\richmond-rdp-secondary-3.4.1\changelog.txt to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp\changelog.txt
+INFO:root:Writing config.xml to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp
+INFO:root:Writing locales to C:\www\author5\ROOT\cat\authorEngine\skin\RichmondRDPSecondary_706d424c49e363f10baf195a357ae162_temp
+INFO:root:Writing buildfile.less to D:\TomcatTemp\cat_temp__16295716057650
+ 

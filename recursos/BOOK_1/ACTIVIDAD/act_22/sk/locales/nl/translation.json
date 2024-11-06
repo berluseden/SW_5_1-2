@@ -1,0 +1,1421 @@
+{
+  "annotations": {
+    "toolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "Tools openen"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "Tools sluiten"
+        },
+        "pointer": {
+          "label": "",
+          "description": "Wijzer"
+        },
+        "pen": {
+          "label": "",
+          "description": "Potlood"
+        },
+        "brush": {
+          "label": "",
+          "description": "Highlighter"
+        },
+        "eraser": {
+          "label": "",
+          "description": "Gum"
+        },
+        "stickyNotes": {
+          "label": "",
+          "description": "Plakbriefjes"
+        },
+        "undo": {
+          "label": "",
+          "description": "Ongedaan maken"
+        },
+        "redo": {
+          "label": "",
+          "description": "Opnieuw"
+        },
+        "visibilityHiddenTurnOn": {
+          "label": "",
+          "description": "Aantekeningen verbergen"
+        },
+        "visibilityHiddenTurnOff": {
+          "label": "",
+          "description": "Aantekeningen weergeven"
+        }
+      }
+    },
+    "stickyNote": {
+      "button": {
+        "close": {
+          "label": "",
+          "description": "Inklappen"
+        },
+        "expand": {
+          "label": "",
+          "description": "Notitie uitbreiden"
+        },
+        "delete": {
+          "label": "",
+          "description": "Notitie verwijderen"
+        }
+      }
+    },
+    "timer": {
+      "title": "Timer",
+      "minutes": "Minuten",
+      "seconds": "Seconden",
+      "display": "Minuten:seconden",
+      "button": {
+        "close": {
+          "label": "Sluiten",
+          "description": "Timer sluiten"
+        },
+        "start": {
+          "label": "Start",
+          "description": "Start timer"
+        },
+        "stop": {
+          "label": "Stop",
+          "description": "Stop timer"
+        }
+      }
+    }
+  },
+  "body": {
+    "brand": "Avallain",
+    "timer": {
+      "label": "Tijd over:",
+      "negative": "-",
+      "minutes": "minuut",
+      "minutes_plural": "minuten",
+      "seconds": "seconde",
+      "seconds_plural": "seconden",
+      "extra": "extra",
+      "extra_plural": "extra",
+      "left": "over",
+      "left_plural": "over"
+    },
+    "loToolbar": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "Opties",
+          "description": "Contextmenu openen"
+        },
+        "toggleTurnOff": {
+          "label": "Opties",
+          "description": "Contextmenu sluiten"
+        }
+      }
+    },
+    "button": {
+      "close": {
+        "label": "",
+        "description": "Sluiten"
+      }
+    }
+  },
+  "contentElements": {
+    "icTextCorrectionDialog": {
+      "titlePrefix": "Vervangen: ",
+      "placeholder": "Schrijf juiste woord(en)",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        },
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(dialog.shared.button.ok.label)",
+          "description": "$t(dialog.shared.button.ok.description)"
+        }
+      }
+    },
+    "imColouring": {
+      "button": {
+        "highlighter": {
+          "description": "Highlighterkleur"
+        }
+      }
+    },
+    "languageSwitcher": {
+      "button": {
+        "language": {
+          "label": "Taal",
+          "description": "Taalomschakelaar"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "volumeStair": {
+        "prefix": "Volume ",
+        "suffix": ""
+      },
+      "button": {
+        "play": {
+          "label": "",
+          "description": "Afspelen"
+        },
+        "pause": {
+          "label": "",
+          "description": "Pauzeren"
+        },
+        "volume": {
+          "label": "",
+          "description": "Volume aanpassen"
+        },
+        "mute": {
+          "label": "",
+          "description": "Geluid dempen"
+        },
+        "speed": {
+          "label": "",
+          "description": "Afspeelsnelheid"
+        },
+        "playbackSpeed1": {
+          "label": "0,5x",
+          "description": "Afspelen 0.5x"
+        },
+        "playbackSpeed2": {
+          "label": "1x",
+          "description": "Afspelen 1x"
+        },
+        "playbackSpeed3": {
+          "label": "1.5x",
+          "description": "Afspelen 1.5x"
+        },
+        "playbackSpeed4": {
+          "label": "2x",
+          "description": "Afspelen 2x"
+        },
+        "transcriptTurnOn": {
+          "label": "",
+          "description": "Transcript weergeven"
+        },
+        "transcriptTurnOff": {
+          "label": "",
+          "description": "Transcript verbergen"
+        },
+        "subtitlesTurnOn": {
+          "label": "",
+          "description": "Ondertitels weergeven"
+        },
+        "subtitlesTurnOff": {
+          "label": "",
+          "description": "Ondertitels verbergen"
+        },
+        "quality": {
+          "label": "",
+          "description": "Kwaliteit"
+        },
+        "qualityAuto": {
+          "label": "Auto",
+          "description": "Auto"
+        },
+        "fullscreenTurnOn": {
+          "label": "",
+          "description": "Volledig scherm schakelen"
+        },
+        "fullscreenTurnOff": {
+          "label": "",
+          "description": "Volledig scherm afsluiten"
+        }
+      }
+    },
+    "writing": {
+      "button": {
+        "showAll": {
+          "label": "Alles weergeven",
+          "description": ""
+        }
+      }
+    }
+  },
+  "controls": {
+    "bar": {
+      "pagination": {
+        "index": {
+          "prefix": "Pagina ",
+          "conjunction": " van ",
+          "suffix": ""
+        },
+        "current": {
+          "description": "Huidige pagina"
+        }
+      },
+      "runningScore": {
+        "prefix": "Score",
+        "conjunction": "/",
+        "suffix": "punten"
+      },
+      "button": {
+        "previous": {
+          "label": "Terug",
+          "description": "Ga naar het vorige scherm"
+        },
+        "forward": {
+          "label": "Doorgaan",
+          "description": "Ga naar het volgende scherm"
+        },
+        "previousLO": {
+          "label": "Vorige activiteit",
+          "description": "Ga naar de vorige activiteit"
+        },
+        "forwardLO": {
+          "label": "Volgende activiteit",
+          "description": "Ga naar de volgende activiteit"
+        },
+        "rights": {
+          "label": "Rechten",
+          "description": "Open de Rechten-informatie"
+        },
+        "signalShow": {
+          "label": "Onjuiste woorden weergeven",
+          "description": "Onjuiste woorden weergeven"
+        },
+        "signalHide": {
+          "label": "Onjuiste woorden verbergen",
+          "description": "Onjuiste woorden verbergen"
+        },
+        "answerNext": {
+          "label": "Volgende antwoord",
+          "description": "Volgende antwoord weergeven"
+        },
+        "answerAll": {
+          "label": "Alle antwoorden",
+          "description": "Alle antwoorden weergeven"
+        },
+        "solutionHint": {
+          "label": "Oplossingshint",
+          "description": "Oplossingshint tonen"
+        },
+        "retry": {
+          "label": "Probeer het nog eens",
+          "description": "Antwoorden wissen"
+        },
+        "reveal": {
+          "label": "Onthullen",
+          "description": "Verborgen item onthullen"
+        },
+        "hide": {
+          "label": "Verbergen",
+          "description": "Onthulde items verbergen"
+        },
+        "save": {
+          "label": "Opslaan",
+          "description": "Je werk opslaan"
+        },
+        "boxdrop": {
+          "label": "Laat vallen!",
+          "description": "Laat de huidige doos vallen"
+        },
+        "boxdropPause": {
+          "label": "Pauzeren",
+          "description": "Pauzeer de activiteit"
+        },
+        "boxdropResume": {
+          "label": "Hervatten",
+          "description": "Hervat de activiteit"
+        },
+        "quizNew": {
+          "label": "Nieuwe game",
+          "description": "Herstart de game met nieuwe vragen"
+        },
+        "quizRestart": {
+          "label": "Game opnieuw starten",
+          "description": "Start de game opnieuw met dezelfde vragen"
+        },
+        "quizSkip": {
+          "label": "Vraag overslaan",
+          "description": "Sla de vraag over en eindig beurt"
+        },
+        "quizBack": {
+          "label": "Terug",
+          "description": "Ga naar het speelbord"
+        },
+        "loNotes": {
+          "label": "Notities",
+          "description": "Notities weergeven"
+        },
+        "micSettings": {
+          "label": "Microfooninstellingen",
+          "description": "Open de microfooninstellingen"
+        },
+        "specialChars": {
+          "label": "Speciale tekens",
+          "description": "Open de speciale tekenselector"
+        },
+        "export": {
+          "label": "Exporteren",
+          "description": "Activiteit exporteren"
+        },
+        "imProofingHint": {
+          "label": "Hint",
+          "description": "Geef me een hint"
+        },
+        "hints": {
+          "label": "Eerste hint",
+          "description": "Geef me een hint"
+        },
+        "hintsSecond": {
+          "label": "Tweede hint"
+        },
+        "hintsThird": {
+          "label": "Derde hint"
+        },
+        "help": {
+          "label": "Help",
+          "description": "Activiteithulp weergeven"
+        },
+        "answers": {
+          "label": "Zie antwoorden",
+          "description": "Juiste antwoorden weergeven"
+        },
+        "check": {
+          "label": "Antwoorden controleren",
+          "description": "Antwoorden indienen voor markering"
+        },
+        "reset": {
+          "label": "Wissen",
+          "description": "Je antwoorden wissen"
+        },
+        "resetAll": {
+          "label": "Alles wissen",
+          "description": "Al je antwoorden wissen"
+        },
+        "fullscreenTurnOn": {
+          "label": "Volledig scherm",
+          "description": "Volledig scherm schakelen"
+        },
+        "fullscreenTurnOff": {
+          "label": "Volledig scherm",
+          "description": "Volledig scherm afsluiten"
+        },
+        "toc": {
+          "label": "Inhoudsopgave",
+          "description": "Inhoudsopgave schakelen"
+        },
+        "results": {
+          "label": "Resultaten",
+          "description": "Resultaten weergeven"
+        },
+        "sectionTimes": {
+          "label": "Bestede tijd",
+          "description": "Zie aanbevolen en bestede tijd voor elke sectie"
+        },
+        "sendscores": {
+          "label": "Scores verzenden",
+          "description": "Scores verzenden"
+        },
+        "exercises": {
+          "label": "Review",
+          "description": "Review je antwoorden"
+        },
+        "submit": {
+          "label": "Indienen",
+          "description": "Verzenden naar Gradebook"
+        }
+      }
+    }
+  },
+  "check": {
+    "correct": {
+      "description": "Juist antwoord"
+    },
+    "wrong": {
+      "description": "Onjuist antwoord"
+    },
+    "revealed": {
+      "description": "Leeg antwoord"
+    }
+  },
+  "dialog": {
+    "shared": {
+      "confirmation": "Weet je het zeker?",
+      "results": "Hoe heb je het gedaan?",
+      "feedback": "Feedback",
+      "score": {
+        "prefix": "Je hebt gescoord",
+        "conjunction": "uit"
+      },
+      "button": {
+        "cancel": {
+          "label": "Annuleren",
+          "description": "Doorgaan zonder wijzigingen"
+        },
+        "close": {
+          "label": "Sluiten",
+          "description": "Sluit dit dialoogvenster"
+        },
+        "ok": {
+          "label": "Toepassen",
+          "description": "Wijzigingen toepassen"
+        },
+        "continue": {
+          "label": "Doorgaan",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "autoEndResults": {
+      "title": "$t(dialog.shared.results)",
+      "body": "$t(dialog.shared.score.prefix) {{correct}} $t(dialog.shared.score.conjunction) {{total}}.",
+      "automaticmarked": "Percentage: {{score}}%.",
+      "table": {
+        "header": {
+          "question": "Vraag",
+          "mark": "Markering"
+        },
+        "body": {
+          "mark": "{{correct}} van {{total}}"
+        }
+      },
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.continue.label)",
+          "description": "$t(dialog.shared.button.continue.description)"
+        }
+      }
+    },
+    "checkedAnswers": {
+      "title": "$t(dialog.shared.feedback)",
+      "body": "$t(dialog.shared.score.prefix) {{correct}} $t(dialog.shared.score.conjunction) {{total}}.",
+      "button": {
+        "tryAgain": {
+          "label": "$t(controls.bar.button.retry.label)",
+          "description": "$t(controls.bar.button.retry.description)"
+        },
+        "submit": {
+          "label": "$t(controls.bar.button.submit.label)",
+          "description": "$t(controls.bar.button.submit.description)"
+        },
+        "next": {
+          "label": "$t(controls.bar.button.forward.label)",
+          "description": "$t(controls.bar.button.forward.description)"
+        }
+      }
+    },
+    "checkInfo": {
+      "title": "$t(dialog.shared.results)",
+      "body": "$t(dialog.shared.score.prefix) <span class=\"checkInfo__score\">{{correct}} $t(dialog.shared.score.conjunction) {{total}}</span>",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "feedbackText": {
+      "title": "",
+      "button": {
+        "close": {
+          "label": "Begrepen",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "imMarkingLettersSelect": {
+      "title": "Kies één letter of meer"
+    },
+    "imVoiceNoMatch": {
+      "title": "Geen match opgenomen",
+      "body": "Je opname kwam niet overeen met een van de teksten. Maak een nieuwe opname."
+    },
+    "isRadiobuttonVoiceNoMatch": {
+      "title": "$t(dialog.imVoiceNoMatch.title)",
+      "body": "Je opname kwam niet overeen met een van de beschikbare antwoorden. Maak een nieuwe opname."
+    },
+    "micNotFound": {
+      "title": "Microfoon niet gevonden",
+      "body": "Schakel een microfoon in. Dat is vereist voor deze activiteit."
+    },
+    "testRecording": {
+      "title": "Testopname",
+      "body": "Je kunt je microfoon testen door hieronder een testopname te maken. Luister je opname terug om te controleren of je microfoon goed werkt.",
+      "button": {
+        "record": {
+          "label": "Opnemen",
+          "description": "Neem een test op"
+        },
+        "stopRecording": {
+          "label": "Opnemen",
+          "description": "Stop de opname"
+        },
+        "play": {
+          "label": "Afspelen",
+          "description": "Je opname afspelen"
+        },
+        "stopPlay": {
+          "label": "Afspelen",
+          "description": "Afspelen stoppen"
+        }
+      },
+      "discard": "Laat niet meer zien."
+    },
+    "close": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "Wil je dit leerobject echt sluiten?",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "Hou het open"
+        },
+        "ok": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "Ja, ik wil het sluiten"
+        }
+      }
+    },
+    "delayedFeedback": {
+      "title": "$t(dialog.shared.feedback)",
+      "body": "Deze activiteit zal op een andere bladzijde worden aangegeven. Ga verder.",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "exportAs": {
+      "title": "Exporteren als",
+      "body": "",
+      "filename": "Bestandsnaam",
+      "formatDivider": ".",
+      "formatList": {
+        "label": "Kies het bestandsformaat",
+        "pdf": "pdf",
+        "rtf": "rtf"
+      },
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.export.label)",
+          "description": "$t(dialog.exportAs.title)"
+        }
+      }
+    },
+    "flashFirstAnswersOverlay": {
+      "title": "Eerste antwoord"
+    },
+    "helpText": {
+      "title": "Help",
+      "body": "Je kunt deze tekst bewerken in Auteur > Projectactiviteiten > Kies een AT > Bewerken > Help-tekst.",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "hint": {
+      "title": "Hint",
+      "body": "",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "infoText": {
+      "title": "Info",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "mediaPlayer": {
+      "transcript": {
+        "title": "Transcript"
+      }
+    },
+    "notebook": {
+      "title": "Notebook"
+    },
+    "offlineCheck": {
+      "title": "Geen verbinding",
+      "body": "Het lijkt erop dat je op dit moment geen internetverbinding hebt.<br>Je kunt je werk pas inzenden als je online bent, dus controleer je verbinding en probeer het dan opnieuw.",
+      "button": {
+        "close": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "ppQuizTeamSelect": {
+      "title": "Aantal teams",
+      "body": "Kies het aantal teams voor je quiz.",
+      "button": {
+        "ok": {
+          "label": "Start",
+          "description": "Start game"
+        }
+      },
+      "teams": "Teams:"
+    },
+    "reallyReload": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "Wil je de antwoorden in deze activiteit wissen en opnieuw beginnen?",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.reset.label)",
+          "description": "$t(controls.bar.button.reset.description)"
+        }
+      }
+    },
+    "reallyReloadAll": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "Wil je al je antwoorden wissen <strong>in elke activiteit</strong> en helemaal opnieuw beginnen?",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.resetAll.label)",
+          "description": "$t(controls.bar.button.resetAll.description)"
+        }
+      }
+    },
+    "reallySubmit": {
+      "title": "Weet je zeker dat je het wilt indienen?",
+      "body": "Je hebt niet alle vragen beantwoord.<br>Weet je zeker dat je je scores nu wilt inzenden?",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "Doorgaan zonder in te dienen"
+        },
+        "ok": {
+          "label": "$t(controls.bar.button.submit.label)",
+          "description": "Dien je resultaten in"
+        }
+      }
+    },
+    "recordingError": {
+      "title": "Opnamefout",
+      "body": "Er is een technische fout opgetreden en deze opname is gestopt. Probeer het nog eens."
+    },
+    "recordingSaveAs": {
+      "title": "Downloaden als",
+      "body": "",
+      "format": ".mp3",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "Downloaden",
+          "description": "Audio downloaden"
+        }
+      }
+    },
+    "rights": {
+      "title": "$t(controls.bar.button.rights.label)",
+      "body": ""
+    },
+    "seeAnswersAfterCheck": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "Weet je zeker dat je de antwoorden nu wilt zien?<br>Je zult het niet nog een keer kunnen proberen.",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "Doorgaan",
+          "description": "Zie antwoorden"
+        }
+      }
+    },
+    "seeAnswersBeforeCheck": {
+      "title": "$t(dialog.shared.confirmation)",
+      "body": "Weet je zeker dat je de antwoorden nu wilt zien?<br>Je ontvang 0 punten voor deze activiteit.",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        },
+        "ok": {
+          "label": "$t(dialog.seeAnswersAfterCheck.button.ok.label)",
+          "description": "$t(dialog.seeAnswersAfterCheck.button.ok.description)"
+        }
+      }
+    },
+    "sendScores": {
+      "title": "$t(controls.bar.button.sendscores.label)",
+      "body": "Zorg ervoor dat je op <q>$t(controls.bar.button.check.label)</q> hebt geklikt bij elke activiteit.",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.continue.label)",
+          "description": "$t(dialog.shared.button.continue.description)"
+        }
+      }
+    },
+    "sendScoresInfo": {
+      "title": "$t(controls.bar.button.sendscores.label)",
+      "body": "Je resultaten zijn naar het puntenboek gestuurd.",
+      "score": "$t(dialog.shared.score.prefix) {{correct}} $t(dialog.shared.score.conjunction) {{total}}."
+    },
+    "specialCharacters": {
+      "title": "$t(controls.bar.button.specialChars.label)",
+      "body": "",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.close.label)",
+          "description": "$t(dialog.shared.button.close.description)"
+        }
+      }
+    },
+    "submitFinish": {
+      "title": "Voltooid",
+      "body": "Goed gedaan! Je hebt deze oefening voltooid."
+    },
+    "submitInfo": {
+      "title": "Ingediend",
+      "body": "<h2>$t(dialog.shared.score.prefix)</h2><strong>{{correct}}/{{total}}</strong>",
+      "answers": "Antwoorden",
+      "correct": "Juist",
+      "score": "Score",
+      "maxAttempts": {
+        "singular": "",
+        "plural": {
+          "attemptsLeft": {
+            "none": "Je hebt geen pogingen meer over.",
+            "singular": "Je kunt het beter, je hebt nog één poging over. Ga terug en druk op <q>$t(controls.bar.button.retry.label)</q>",
+            "plural": "Je hebt {{attemptsLeft}} pogingen over. Ga terug en druk op <q>$t(controls.bar.button.retry.label)</q> om te blijven oefenen."
+          }
+        },
+        "unlimited": "Dit is je poging nummer {{poging}}. Ga terug en druk op <q>$t(controls.bar.button.retry.label)</q> om te blijven oefenen."
+      },
+      "button": {
+        "close": {
+          "label": "Antwoorden bekijken",
+          "description": "Sluit dit dialoogvenster en bekijk de antwoorden"
+        }
+      }
+    },
+    "tableOfContents": {
+      "title": "Kies een activiteit",
+      "empty": "Er zijn geen gegevens om weer te geven.",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.cancel.label)",
+          "description": "$t(dialog.shared.button.cancel.description)"
+        }
+      }
+    },
+    "teamsFinalScoreboard": {
+      "title": "Eindscorebord"
+    },
+    "teamsScoreboard": {
+      "title": "Scorebord"
+    },
+    "timeSpentInSections": {
+      "title": "Bestede tijd",
+      "table": {
+        "header": {
+          "section": "Sectie",
+          "recommended": "Aanbevolen",
+          "spent": "Bestede tijd"
+        },
+        "body": {
+          "total": "Totaal"
+        }
+      }
+    },
+    "timeOut": {
+      "title": "Time out!",
+      "body": "Je tijd is om!",
+      "button": {
+        "cancel": {
+          "label": "$t(dialog.shared.button.continue.label)",
+          "description": "$t(dialog.shared.button.continue.description)"
+        },
+        "submit": {
+          "label": "$t(controls.bar.button.submit.label)",
+          "description": "$t(controls.bar.button.submit.description)"
+        }
+      }
+    },
+    "unsupportedDevice": {
+      "title": "Niet-ondersteund apparaat",
+      "body": "Deze activiteit wordt niet ondersteund op dit apparaat. Schakel over naar een desktopapparaat om te voltooien."
+    }
+  },
+  "export": {
+    "extendedWriting": {
+      "student": "Naam: ",
+      "class": "Klas: ",
+      "title": "Titel: "
+    }
+  },
+  "interaction": {
+    "shared": {
+      "answerCheckTooltipPrefix": "Jouw antwoord: ",
+      "prefilled": "Vooringevuld antwoord",
+      "toolbar": {
+        "button": {
+          "eraser": {
+            "label": "Gum",
+            "description": "Gummarker"
+          }
+        }
+      },
+      "errorCounter": {
+        "body": "<span class=\"errorCounter__counter errorCounter__counter--correct\">{{correct}}</span>/<span class=\"errorCounter__counter errorCounter__counter--total\">{{errors}}</span> errors"
+      }
+    },
+    "dialogueRecording": {
+      "button": {
+        "settings": {
+          "label": "Opties",
+          "description": "Dialoogopties"
+        },
+        "hideTurnOn": {
+          "label": "Mijn regels verbergen",
+          "description": "Mijn regels verbergen"
+        },
+        "hideTurnOff": {
+          "label": "Mijn regels verbergen",
+          "description": "Mijn regels weergeven"
+        },
+        "hideAllTurnOn": {
+          "label": "Alle regels verbergen",
+          "description": "Alle regels verbergen"
+        },
+        "hideAllTurnOff": {
+          "label": "Alle regels verbergen",
+          "description": "Alle regels weergeven"
+        },
+        "download": {
+          "label": "Downloaden",
+          "description": "Alles downloaden"
+        }
+      }
+    },
+    "icTextGap": {
+      "input": {
+        "description": "Blanco invoer"
+      }
+    },
+    "imProofing": {
+      "correctionPopup": {
+        "title": {
+          "insert": "Invoegen",
+          "spelling": "Spelling: ",
+          "grammar": "Grammatica: "
+        },
+        "placeholder": "Typ wat in te voegen",
+        "button": {
+          "close": {
+            "label": "$t(dialog.shared.button.close.label)",
+            "description": "$t(dialog.shared.button.close.description)"
+          },
+          "ok": {
+            "label": "$t(dialog.shared.button.ok.label)",
+            "description": "$t(dialog.shared.button.ok.description)"
+          }
+        }
+      },
+      "toolbar": {
+        "button": {
+          "toggle": {
+            "label": "Proeflees cijfers",
+            "description": "Proeflees cijfers"
+          },
+          "eraser": {
+            "label": "$t(interaction.shared.toolbar.button.eraser.label)",
+            "description": "$t(interaction.shared.toolbar.button.eraser.description)"
+          },
+          "capitalize": {
+            "label": "Hoofdletter",
+            "description": "Hoofdletter"
+          },
+          "lowercase": {
+            "label": "Kleine letters",
+            "description": "Kleine letters"
+          },
+          "fullStop": {
+            "label": "Punt toevoegen",
+            "description": "Punt toevoegen"
+          },
+          "insert": {
+            "label": "Invoegen",
+            "description": "Invoegen"
+          },
+          "remove": {
+            "label": "Verwijderen",
+            "description": "Verwijderen"
+          },
+          "newParagraph": {
+            "label": "Nieuwe paragraaf",
+            "description": "Nieuwe paragraaf"
+          },
+          "spelling": {
+            "label": "Spelling",
+            "description": "Spelling"
+          },
+          "grammar": {
+            "label": "Grammatica",
+            "description": "Grammatica"
+          },
+          "indent": {
+            "label": "Inspringen",
+            "description": "Inspringen"
+          }
+        }
+      }
+    },
+    "linkingMultipleLines": {
+      "keyTable": {
+        "key": {
+          "prefiled": "Voorgevuld",
+          "correct": "Juist",
+          "wrong": "Verkeerd",
+          "missing": "Ontbreekt"
+        },
+        "checkbox": "Niet meer weergeven",
+        "button": {
+          "close": {
+            "label": "Sluiten",
+            "description": "Sluit sleuteltabel"
+          }
+        }
+      }
+    },
+    "ppQuiz": {
+      "board": {
+        "team": "Team {{label}}",
+        "points": "pt.",
+        "categories": "Categorieën"
+      },
+      "gameOver": {
+        "team": "$t(interaction.ppQuiz.board.team)",
+        "winners": {
+          "conjunction": "en",
+          "suffix": "winst.",
+          "suffix_plural": "winst."
+        },
+        "greeting": "Gefeliciteerd!"
+      },
+      "team": {
+        "team": "$t(interaction.ppQuiz.board.team)"
+      }
+    },
+    "speakingRecording": {
+      "button": {
+        "listen": {
+          "label": "",
+          "description": "Luister"
+        },
+        "pause": {
+          "label": "",
+          "description": "Luisteren pauzeren"
+        },
+        "stopListen": {
+          "label": "",
+          "description": "Luisteren stoppen"
+        },
+        "record": {
+          "label": "Opnemen",
+          "description": "Audio opnemen"
+        },
+        "pauseRecording": {
+          "label": "",
+          "description": "Opname onderbreken"
+        },
+        "stopRecording": {
+          "label": "",
+          "description": "Stop de opname"
+        },
+        "speak": {
+          "label": "Opnemen",
+          "description": "$t(interaction.speakingRecording.button.record.description)"
+        },
+        "stopSpeaking": {
+          "label": "$t(interaction.speakingRecording.button.speak.label)",
+          "description": "$t(interaction.speakingRecording.button.stopRecording.description)"
+        },
+        "finish": {
+          "label": "",
+          "description": "Opname voltooien"
+        },
+        "play": {
+          "label": "Afspelen",
+          "description": "Opname afspelen"
+        },
+        "stopPlay": {
+          "label": "",
+          "description": "Stop afspelen"
+        },
+        "download": {
+          "label": "",
+          "description": "Download opname"
+        }
+      },
+      "playAll": {
+        "button": {
+          "play": {
+            "label": "Dialoog afspelen",
+            "description": ""
+          },
+          "pause": {
+            "label": "$t(interaction.speakingRecording.playAll.button.play.label)",
+            "description": "Pauzeren"
+          },
+          "stop": {
+            "label": "",
+            "description": "Stop"
+          },
+          "prev": {
+            "label": "",
+            "description": "Vorige"
+          },
+          "next": {
+            "label": "",
+            "description": "Volgende"
+          }
+        }
+      }
+    },
+    "icCrossword": {
+      "clues": {
+        "title": "Aanwijzingen",
+        "horizontal": "Horizontaal",
+        "vertical": "Omlaag"
+      },
+      "cell": {
+        "letter": "Letter ",
+        "word": " van woord ",
+        "down": ", omlaag.",
+        "across": ", horizontaal."
+      }
+    },
+    "icTextCorrection": {
+      "button": {
+        "reset": {
+          "label": "Reset",
+          "description": "Reset deze zin"
+        }
+      }
+    },
+    "isHangman": {
+      "lifeFeedback": {
+        "body": "{{remaining}} pogingen over"
+      }
+    },
+    "isCatch": {
+      "gameOver": {
+        "title": "Game over!",
+        "body": "De game is afgelopen.<br>Klik op <q>$t(interaction.isCatch.gameOver.button.ok.label)</q> om verder te gaan.",
+        "button": {
+          "ok": {
+            "label": "$t(dialog.shared.button.continue.label)",
+            "description": "$t(dialog.shared.button.continue.description)"
+          }
+        }
+      },
+      "scoreboard": {
+        "time": "Tijd: ",
+        "points": "Punten: "
+      },
+      "timeUp": {
+        "title": "$t(dialog.timeOut.title)",
+        "body": "Je tijd is om! <br>Klik op <q>$t(interaction.isCatch.timeUp.button.ok.label)</q> om verder te gaan.",
+        "button": {
+          "ok": {
+            "label": "$t(dialog.shared.button.continue.label)",
+            "description": "$t(dialog.shared.button.continue.description)"
+          }
+        }
+      }
+    },
+    "isCheckbox": {
+      "group": {
+        "description": "mogelijke antwoorden"
+      }
+    },
+    "isRadioButton": {
+      "group": {
+        "description": "mogelijke antwoorden"
+      }
+    },
+    "ppSlideshowToolbar": {
+      "button": {
+        "previous": {
+          "label": "Ga vorige",
+          "description": "Ga vorige"
+        },
+        "next": {
+          "label": "Ga volgende",
+          "description": "Ga volgende"
+        },
+        "first": {
+          "label": "Ga eerste",
+          "description": "Ga eerste"
+        },
+        "last": {
+          "label": "Ga laatste",
+          "description": "Ga laatste"
+        },
+        "play": {
+          "label": "Afspelen",
+          "description": "Afspelen"
+        },
+        "pause": {
+          "label": "Pauzeren",
+          "description": "Pauzeren"
+        },
+        "decreaseDelay": {
+          "label": "-",
+          "description": "Vertraging verminderen"
+        },
+        "increaseDelay": {
+          "label": "+",
+          "description": "Vertraging verhogen"
+        },
+        "shuffleOrder": {
+          "label": "Shuffle",
+          "description": "Shuffle"
+        },
+        "defaultOrder": {
+          "label": "Standaard volgorde",
+          "description": "Standaard volgorde"
+        },
+        "show": {
+          "label": "Weergeven",
+          "description": "Decoderen weergeven"
+        },
+        "hide": {
+          "label": "Verbergen",
+          "description": "Decoderen verbergen"
+        }
+      }
+    },
+    "syllabify": {
+      "answerCheckTooltipPrefix": "$t(interaction.shared.answerCheckTooltipPrefix)"
+    }
+  },
+  "loToolbar": {
+    "notes": {
+      "notesArea": {
+        "button": {
+          "toggle": {
+            "label": "Je notities",
+            "description": ""
+          }
+        }
+      },
+      "notesBox": {
+        "empty": "Je hebt notities aantekeningen gemaakt voor deze activiteit. Klik op nieuwe notitie toevoegen om te beginnen.",
+        "confirmation": "Weet je zeker dat je alle notities voor deze activiteit wilt wissen?",
+        "button": {
+          "new": {
+            "label": "Nieuwe notitie toevoegen",
+            "description": "Nieuwe notitie maken"
+          },
+          "send": {
+            "label": "Alles verzenden",
+            "description": "Alle notities verzenden"
+          },
+          "print": {
+            "label": "Alles afdrukken",
+            "description": "Alle notities afdrukken"
+          },
+          "erase": {
+            "label": "Alles wissen",
+            "description": "Alle notities wissen"
+          },
+          "cancel": {
+            "label": "$t(dialog.shared.button.cancel.label)",
+            "description": "$t(dialog.shared.button.cancel.description)"
+          },
+          "ok": {
+            "label": "$t(contentElements.notes.notesBox.button.erase.label)",
+            "description": "$t(contentElements.notes.notesBox.button.erase.description)"
+          }
+        }
+      },
+      "oneNote": {
+        "defaultName": "Notitie zonder titel 1",
+        "lastEdited": "laatst bewerkt: ",
+        "undefined": "ongedefinieerd",
+        "button": {
+          "toggle": {
+            "label": "Opties",
+            "description": ""
+          },
+          "new": {
+            "label": "$t(contentElements.notes.notesBox.button.new.label)",
+            "description": "$t(contentElements.notes.notesBox.button.new.description)"
+          },
+          "send": {
+            "label": "Verzenden",
+            "description": "Notitie verzenden"
+          },
+          "print": {
+            "label": "Afdrukken",
+            "description": "Notitie afdrukken"
+          },
+          "erase": {
+            "label": "Wissen",
+            "description": "Wissen nota"
+          }
+        }
+      }
+    },
+    "print": {
+      "button": {
+        "label": "Afdrukken",
+        "description": "Deze activiteit afdrukken"
+      }
+    },
+    "toggleableMedia": {
+      "button": {
+        "toggleTurnOn": {
+          "label": "Aanwijzingen",
+          "description": "Open aanwijzingenpaneel"
+        },
+        "toggleTurnOff": {
+          "label": "Aanwijzingen",
+          "description": "Sluit aanwijzingenpaneel"
+        }
+      }
+    }
+  },
+  "mediaExpand": {
+    "image": {
+      "button": {
+        "expandTurnOn": {
+          "label": "",
+          "description": "Maximaliseer afbeelding"
+        },
+        "expandTurnOff": {
+          "label": "",
+          "description": "Minimise image"
+        }
+      },
+      "dialog": {
+        "button": {
+          "close": {
+            "label": "$t(dialog.shared.button.close.label)",
+            "description": "$t(dialog.shared.button.close.description)"
+          }
+        }
+      }
+    }
+  },
+  "notebook": {
+    "button": {
+      "export": {
+        "label": "Exporteren",
+        "description": "Notities exporteren"
+      }
+    }
+  },
+  "osSorting": {
+    "category": {
+      "counter": {
+        "description": "Aantal items"
+      },
+      "button": {
+        "toggleTurnOn": {
+          "label": "",
+          "description": "Uitbreiden"
+        },
+        "toggleTurnOff": {
+          "label": "",
+          "description": "Minimaliseren"
+        }
+      }
+    }
+  },
+  "pool": {
+    "description": {
+      "input": "Kies uit deze antwoorden",
+      "order": "Zet deze antwoorden op hun juiste plaats"
+    },
+    "freeControls": {
+      "button": {
+        "handle": {
+          "label": "",
+          "description": "Slepen om de wordpool te verplaatsen"
+        },
+        "dock": {
+          "label": "Dok",
+          "description": "Reset positie"
+        }
+      }
+    }
+  },
+  "radioAccordion": {
+    "question": "Vraag {{enum}}",
+    "openAlert": {
+      "question": "Je beantwoordt vraag {{enum}}"
+    }
+  },
+  "tabsPanel": {
+    "enumQuestion": "Vraag ",
+    "question": "Vraag {{index}}",
+    "openAlert": {
+      "enumQuestion": "Je beantwoordt vraag ",
+      "question": "$t(tabsPanel.openAlert.enumQuestion) {{index}}."
+    }
+  },
+  "textInput": {
+    "count": {
+      "chars": {
+        "label": "tekens",
+        "description": "Teller die het aantal ingevoerde tekens weergeeft"
+      },
+      "words": {
+        "label": "woorden",
+        "description": "Teller die het aantal ingevoerde woorden weergeeft"
+      },
+      "minChars": {
+        "label": "tekens over",
+        "description": "Toont een aflopende teller wanneer het minimum aantal tekens is bereikt"
+      },
+      "minWords": {
+        "label": "woorden over",
+        "description": "Aflopende teller om te laten zien wanneer het minimum aantal woorden is bereikt"
+      },
+      "maxChars": {
+        "label": "tekens over",
+        "description": "Toont een aflopende teller wanneer het maximum aantal tekens is bereikt"
+      },
+      "maxWords": {
+        "label": "woorden over",
+        "description": "Aflopende teller om te laten zien wanneer het maximum aantal woorden is bereikt"
+      }
+    }
+  },
+  "userSelection": {
+    "selector": {
+      "type": "Type test:",
+      "number": "Aantal vragen:"
+    },
+    "button": {
+      "continue": {
+        "label": "Bevestig",
+        "description": "Start activiteiten"
+      }
+    }
+  }
+}

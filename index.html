@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Stopwatch 5 Unit 0 - Unit 1</title>
+  <link rel="shortcut icon" type="image/png" href="images/iconos/ico-rich.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/cover.css">
+  <!--BOOK-->
+
+<!--   <script type="text/javascript" src="js/jQueryv3.1.0.min.js"></script> -->
+<script type="text/javascript" src="js/jQueryv1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/turn.js"></script>
+  <script type="text/javascript" src="js/initBook.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/extras.css">
+  <!--ZOOM-->
+  <!-- <script type="text/javascript" src="js/panzoom.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="css/book.css">
+  <link href="css/literallycanvas.css" rel="stylesheet">
+  <script src="js/react-with-addons.js"></script>
+  <script src="js/react-dom.js"></script>
+  <script src="js/jsDraw/literallycanvas.js"></script>
+  <!--- JQUERY UI -->
+  <script src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177593773-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177593773-2');
+</script>
+
+</head>
+<body>
+  <!--MAQUETACION DE PAGINA INICIAL -->
+  <div id="contenidoSeleccion" >
+    <div id="user_name">
+      <h3 class="show_user_name" style="padding-top: 7px;"></h3>
+    </div> 
+    <div class="row">
+          <img src="images/images/fotos_home_tg.png" class="img-fluid mosaicoEntrada" alt="logo_compass elementary" id="goIronBook"/>
+    </div>
+    <div class="row" style="display: inline-block;">
+      
+      <div id="backSessions"></div>
+      <a href="recursos/SHARED/PDF/Tut_SW_Sec_OK_5.pdf" target="_blank">
+                <div id="userGuide"></div>
+            </a>
+    </div>
+    <!-- The Modal -->
+    <div id="myModalInicial" class="modalInicial">
+     
+      <!-- Modal content -->
+      <div class="modal-contentInicial">
+        <div class="container" id="initSessions">
+          <h4>SESSION SELECTION</h4>
+          <br>
+          <br>
+        <form>
+
+          <p> 
+            <label>New session</label> 
+                <span class="btn-group col-md-9">
+                  <input type="text" class="form-control" id="inputUserSession" placeholder="">&nbsp;
+                  <button type="button" class="btn fa fa-plus-circle fa-2x" id="btn_createSession" style="color: #b455a0; margin-top: -5px;"></button>
+                </span>
+          </p>
+            <div class="form-row align-items-center">
+              <div class="col-md-12">
+                <label class="mr-sm-1" for="inlineFormCustomSelect">Existing Sessions</label>
+                <select class="custom-select" id="inlineFormCustomSelect">
+                  <option value="date" selected>Date</option>
+                  <option value="alphabetical">Alphabetical Order</option>
+                </select>
+              </div>
+          <!---    <div class="col-auto my-1">
+              <div class="col">
+                  <label class="mr-sm-2" for="inlineFormCustomSelect">Selected session</label>-->
+                  <input type="hidden" class="form-control" placeholder="" readonly id="finalSelectedSeccion">
+             <!--   </div>
+              </div>-->
+            </div>
+
+            <div class="form-row align-items-center mt-3">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <select class="custom-select" multiple id="multipleViewSessions">
+                  </select>
+                </div>
+              </div>
+              
+            </div>
+
+
+            <div class="row mt-5">
+              <div class="col-md-6 col-sm-12">
+            
+                  <button type="button" class="btn btn-pink btn-block text-white" id="logIn">Enter</button>
+              
+              </div>
+
+              <div class="col-md-6 col-sm-12">
+                <button type="button" class="btn btn-pink btn-block text-white" id="deleteSessions">Delete</button>
+              </div>
+            </div>
+
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="main">
+      <!-- Modal Mosaico-->
+      <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-content contenidoMosaico">
+          <div class="modal-body bodyMosaico"></div>
+        </div>
+      </div>
+      <!-- Modal  Actividades-->
+      <div class="modal" id="modalActividades" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog centroActividad" role="document">
+          <div class="modal-content contenidoActividades">
+            <div class="modal-header dragModalActs">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body bodyActividades"></div>
+          </div>
+        </div>
+      </div>
+    
+
+     <!-- Modal  Actividades FIN-->
+       
+        
+        <!--BARRA DE HERRAMIENTAS-->
+        <div class="vertical-menu">
+          <a href="#" class="active addLink">LINKS&nbsp;&nbsp;<i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
+          <div id="fillLinkData">
+            <div class="arrow-down"></div>
+          <div class="form-group">
+            <input type="text" class="form-control linkCreator" id="infoLink" placeholder="Link Information" autocomplete="off">
+          </div>
+          <div class="form-group input-group">
+            <input type="text" class="form-control linkCreator" id="urlLink" placeholder="yourlink.com" autocomplete="off">
+            <span class="input-group-btn">
+              <button class="btn btn-success" id="GOpAGE" disabled>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+          <button type="submit" class="btn btn-success btn-xs" id="estadoLink" disabled>Save</button>
+          <hr>
+          </div>
+          <table class="table table-bordered">
+            <tbody id="tableLinks">
+            </tbody>
+            
+          </table>
+        </div>
+      <div class="row">
+        <div class="my-drawing"></div>
+        <img id="loader" src="images/loader/loader.gif" alt="loading"/>
+        <div class="col-1 activeTool">
+          <div class="row">
+            <div class="col" style="height: 1500px;">
+            </div>
+          </div>    
+        </div>
+
+        <div class="col-11"> 
+          <div class="row" style="height: 1000px;">
+            <audio id="myPlayer" src="" controls autoplay="autoplay"></audio>
+           
+            <!--SWITCH LIBROS-->
+            <div class="home">
+              <a href="#"><img src="images/iconos/home.png" class="img-fluid icon-homeBack" alt="home" id="backHome"></a>
+            </div>  
+            
+            <div >          
+   <nav id="selectorLibros">
+     <id class="iconoRecursos"></id>
+   </nav>
+             <!--  <div id="book"></div> -->
+            </div>
+          </div>
+        </div>
+          
+      </div>
+    </div>
+      
+  </div>
+    
+    
+    
+  <!-- Footer -->
+  <footer class="page-footer font-small pt-2 ml-0  barra-abajo" >
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left" >
+      <!-- Grid row -->
+      <div class="row justify-content-center" >
+        <!-- Grid column -->
+         <div class="col-2" >
+            <div class="eagle" >
+                    <img src="images/images/abejas.png" class="img-fluid" alt="img">
+            </div>
+          </div>
+          
+        <div class="col-md-3 col-sm-4" >
+          <!-- Content -->
+          <!--menú, mosaico,recursos-->
+            
+            <!--RECURSOS-->
+            <div class="dropup">
+            <div class="dropbtn" id="ico-recursos"> </div>
+            <div class="dropup-content menu dropup-recursos"  id="menuExtraResources"></div>
+          </div> 
+            
+            <!--MENU-->
+            <div class="dropup">
+            <div class="dropbtn" id="lista2"></div>
+            <div class="dropup-content menu menuGlosario"></div>
+          </div> 
+            
+            
+          <!--MOSAICO-->
+          <div id="mosaico2"  class="espacio" data-toggle="modal" data-target="#exampleModal" ></div>
+          
+           
+        </div>
+        <!-- Grid column 
+        <hr class="clearfix w-100 d-md-none pb-3">-->
+        <!-- Grid column -->
+        <div class="col-md-5 col-sm-4  mb-3">
+            <!--CONTROLES DE PAGINA-->
+          <div id="controls">
+            <div id="prev" class="prev-control"></div>
+          
+            <div id="next" class="next-control"></div>
+          </div> 
+            <!--BUSCADOR-->
+   
+            <div id="search1">
+              <!-- Search form -->
+
+              <form class="form-inline d-flex justify-content-center md-form form-md estilo-search">
+                <i class="ico-search" aria-hidden="true"></i>
+               <input class="form-control form-control-sm form-control-borderless"  type="text" name="keyword" placeholder="Search" id="busqueda" style="padding: 3px;" ><span class="total" id="numeroEncontrados"></span><!--resultados de la busqueda-->
+            <div class="list-group"><ul id="busquedaMenu"></ul></div>
+        
+              </form>
+
+  
+
+              <!-- LISTA DE PAGINAS BUSQUEDA-->
+          </div> 
+        
+        </div>
+
+        
+
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-2  col-sm-4 mt-md-0 mt-3">
+         <div class="row justify-content-center">
+          <div class="col-1" >
+            <div class="pages1" style="visibility: hidden;">
+              <label for="page-number" >Page:&nbsp;&nbsp;</label> <input type="text" size="4" id="page-number">&nbsp;&nbsp;of&nbsp;&nbsp;<span id="number-pages"></span>
+            </div> 
+          </div>
+          <div class="col-md-4" >
+            <div id="zoomBTN"></div>
+          </div>
+          
+         </div>
+                <!--openbook COMETADO YA QUE NO SE USARÁ
+              <div id="openbook" data-estado="abierto"></div>
+            </div> -->
+            <!--DEJAMOS LA NAVEGACIÓN DE PÁGINA PARA LAS SESIONES, SOLO QUE ESTA OCULTA-->
+            
+              <!--BARRA DE ZOOM-->   
+            
+                  
+<!--                   <div id="menos" class="zoom-style zoom-out-1"></div>
+                  <form class="barra zoom-style-bar">   
+                    <input type="range" min="20" max="100" class="zoom-range-1"> 
+                  </form>
+                  <div id="mas" class="zoom-style zoom-in-1"></div> -->
+              
+              <!--HOME-->
+              
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+      <!-- Copyright -->
+      <!-- Copyright -->
+
+  </footer>
+  <!-- termina Footer -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>  
+  <script src="js/jquery.mark.min.js"></script>
+   <!--TOOLS-->
+  <script src="js/customTools.js"></script>
+  <!--ZOOM-->
+  <link rel="stylesheet" href="css/rSlider.min.css">
+  <script src="js/rSlider.min.js"></script>
+  <script src="js/obj.js"></script>
+  <script src="js/sessions.js"></script>
+  <script>
+    try{
+    theViewer.defaultViewer = new theViewer.Viewer({});
+    }catch(e){}
+    </script>
+    <script src="js/adapt.js"></script>
+    <script src="js/zoom.js"></script>
+    <script src="js/jquery.awesome-cursor.min.js"></script>
+    <script src="js/zoomTool.js"></script>
+    <script src="js/captions.js"></script>
+    <script src="js/cover.js"></script>
+    <script src="js/links.js"></script>
+    <script type="text/vtt" id="7_1_hand.mp4" data-label="English" data-lang="en">
+WEBVTT
+
+00:00:05.580 --> 00:00:09.114
+On a great big ship on the deep blue sea
+
+00:00:09.250 --> 00:00:11.862
+The Captain of the Compass
+
+00:00:11.863 --> 00:00:12.926
+And Davy!
+
+00:00:12.926 --> 00:00:15.544
+Sails with his parrot, Davy
+
+00:00:15.738 --> 00:00:18.301
+The Captain of the Compass
+
+00:00:18.326 --> 00:00:21.618
+It rains and storms and
+strong winds blow
+
+00:00:21.618 --> 00:00:24.734
+But adventure awaits so away they go
+
+00:00:24.734 --> 00:00:27.939
+And their families always welcome them home
+
+00:00:27.980 --> 00:00:31.417
+He’s the Captain of the Compass
+
+00:00:31.580 --> 00:00:33.580
+And Davy!
+
+00:00:41.060 --> 00:00:44.395
+Davy, what’s that?
+
+00:00:44.960 --> 00:00:45.980
+Where?
+
+00:00:46.820 --> 00:00:51.180
+Up high.
+I can’t see it very well.
+
+00:00:55.880 --> 00:00:58.900
+I can fly up and look.
+
+00:01:03.300 --> 00:01:04.700
+Hello!
+
+00:01:05.580 --> 00:01:07.840
+Are you OK?
+
+00:01:11.208 --> 00:01:12.960
+No.
+
+00:01:13.920 --> 00:01:17.000
+I’m very sleepy!
+
+00:01:18.520 --> 00:01:20.540
+Why?
+
+00:01:22.500 --> 00:01:24.240
+I’m an owl!
+
+00:01:25.214 --> 00:01:28.691
+I sleep all day!
+
+00:01:35.300 --> 00:01:38.979
+Do you stay awake at night?
+
+00:01:40.020 --> 00:01:42.840
+Yes, I do.
+
+00:01:43.980 --> 00:01:46.804
+I fly all night.
+
+00:01:46.829 --> 00:01:49.991
+I find food.
+
+00:01:55.900 --> 00:02:01.160
+In the morning, I go to sleep.
+
+00:02:09.520 --> 00:02:13.280
+Captain, it’s an owl.
+
+00:02:13.956 --> 00:02:16.940
+Owls fly all night!
+
+00:02:18.040 --> 00:02:20.737
+Yes, I know about owls.
+
+00:02:21.340 --> 00:02:23.701
+I’d like to meet him!
+
+00:02:23.726 --> 00:02:26.560
+Can you introduce us?
+
+00:02:27.420 --> 00:02:32.040
+No, I can’t.
+
+00:02:33.200 --> 00:02:36.340
+He’s asleep again!
+
+
+
+      </script>
+      
+</body>
+</html>

@@ -1,0 +1,1792 @@
+body {
+    background-image: url(../images/images/background-cierre.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pf {
+    margin-top: 0!important
+}
+
+.pf div {
+    margin: 0!important;
+    padding: 0!important;
+    vertical-align: baseline!important
+}
+
+
+/* loDER */
+
+
+/*BARRA DE HERRAMIENTAS*/
+
+
+/*MENU PARA ENVIO A LIBRO*/
+
+.menuPorPagina {
+    top: 0px;
+    position: absolute;
+    /* z-index: 19991; */
+}
+
+.librosLinkMenu {
+    background-color: transparent;
+    border: 0;
+}
+
+
+/* 19 enero 2021 - se cambia posición de learning path para vista a 2 paginas*/
+
+.librosLinkMenu[x-placement*="left-start"] {
+    left: 0px !important;
+}
+
+.librosLinkMenu[x-placement*="right-start"]{
+    left: -40px !important;
+}
+
+
+/* 19 ENERO 2021 AGREGO MEDIA QUERYS PARA LAPTOP Y IPAD, POSICION DEL LEARNING PATH*/
+@media (max-width:1440px){
+    .librosLinkMenu[x-placement*="right-start"]{
+        left: -25px !important;
+    }
+}
+
+@media (max-width:1024px) {
+    .librosLinkMenu[x-placement*="right-start"] {
+        left: 15px !important;
+    }
+}
+
+
+
+.librosLinkMenu > a{
+    width: 180px;
+    line-height: 10px !important;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    margin-top: 0px;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: teal;
+    border-color: #005a5a
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #004d4d;
+    border-color: #009a9a
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(0, 90, 90, 0.5)
+}
+
+
+/*PANTALLA INICIAL*/
+
+#contenidoSeleccion {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 39999;
+    background-image: url(../images/images/back-home.jpg);
+    background-size: cover;
+}
+
+@media (max-width:1024px) {
+    #contenidoSeleccion {
+        position: fixed;
+    }
+}
+
+#backSessions {
+    width: 192px;
+    height: 83px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    background-image: url(../images/images/btn_session.png);
+    background-position: center;
+    color: white;
+    cursor: pointer;
+}
+
+#backSessions:hover {
+    filter: saturate(200%);
+}
+
+#userGuide {
+    width: 192px;
+    height: 83px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-image: url(../images/images/btn_user_guide.png);
+    background-position: center;
+    color: white;
+    cursor: pointer;
+}
+
+#userGuide:hover {
+    background-image: url(../images/images/btn_user_soon.png);
+    background-position: center;
+}
+
+#goIronBook {
+    /*     background-color: red;
+    width: 265px;
+    height: 150px;
+    position: absolute;
+    top: 416px;
+    left: 382px;
+    cursor: pointer;
+    border-radius: 19px;
+    z-index: 1; */
+    cursor: pointer;
+}
+
+#goIronBook:hover {
+    filter: saturate(180%);
+}
+
+#user_name {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+}
+
+.logo-home {
+    margin-top: 70%;
+    margin-left: 10%;
+}
+
+
+/* The Modal (background) */
+
+.modalInicial {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modalInicial:before {
+    content: '';
+    width: 50%;
+    height: 40px;
+    border-radius: 0 20px 0 0;
+    background-color: #708090;
+    position: absolute;
+    top: -38px;
+    left: 0px;
+    color: black;
+}
+
+
+/* Modal Content */
+
+.modal-contentInicial {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    background-color: white;
+    border-radius: 6px;
+    -webkit-box-shadow: 13px 13px 5px 0px rgba(180,85,160);
+    -moz-box-shadow: 13px 13px 5px 0px rgba(180,85,160);
+    box-shadow: 13px 13px 5px 0px rgba(180,85,160);
+    z-index: 999999 !important;
+    border-color: #b455a0;
+    border-style: solid;
+    border-width: 3px;
+}
+
+
+/*.modal-contentInicial:before{
+    content: "Session selection";
+    width: 30%;
+    height: 51px;
+    border-radius: 14px 0px 0 0;
+    background-color: white;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    padding: 8px;
+    text-align: center;
+  }*/
+
+#initSessions {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+}
+
+#initSessions h4 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+}
+
+form {
+    font-family: 'Questrial', sans-serif;
+}
+
+
+/*LIBRO STATICO*/
+
+.lc-drawing {
+    position: relative;
+    margin: 14px 0 0 14px;
+}
+
+.all {
+    overflow: hidden;
+    position: absolute !important;
+    /* 	width:1305px !important;
+    height:992px !important; */
+    /*     width:1305px !important;
+    height:992px !important; */
+    width: 1305px !important;
+    height: 992px !important;
+}
+
+
+/*ESTILOS MOSAICO*/
+
+#loader {
+    width: 60px;
+    position: absolute;
+    top: 36% !important;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.card {
+    display: inline-block;
+    margin: 8px;
+    opacity: 0.8;
+    /* -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1); */
+}
+
+.card-body {
+    padding: 3px !important;
+    text-align: center;
+    font-size: 12px;
+}
+
+.card:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.card:hover {
+    /* -webkit-transform: rotate(15deg) scale(1.1);
+    transform: rotate(15deg) scale(1.1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out; */
+    opacity: 1;
+}
+
+.modal {
+    max-width: 100% !important;
+    z-index: 10000 !important;
+}
+
+.modal-open .modal {
+    /* overflow-y: hidden !important; */
+    overflow-x: hidden !important;
+}
+
+.modal-dialog {
+    max-width: auto !important;
+    margin: auto !important;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: -930px !important;
+    }
+}
+
+.contenidoActividades {
+    width: 1002px !important;
+    height: 749px !important;
+}
+
+.contenidoMosaico {
+    background-color: transparent !important;
+    margin: 70px 0;
+}
+
+.bodyActividades {
+    padding: 0 !important;
+}
+
+.centroActividad {
+    max-width: 1002px !important;
+}
+
+.bodyMosaico {
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: auto;
+    /* margin-top: 7%; */
+    padding: 0 !important;
+}
+
+.modal-backdrop {
+    opacity: 0.80 !important;
+    z-index: 9999 !important;
+}
+
+#closeframe {
+    position: absolute;
+    visibility: hidden;
+}
+
+#book {
+    width: 1191px;
+    height: 830.5px;
+    -webkit-transition: margin-left 0.2s ease-in-out;
+    -moz-transition: margin-left 0.2s ease-in-out;
+    -o-transition: margin-left 0.2s ease-in-out;
+    -ms-transition: margin-left 0.2s ease-in-out;
+    transition: margin-left 0.2s ease-in-out;
+    margin-top: 0px;
+    ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent !important;
+    padding: 0px !important;
+}
+
+@media (max-width: 780px) {
+    /*     #book{
+        width: 100%;
+        height: auto;
+        -webkit-transition:margin-left 0.2s ease-in-out;
+        -moz-transition:margin-left 0.2s ease-in-out;
+        -o-transition:margin-left 0.2s ease-in-out;
+        -ms-transition:margin-left 0.2s ease-in-out;
+        transition:margin-left 0.2s ease-in-out;
+    } */
+}
+
+#book .turn-page {
+    background-color: white;
+}
+
+#book .cover {
+    background-color: white;
+}
+
+#book .loader {
+    background-image: url("../images/iconos/loader.gif");
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#controls {
+    text-align: center;
+    font-size: 14px;
+}
+
+#controls input,
+#controls label {
+    font-size: 14px arial;
+    text-align: center;
+}
+
+#book .odd {
+    background-image: linear-gradient(left, #FFF 95%, #ddd, 100%);
+    background-image: -webkit-linear-gradient(left, #FFF 95%, #ddd 100%);
+    background-image: -moz-linear-gradient(left, #FFF 95%, #ddd 100%);
+    background-image: -o-linear-gradient(left, #FFF 95%, #ddd 100%);
+    background-image: -ms-linear-gradient(left, #FFF 95%, #ddd 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(95%, #FFF), to(#ddd));
+}
+
+#book .even {
+    background-image: linear-gradient(left, #FFF 95%, #ddd, 100%);
+    background-image: -webkit-linear-gradient(right, #FFF 95%, #ddd 100%);
+    background-image: -moz-linear-gradient(right, #FFF 95%, #ddd 100%);
+    background-image: -o-linear-gradient(right, #FFF 95%, #ddd 100%);
+    background-image: -ms-linear-gradient(right, #FFF 95%, #ddd 100%);
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(95%, #FFF), to(#ddd));
+}
+
+
+/*BARRA LATERAL*/
+
+.barra-lateral {
+    height: 1800px;
+    ;
+    position: fixed;
+}
+
+
+/* BARRA INFERIOR ESTILOS*/
+
+
+/*LOGO*/
+
+.logo {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.barra-abajo {
+    /*     background-image: url(../images/images/Pleca-inferior-colores.png); */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    height: 80px;
+    z-index: 9998;
+}
+
+@media all and(max-width:1024px) {
+    .barra-abajo {
+        margin-top: 0;
+    }
+}
+
+.zoom-style {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.zoom-style-bar {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-left: -12px;
+}
+
+#zoom {
+    position: absolute;
+    margin-top: 1px;
+    background-color: #ffcb00;
+    width: 80%;
+    right: 70px;
+}
+
+
+/*BARRA DE ZOOM RANGE*/
+
+.barra {
+    margin-top: 2px;
+}
+
+.barra input {
+    background-color: #ffcb00;
+    width: 100px;
+}
+
+.range {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background-color: #ffcb00;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 1px #03592d inset;
+    height: 5px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-moz-range-track {
+    -moz-appearance: none;
+    background-color: #626262;
+    height: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 2px;
+    height: 15px;
+    width: 7px;
+    position: relative;
+    bottom: 5px;
+    background-color: #999999;
+    box-shadow: 1px 1px 3px 1px #03592d inset;
+    cursor: -webkit-grab;
+    -webkit-transition: border 1000ms ease;
+    transition: border 1000ms ease;
+}
+
+input[type=range]::-moz-range-thumb {
+    -moz-appearance: none;
+    border: 2px solid;
+    border-radius: 2px;
+    height: 15px;
+    width: 7px;
+    max-width: 60px;
+    position: relative;
+    bottom: 5px;
+    background-color: #ffcb00;
+    cursor: -moz-grab;
+    -moz-transition: border 1000ms ease;
+    transition: border 1000ms ease;
+}
+
+#openbook {
+    width: 45px;
+    height: 45px;
+    background-image: url(../images/iconos/btn-singlebook.png);
+    background-position: center;
+}
+
+#zoomBTN {
+    width: 120px;
+    height: 60px;
+    background-position: center;
+    background-image: url(../images/iconos/zoom_mas.png);
+    cursor: pointer;
+    margin-left: -35px;
+}
+
+#lupamenos {
+    width: 25px;
+    height: 25px;
+    background-image: url(iconografia.svg);
+    background-position: -63px 37px;
+    background-size: 350px;
+    /*background-color: red;*/
+    position: absolute;
+    right: 180px;
+}
+
+#lupamas {
+    width: 25px;
+    height: 25px;
+    background-image: url(iconografia.svg);
+    background-position: -11px 37px;
+    background-size: 350px;
+    /*background-color: red;*/
+    position: absolute;
+    right: 50px;
+}
+
+#ico-recursos {
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/iconos/btn-recursos.png);
+    /*  background-repeat: no-repeat;
+    background-position: center;
+    background-position: 591px -754px;
+    background-size: 350px;*/
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -2px;
+}
+
+.ico-search {
+    margin-top: 4px;
+    border-radius: 12px 0 0 12px;
+    width: 35px;
+    height: 40px;
+    background-color: white;
+    border-width: 1px;
+    border-color: darkgray;
+    background-image: url(../images/iconos/ico-search.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#search1 {
+    visibility: hidden;
+    margin-top: 3px;
+}
+
+#search1 input {
+    border-radius: 0 12px 12px 0;
+    width: 195px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 4px;
+}
+
+@media (max-width:768px) {
+    .search1 {
+        display: none;
+    }
+    #search1 input {
+        display: none;
+    }
+    .ico-search {
+        display: none;
+    }
+}
+
+#lista2:hover {
+    opacity: 0.6;
+}
+
+#mosaico2:hover {
+    opacity: 0.6;
+}
+
+.espacio {
+    margin-left: 5px;
+}
+
+.recursos {
+    width: 45px;
+    height: 45px;
+    background-color: none;
+}
+
+.recursos:hover {
+    width: 40px;
+    height: 40px;
+    background-color: #e7e7e7;
+}
+
+#input {
+    margin-left: 55px;
+    margin-top: 7px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#lista2 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/iconos/btn-indice.png);
+    background-position: center;
+    float: left;
+    margin-left: 20px;
+}
+
+#mas {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/iconos/btn-mas.png);
+    background-repeat: no-repeat;
+    margin-left: -20px;
+    margin-top: -5px;
+}
+
+#menos {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/iconos/btn-menos.png);
+    background-repeat: no-repeat;
+    margin-top: -5px;
+}
+
+#mosaico2 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/iconos/mosaico.png);
+    background-position: center;
+    float: left;
+    z-index: 10000 !important;
+    margin-left: 12px;
+}
+
+#next {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/iconos/btn-next.png);
+    background-size: contain;
+    float: left;
+}
+
+#next:hover {
+    opacity: 0.7;
+}
+
+#prev {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/iconos/btn-prev.png);
+    background-size: contain;
+    float: left;
+}
+
+#prev:hover {
+    opacity: 0.7;
+}
+
+.prev-control {
+    margin-right: 30px;
+}
+
+@media (max-width:768px) {
+    .prev-control {
+        margin-right: 5px;
+    }
+}
+
+.next-control {
+    margin-left: 10px;
+}
+
+.pages1 {
+    margin-top: 5px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.pages1 input {
+    border-radius: 5px;
+}
+
+
+/* MENU PAGINAS DE LIBRO*/
+
+.dropbtn {
+    background-color: transparent;
+}
+
+
+/* The container <div> - needed to position the dropup content */
+
+.dropup {
+    position: relative;
+}
+
+
+/* Dropup content (Hidden by Default) */
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #b455a0;
+    border-width: 3px;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.dropup-recursos {
+    margin-left: -140px;
+    height: 500px;/*100822 ajuste*/
+    overflow-y: scroll; /*100822 ajuste*/
+}
+
+
+/* Links inside the dropup */
+
+.dropup-content a {
+    color: #0062a3;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    line-height: 1em;
+}
+
+.dropup-content a:hover {
+    text-decoration: none;
+    color: #b455a0;
+}
+
+
+/* Change color of dropup links on hover */
+
+.dropup-content a:hover {
+    background-color: #ddd
+}
+
+
+/* Show the dropup menu on hover */
+
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropup button when the dropup content is shown */
+
+.dropup:hover {
+    background-color: #e7e7e7;
+}
+
+
+/*ESTILOS BUSCADOR*/
+
+.list-group ul {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    min-width: 145px;
+    margin-left: -200px;
+    background-color: #f5f5f5;
+    z-index: 2;
+    border-radius: 5px;
+    color: #00a04e;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    list-style: none;
+}
+
+.list-group ul li {
+    padding-top: 14px;
+    line-height: 3px;
+}
+
+.total {
+    margin-left: 200px;
+    position: absolute;
+    bottom: 15px;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #95c11f;
+    margin-bottom: 15px;
+}
+
+.total:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 8px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #95c11f;
+    border-bottom: 10px solid transparent;
+}
+
+.der {
+    position: absolute;
+    width: 64px;
+    height: 830.5px;
+    /*z-index: 1190000000;*/
+    z-index: 1;
+    /*background-image:-moz-linear-gradient(right, #transparent 50%, #d2d2d2 10%);
+    background-image:-o-linear-gradient(right, #transparent 50%, #d2d2d2 10%);*/
+    background: linear-gradient(to right, rgba(210, 210, 210, 0.6) 0%, rgba(210, 210, 210, 0) 100%);
+    /*Para edge*/
+    /*background: -webkit-gradient(linear, right top, left top, color-stop(0%,rgb(210, 210, 210, 0)), color-stop(80%,rgb(210, 210, 210, 0.8)));*/
+    /*background-image:linear-gradient(right, #transparent 50%, #d2d2d2 10%);*/
+}
+
+.izq {
+    position: absolute;
+    right: 0px;
+    width: 64px;
+    height: 830.5px;
+    /*z-index: 1190000000;*/
+    z-index: 1;
+    /*background-image:-moz-linear-gradient(right, #transparent 50%, #ececec 60%);
+    background-image:-o-linear-gradient(right, #transparent 50%, #ececec 60%);*/
+    background: linear-gradient(to right, rgba(233, 233, 233, 0) 0%, rgba(233, 233, 233, 0.60) 100%);
+    /*PARA EDGE*/
+    /*background: -webkit-gradient(linear, right top, left top, color-stop(0%,rgb(233, 233, 233)), color-stop(80%,rgb(236, 236, 236, 0)));*/
+    /*background-image:linear-gradient(right, #transparent 50%, #ececec 60%);*/
+}
+
+
+/*Estilos Actividades*/
+
+.estilo-actividad {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 70px!important;
+    z-index: 10000;
+    border-color: #bdbdbd;
+    border-width: thin;
+    width: 1000px;
+    height: 690px;
+    -webkit-box-shadow: -15px -13px 24px -14px rgba(0, 0, 0, 0.60);
+    -moz-box-shadow: -15px -13px 24px -14px rgba(0, 0, 0, 0.60);
+    box-shadow: -15px -13px 24px -14px rgba(0, 0, 0, 0.60);
+}
+
+.cerrar {
+    left: 53%;
+    top: 4%;
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    background-image: url(../images/iconos/times-circle-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+}
+
+.zona-activa {
+    background-color: rgba(255, 255, 255, 0);
+    /*background-color: rgba(47, 240, 22, .2);*/
+}
+
+.zona-activa:hover {
+    background-color: rgba(255, 93, 108, 0.1);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #ff5d6c;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+
+ /*Language Log*/ 
+
+#BOOK_1_actividad1 {    top: 68px;
+    left: 45px;
+    width: 508px;
+    height: 405px;margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad2 {top: 480px;
+    left: 46px;
+    width: 526px;
+    height: 309px; 25px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad3 { top: 136px;
+    left: 50px;
+    width: 496px;
+    height: 173px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad4 { top: 315px;
+    left: 49px;
+    width: 346px;
+    height: 220px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad5 {top: 542px;
+    left: 48px;
+    width: 502px;
+    height: 186px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad6 { top: 733px;
+    left: 50px;
+    width: 486px;
+    height: 55px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad7 {    top: 70px;
+    left: 49px;
+    width: 401px;
+    height: 167px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad8 {top: 244px;
+    left: 52px;
+    width: 497px;
+    height: 389px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad9 {top: 70px;
+    left: 50px;
+    width: 276px;
+    height: 504px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad10 {top: 70px;
+    left: 330px;
+    width: 266px;
+    height: 506px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad11 {top: 584px;
+    left: 50px;
+    width: 458px;
+    height: 210px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad12 {top: 33px;
+    left: 65px;
+    width: 384px;
+    height: 751px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad13 {top: 347px;
+    left: 456px;
+    width: 97px;
+    height: 439px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad14 {top: 35px;
+    left: 48px;
+    width: 135px;
+    height: 752px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad15 {top: 275px;
+    left: 193px;
+    width: 196px;
+    height: 513px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad16 {top: 346px;
+    left: 399px;
+    width: 58px;
+    height: 424px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad17 {top: 69px;
+    left: 56px;
+    width: 539px;
+    height: 448px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad18 {top: 527px;
+    left: 53px;
+    width: 542px;
+    height: 133px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad19 {top: 665px;
+    left: 52px;
+    width: 383px;
+    height: 125px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad20 {top: 35px;
+    left: 52px;
+    width: 543px;
+    height: 463px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad21 { top: 505px;
+    left: 52px;
+    width: 435px;
+    height: 167px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad22 {top: 681px;
+    left: 52px;
+    width: 409px;
+    height: 119px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad23 {top: 63px;
+    left: 51px;
+    width: 518px;
+    height: 503px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad24 {top: 573px;
+    left: 151px;
+    width: 396px;
+    height: 222px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad25 {top: 68px;
+    left: 49px;
+    width: 523px;
+    height: 366px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad26 {top: 441px;
+    left: 45px;
+    width: 507px;
+    height: 300px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad27 { top: 70px;
+    left: 53px;
+    width: 365px;
+    height: 40px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad28 { top: 118px;
+    left: 46px;
+    width: 508px;
+    height: 537px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad29 { top: 50px;
+    left: 47px;
+    width: 471px;
+    height: 462px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad30 { top: 521px;
+    left: 50px;
+    width: 500px;
+    height: 187px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+
+#BOOK_1_actividad31 { top: 67px;
+    left: 53px;
+    width: 542px;
+    height: 451px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad32 {top: 526px;
+    left: 49px;
+    width: 499px;
+    height: 207px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad33 {top: 34px;
+    left: 10px;
+    width: 536px;
+    height: 651px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad34 { top: 69px;
+    left: 53px;
+    width: 523px;
+    height: 274px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad35 { top: 357px;
+    left: 50px;
+    width: 476px;
+    height: 179px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad36 {    top: 553px;
+    left: 51px;
+    width: 490px;
+    height: 172px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad37 {top: 72px;
+    left: 50px;
+    width: 496px;
+    height: 236px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad38 {top: 316px;
+    left: 49px;
+    width: 541px;
+    height: 261px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad39 { top: 589px;
+    left: 53px;
+    width: 540px;
+    height: 224px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+#BOOK_1_actividad40 {top: 69px;
+    left: 52px;
+    width: 365px;
+    height: 73px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad41 { top: 152px;
+    left: 52px;
+    width: 494px;
+    height: 235px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad42 { top: 398px;
+    left: 51px;
+    width: 498px;
+    height: 397px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+
+#BOOK_1_actividad43 { top: 95px;
+    left: 58px;
+    width: 536px;
+    height: 159px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad44 {top: 290px;
+    left: 56px;
+    width: 497px;
+    height: 371px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad45 { top: 713px;
+    left: 52px;
+    width: 328px;
+    height: 84px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+
+#BOOK_1_actividad46 {top: 71px;
+    left: 49px;
+    width: 487px;
+    height: 298px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad47 {top: 403px;
+    left: 58px;
+    width: 487px;
+    height: 234px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad48 {    top: 647px;
+    left: 56px;
+    width: 492px;
+    height: 135px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+
+#BOOK_1_actividad49 {    top: 96px;
+    left: 55px;
+    width: 543px;
+    height: 126px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad50 {     top: 233px;
+    left: 54px;
+    width: 493px;
+    height: 131px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad51 {     top: 371px;
+    left: 55px;
+    width: 491px;
+    height: 135px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad52 {    top: 540px;
+    left: 58px;
+    width: 498px;
+    height: 254px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+
+#BOOK_1_actividad53 {    top: 95px;
+    left: 18px;
+    width: 530px;
+    height: 465px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad54 {    top: 570px;
+    left: 54px;
+    width: 387px;
+    height: 112px; margin-bottom: 10px; position: absolute; z-index: 120;}
+#BOOK_1_actividad55 {    top: 716px;
+    left: 55px;
+    width: 351px;
+    height: 75px; margin-bottom: 10px; position: absolute; z-index: 120;}
+
+
+/* RECURSOS INTERNOS Language Log*/
+
+/*PDF*/
+#BOOK_1_recursoInterno1{top: 243px;
+    left: 64px;
+    width: 23px;
+    height: 23px;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 120;}
+
+#BOOK_1_recursoInterno2{top: 10px;left:40px; width: 150px;height: 25px;margin-bottom: 10px;position: absolute;z-index: 120;}
+
+#BOOK_1_recursoInterno3{top: 751px;
+    left: 66px;
+    width: 23px;
+    height: 23px;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 120;}
+
+#BOOK_1_recursoInterno4{top: 750px;
+    left: 47px;
+    width: 23px;
+    height: 23px;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 120;}
+
+#BOOK_1_recursoInterno5{top: 67px;
+    left: 64px;
+    width: 23px;
+    height: 23px;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 120;}
+
+
+#BOOK_1_recursoInterno6{top: 65px;
+    left: 62px;
+    width: 23px;
+    height: 23px;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 120;}
+
+#BOOK_1_recursoInterno7{top: 70px;
+    left: 65px;
+    width: 23px;
+    height: 23px;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 120;}
+
+
+/*guía del maestro */
+/* RECURSOS Practice Book*/
+
+/*#BOOK_2_recursoInterno1{top: 455px;left:66px; width: 25px;height: 25px;margin-bottom: 10px;position: absolute;z-index: 120;}*/
+
+
+/*TG*/
+/* RECURSOS TG*/
+
+/* player */
+
+#myPlayer {
+    position: absolute;
+    right: 45%;
+    top: -100px;
+    z-index: 10000 !important;
+}
+
+.footer-copyright {
+    font-size: 13px;
+    margin-top: -15px;
+    margin-bottom: 2px;
+}
+
+@media (max-width: 1280px) {
+    .footer-copyright {
+        display: none;
+    }
+}
+
+
+/* ESTILOS MENU RECURSOS*/
+
+.dropdown-menu {
+    border-radius: 10px;
+}
+
+.dropdown-item {
+    text-align: left;
+    list-style: none;
+    list-style-type: none;
+    font-size: 12px;
+    color: #333333;
+    font-weight: 200;
+}
+
+
+/*ESTILOS SWITCH BOOK*/
+
+#selectorLibros {
+    position: absolute;
+    width: 150px;
+    z-index: 9998;
+    top: 200px;
+    right: -150px;
+    background-color: white;
+    border-radius: white;
+    border-radius: 20px 0px 0px 20px;
+    -webkit-box-shadow: -1px 6px 16px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 6px 16px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 6px 16px 2px rgba(0, 0, 0, 0.75);
+}
+
+.iconoRecursos {
+    width: 90px;
+    height: 86px;
+    cursor: pointer;
+    position: absolute;
+    left: -87px;
+    top: 130px;
+    background-image: url("../images/images/componentes2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:1024px) {
+    #selectorLibros {
+        top: 124px;
+        position: fixed;
+        right: -150px;
+    }
+}
+
+@media (min-width:1336px) {
+    #selectorLibros {
+        position: fixed;
+        right: -150px;
+    }
+}
+
+.btn_books {
+    position: relative;
+    margin-top: 60px;
+    width: 400px;
+    height: 170px;
+}
+
+.BOOK_1 {
+    background-image: url(../images/images/portada_sb.png);
+    transition: all .5s;
+    opacity: 1;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 21px;
+}
+
+.BOOK_1:hover {
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    opacity: 0.6;
+}
+
+.BOOK_2 {
+    background-image: url(../images/images/portada_tg.png);
+    transition: all .5s;
+    background-position: left;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    margin-left: 21px;
+}
+
+.BOOK_2:hover {
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    opacity: 0.6;
+}
+
+
+
+/*.BOOK_3 {
+    background-image: url(../images/images/portada_tg.png);
+    transition: all .5s;
+    background-position: left;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-left: 21px;
+}
+
+.BOOK_3:hover{
+	border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    opacity: 0.6;
+}*/
+
+
+
+.eagle {
+    margin-top: -60px;
+    margin-left: 65px;
+    display: none;
+}
+
+@media (max-width:1024px) {
+    .eagle {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:850px) {
+    .eagle {
+        margin-top: -5px;
+    }
+}
+
+@media (max-width:768px) {
+    .eagle {
+        display: none;
+    }
+    #ico-recursos {
+        margin-left: -50px;
+    }
+    #lista2 {
+        margin-left: 30px;
+    }
+}
+
+.extra {
+    line-height: normal;
+    color: #b455a0;
+}
+
+.menuGlosario {
+    color: #012079 !important;
+    font-weight: bold;
+    line-height: 3px;
+}
+
+.home {
+    position: absolute;
+    right: 7px;
+    z-index: 9999;
+    top: 35px;
+}
+
+.btn-pink {
+    background: rgb(180,85,160);
+    background: linear-gradient(90deg, rgba(180,85,160) 0%, rgba(180,85,160) 100%);
+}
+
+.btn-success {
+    background: #0062a3;
+    border-radius: 10px;
+}
+
+
+/*NUEVOS ESTILOS DE LEARNING 
+
+
+/*Botón Learning Path STORIES*/
+
+.stories {
+    width: 50px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../images/iconos/btn_Stories.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-right: 2px !important;
+    margin-left: -20px;
+}
+
+
+/*Botón Learning Path Teacher's Guide*/
+
+.TG {
+    width: 100px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../images/iconos/btn_TG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-right: 2px !important;
+    margin-left: -20px;
+}
+
+
+/*Botón Learning Path Evidence Log*/
+
+.SB {
+    width: 90px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../images/iconos/btn_SB_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-right: 2px !important;
+    margin-left: -20px;
+}
+
+
+/*Botón Learning Path Project Log*/
+
+.WB {
+    width: 80px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../images/iconos/btn_PB_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-right: 2px !important;
+    margin-left: -20px;
+}
+
+
+/*Botón Learning Path Phonics Log*/
+
+.TG {
+    width: 85px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../images/iconos/btn_TG_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-right: 2px !important;
+    margin-left: -20px;
+}
+
+
+/*Botón Learning Path Vocabulary and Grammar*/
+
+.VG {
+    width: 95px;
+    height: 32px;
+    display: inline-block;
+    background-image: url('../images/iconos/btn_vocabulary.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-right: 2px !important;
+    margin-left: -20px;
+
+}
+
+
+/*Botón Learning Path Language Log*/
+
+.LL {
+    width: 95px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../images/iconos/btn_LL.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+    margin-right: 2px !important;
+    margin-left: -20px;
+}
+
+
+/* CURSOR TIPOS */
+
+.vertical-menu {
+    width: 280px;
+    /* Set a width if you like */
+    height: 200px;
+    position: absolute;
+    z-index: 9999 !important;
+    top: 460px;
+    left: 80px;
+    display: none;
+    border: 3px solid #b455a0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.vertical-menu a {
+    background-color: white;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 7.5px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: 14px;
+}
+
+.vertical-menu a:hover {
+    background-color: #eee;
+    /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #b455a0;
+    /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.addLink {
+    text-align: center;
+    font-size: .875rem;
+}
+
+#fillLinkData {
+    padding: 8px;
+    display: none;
+}
+
+#fillLinkData a {
+    padding: 8px;
+    display: none;
+}
+
+.arrow-down {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #0062a3;
+}
+
+#infoLink {
+    height: 30px;
+    font-size: 12px;
+}
+
+#urlLink {
+    height: 30px;
+    font-size: 12px;
+    text-transform: lowercase;
+}
+
+#GOpAGE {
+    height: 30px;
+    padding: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.table td,
+.table th {
+    padding: 0px !important;
+}
+
+.removeLink {
+    cursor: pointer;
+    margin-left: 16px;
+    margin-top: 10px;
+    display: inline-block;
+    color: red;
+    font-size: 16px;
+}
+
+.form-control {
+    border: 1px solid #b455a0;
+}
+
+.custom-select {
+    border: 1px solid #b455a0;
+}
+
+select[multiple]:focus option:checked {
+    background: linear-gradient(0deg, #b455a0 0%, #b455a0 100%);
+    opacity: 0.70;
+}
+
+.mosaicoEntrada {
+    top: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #0062a3 !important;
+    border-color: #0062a3 !important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #b455a0 !important;
+    border-color: #b455a0 !important;
+}
+
+/*AGREGO ESTILO PARA TABLET SAMSUNG Octubre 2021*/
+ 
+/*Samsung*/
+@media (max-width:2000px){
+    #contenidoSeleccion{
+        position:fixed;
+    }
+}
+ 
+/*iPad*/
+@media (max-width:1024px){
+    #zoomBTN{
+        display: none;
+    }
+}
+ 
+@media (max-width: 1024px){
+    .home {
+    position: fixed;
+    }
+}
+ 
+ @media (hover: none) and (pointer: coarse) {
+    #zoomBTN{
+        display:none;
+    }
+}

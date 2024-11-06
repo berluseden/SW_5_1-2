@@ -1,0 +1,15 @@
+<svg viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12.0-PreSchool---Audio-and-Annotation-tools" transform="translate(-591.000000, -374.000000)" fill="currentColor" fill-rule="nonzero">
+            <g id="annotation-tools" transform="translate(48.000000, 342.000000)">
+                <g id="annotation-tools-open" transform="translate(376.000000, 22.000000)">
+                    <g id="notes-icon" transform="translate(160.000000, 3.000000)">
+                        <g id="sticky_note_2_black_24dp" transform="translate(7.000000, 7.000000)">
+                            <path d="M26.6666667,0 L3.33333333,0 C1.5,0 0,1.5 0,3.33333333 L0,26.6666667 C0,28.5 1.5,30 3.33333333,30 L20,30 L30,20 L30,3.33333333 C30,1.5 28.5,0 26.6666667,0 Z M6.66666667,8.33333333 L23.3333333,8.33333333 L23.3333333,11.6666667 L6.66666667,11.6666667 L6.66666667,8.33333333 Z M15,18.3333333 L6.66666667,18.3333333 L6.66666667,15 L15,15 L15,18.3333333 Z M18.3333333,27.5 L18.3333333,18.3333333 L27.5,18.3333333 L18.3333333,27.5 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

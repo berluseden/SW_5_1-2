@@ -1,0 +1,22 @@
+/**
+ * CKEditor 4 custom styles
+ * Copy this file in your DP and include any custom style you want inside the CKEditor iframe
+ * Also, don't forget to include the css folder in static-files.txt
+ */
+
+/** Background color, non default caret-color... */
+
+body {
+  background-color: transparent;
+}
+
+/** Default font size */
+
+.cke_editable {
+  font-size: 16px;
+}
+
+/** Selection */
+
+p::selection {
+}

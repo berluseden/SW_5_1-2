@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stopwatch</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="unselectable">
+	<audio id="repro" src="" preload="auto"></audio>
+	<div id="all">
+		<div id="cronometro">
+			<div id="capaPuntos"></div>
+			<div id="plastaBlanca"></div>
+			<div id="wrapper">
+				<div id="logo">
+				<img src="assets/bg_top_home_logo.png" width="220" />
+				</div>
+				<div id="reloj">
+					<img src="assets/stopwatch_blue.png" width="900" />
+				</div>
+				<div id="numeros"></div>
+				<!-- <div id="monito">
+					<img src="assets/monito.png" width="145" />
+				</div> -->
+				<div id="contador">
+					<span id="minutoSube" class="controles"><img src="assets/btnSube.png" width="100"/></span>
+					<span id="minutoBaja" class="controles"><img src="assets/btnBaja.png" width="100"/></span>
+					<span id="segundoSube" class="controles"><img src="assets/btnSube.png" width="100"/></span>
+					<span id="segundoBaja" class="controles"><img src="assets/btnBaja.png" width="100"/></span>
+					<span id="countdown">00:00:00</span>
+				</div>
+				<form id="example2form">
+						<button id="play" type="button"><img src="assets/PLAY.png"></button>
+						<input type="hidden" name="startTime" value="" id="escondido">
+				</form>
+				<div id="reload"><img src="assets/RELOAD.png"/></div>
+				<div id="customize"><img src="assets/EDIT.png"/></div>
+
+				<div id="botonesCount">
+					<div id="countDesc" class="count active" >Count Down</div>
+					<div id="countAsc"  class="count" >Count Up</div>
+				</div>
+				
+				<div id="zonaBotones">
+					<div id="selec1" class="selectTime" data-cual="30">0:30 sec</div>
+					<div id="selec2" class="selectTime" data-cual="60">1:00 min</div>
+					<div id="selec3" class="selectTime" data-cual="120">2:00 min</div>
+					<div id="selec4" class="selectTime" data-cual="180">3:00 min</div>
+					<div id="selec5" class="selectTime" data-cual="60">Free</div>
+					<!-- <div id="cuadritos">
+						<div class="cuadrito"></div>
+						<div class="cuadrito"></div>
+						<div class="cuadrito"></div>
+						<div class="cuadrito"></div>
+						<div class="cuadrito"></div>
+						<div class="cuadrito"></div>
+						<div class="cuadrito"></div>
+						<div class="cuadrito"></div>
+						<div class="cuadrito"></div>
+						<div class="cuadrito"></div>
+					</div> -->
+				</div>
+
+			</div>
+			<div id="regresa"><img src="assets/REGRESA.png" width="80"/></div>
+<ol id="filaAudio1" class="opcAudio">
+					<li data-audio="audio1up"><img src="assets/audio.png" width="40" class="imgAudio"/>&nbsp;Audio 1</li>
+					<li data-audio="audio3up"><img src="assets/audio.png" width="40" class="imgAudio"/>&nbsp;Audio 3</li>
+					<li data-audio="audio5up"><img src="assets/audio.png" width="40" class="imgAudio"/>&nbsp;Audio 5</li>
+					<li data-audio="audio7up"><img src="assets/audio.png" width="40" class="imgAudio"/>&nbsp;Audio 7</li>
+</ol>
+<ol id="filaAudio2" class="opcAudio">
+					<li data-audio="audio2up"><img src="assets/audio.png" width="40" class="imgAudio"/>&nbsp;Audio 2</li>
+					<li data-audio="audio4up"><img src="assets/audio.png" width="40" class="imgAudio"/>&nbsp;Audio 4</li>
+					<li data-audio="audio6up"><img src="assets/audio.png" width="40" class="imgAudio"/>&nbsp;Audio 6</li>
+					<li data-audio="audio8up"><img src="assets/audio.png" width="40" class="imgAudio"/>&nbsp;Audio 8</li>
+</ol>
+		</div>
+	</div>
+</body>
+<script src="lib/jquery.js"></script>
+<script src="lib/adap.js"></script>
+<script src="lib/jquery.timer.js"></script>
+<script src="lib/alexCode.js"></script>
+</html>

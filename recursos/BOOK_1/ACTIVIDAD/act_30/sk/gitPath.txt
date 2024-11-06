@@ -1,0 +1,1 @@
+RichmondRDPSecondary: git@git.avallain.com:author-client-designpacks/richmond.git:refs/tags/richmond-rdp-secondary-3.6 - git@git.avallain.com:author/designpacks.git:refs/tags/richmond-rdp-secondary-3.6 - git@git.avallain.com:author/designpacks.git:refs/tags/richmond-rdp-3.6 - git@git.avallain.com:author/designpacks.git:refs/tags/core-release35-2.6.0 - 
